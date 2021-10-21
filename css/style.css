@@ -1,0 +1,38 @@
+.navbar {
+    background-color:rgba(155, 37, 184, 0.777);
+}
+.LOFRATT {
+    font-size: 2.5rem;
+}
+.img-logo {
+    width: 7rem;
+    height: 7rem;
+}
+.card-body {
+    height: 10rem !important;
+}
+.input {
+    width: 5rem;
+    height: 2rem;
+}
+.input1 {
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.btn-modal {
+    width: 10rem;
+    font-size: 1rem;
+    text-align: center !important;
+}
+.btn-agg {
+    width: 7rem;
+    font-size: 0.9rem;
+}
+.links-options {
+    font-weight: bold;
+}
+.links-options:hover{
+    color: rgb(160, 8, 198) !important;
+}
