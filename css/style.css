@@ -5,15 +5,16 @@
     font-size: 2.5rem;
 }
 .img-logo {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 6rem;
+    border-radius: 50%; 
 }
 .card-body {
     height: 10rem !important;
 }
 .input {
-    width: 4.5rem;
-    height: 2rem;
+    width: 4rem;
+    height: 1.8rem;
 }
 .input1 {
     width: 10rem;
@@ -22,22 +23,34 @@
     font-size: 0.9rem;
 }
 .input2 {
-    width: 12rem;
-    height: 2rem;
-    font-size: 0.9rem;
-}
-.btn-modal {
-    width: 10rem;
+    width: 18rem;
+    height: 2.2rem;
+    padding: .375rem .75rem;
     font-size: 1rem;
-    text-align: center !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
 }
 .btn-agg {
-    width: 5rem;
-    font-size: 0.8rem;
+    width: 18rem;
+    font-size: 1rem;
 }
-.links-options {
-    font-weight: bold;
+#links {
+    color: rgb(35, 34, 34);
+    font-weight: 350;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.links-options:hover{
+#links:hover{
     color: rgb(160, 8, 198) !important;
+}
+.ingreso,.venta {
+    font-size: 0.82rem;
+    width: 4.4rem;
+    height: 2rem;
 }
