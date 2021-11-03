@@ -21,14 +21,19 @@
     text-align: center;
     font-size: 0.9rem;
 }
+.input2 {
+    width: 12rem;
+    height: 2rem;
+    font-size: 0.9rem;
+}
 .btn-modal {
     width: 10rem;
     font-size: 1rem;
     text-align: center !important;
 }
 .btn-agg {
-    width: 7rem;
-    font-size: 0.9rem;
+    width: 5rem;
+    font-size: 0.8rem;
 }
 .links-options {
     font-weight: bold;
