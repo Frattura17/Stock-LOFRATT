@@ -1,9 +1,7 @@
 var INPUT_TOTAL_INCOME;
 var _arrayValues;
-var ingreso = document.getElementById('ingreso');
-var venta = document.getElementById('venta');
 var suma = JSON.parse(localStorage.getItem("TOTAL"));
-var TOTAL_INCOME = document.getElementById('000').innerText = `${suma}`;
+var TOTAL_INCOME = document.getElementById('000'). = `${suma}`;
 var arrayValues = JSON.parse(localStorage.getItem("valores")) || [];
 var elem = document.getElementById('valor-entrada');
 elem.onkeyup = function(e){
