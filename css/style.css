@@ -1,5 +1,6 @@
 .navbar {
     background-color:rgba(155, 37, 184, 0.777);
+    height: 5.8rem;
 }
 .LOFRATT {
     font-size: 2.5rem;
@@ -66,4 +67,8 @@
 }
 #div-contenedor{
     margin-bottom: 1.5rem !important;
+    border: 1px solid black;
+}
+#div-producto {
+    text-shadow: 1px 1.5px 2px rgb(189, 189, 189);
 }
