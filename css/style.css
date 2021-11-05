@@ -7,10 +7,20 @@
 .img-logo {
     width: 8rem;
     height: 6rem;
-    border-radius: 50%; 
+    border-radius: 45%; 
 }
 .card-body {
-    height: 10rem !important;
+    height: 3rem !important;
+}
+.font-result {
+    color: rgb(237, 162, 237);
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 2px 2px rgb(228, 103, 228),
+                 1px 4px 4px rgb(203, 55, 203),
+                 1px 5px 6px rgb(128, 23, 128),
+                 2px 6px 7px rgb(8, 1, 8);
 }
 .input {
     width: 4rem;
@@ -53,4 +63,7 @@
     font-size: 0.82rem;
     width: 4.4rem;
     height: 2rem;
+}
+#div-contenedor{
+    margin-bottom: 1.5rem !important;
 }

@@ -18,8 +18,6 @@
     <div class="container-lg">
         <article class="container-fluid text-center ms-2"><BR></BR><BR></BR>
             <div class="d-flex justify-content-between mt-4">
-              <a href="/pages/optium.html" class="text-decoration-none my-3" id="links">Optium</a>
-              <div style="width: 2px; background-color: black;"></div>
               <a href="/pages/instrumental.html" class="text-decoration-none my-3" id="links">Instrumental</a>
               <div style="width: 2px; background-color: black;"></div>
               <a href="/pages/aparatologia.html" class="text-decoration-none my-3" id="links">Aparatologia</a>
@@ -33,14 +31,14 @@
      <section class="container mt-5">
      
             <div class="row justify-content-center" id="changeResult">
-              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor" value="000">
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
                 <div class="card-body" >
-                 <img src="" class="card-img-top img-js" alt="...">
+                 <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
                   <h5 class="text-center nombre" id="div-producto" value="ciclofusion">Cero Gram's 1000ml.</h5>
                 </div>
                 <div class="mt-3 mb-3 text-center" id="div-incomes">
                      <ul class="list-group list-group-flush" id="div">
-                       <li class="list-group-item text-center cantidad-total" id="000">Cantidad total </li>
+                       <li class="list-group-item text-center cantidad-total font-result" id="000">Cantidad total </li>
                      </ul>
                    <hr class="m-3 mt-0">
                   <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="agregarValor()">Ingreso</button>
@@ -50,12 +48,12 @@
               </div>
               <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
                 <div class="card-body">
-                 <img src="" class="card-img-top img-js" alt="...">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
                   <h5 class="text-center nombre" id="div-producto">Cero Gram's 500ml.</h5>
                 </div>
                 <div class="mt-3 mb-3" id="div-incomes">
                      <ul class="list-group list-group-flush" id="div">
-                       <li class="list-group-item text-center cantidad-total" id="001">Cantidad total </li>
+                       <li class="list-group-item text-center cantidad-total font-result" id="001"></li>
                      </ul>
                    <hr class="m-3 mt-0">
                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor001()">Ingreso</button>
@@ -65,12 +63,12 @@
               </div>
               <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
                 <div class="card-body">
-                 <img src="" class="card-img-top img-js" alt="...">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
                   <h5 class="text-center nombre" nombre="epiderblan">Cero Gram's 250ml.</h5>
                 </div>
                 <div class="mt-3 mb-3" id="div-incomes">
                      <ul class="list-group list-group-flush" id="div">
-                       <li class="list-group-item text-center cantidad-total" id="002">Cantidad total </li>
+                       <li class="list-group-item text-center cantidad-total font-result" id="002"></li>
                      </ul>
                    <hr class="m-3 mt-0">
                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor002()">Ingreso</button>
@@ -80,12 +78,12 @@
               </div>
               <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
                 <div class="card-body">
-                 <img src="" class="card-img-top img-js" alt="...">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
                   <h5 class="text-center nombre" id="div-producto">Cerobac Forte chica</h5>
                 </div>
                 <div class="mt-3 mb-3" id="div-incomes">
                      <ul class="list-group list-group-flush" id="div">
-                       <li class="list-group-item text-center cantidad-total" id="003">Cantidad total </li>
+                       <li class="list-group-item text-center cantidad-total font-result" id="003"></li>
                      </ul>
                    <hr class="m-3 mt-0">
                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor003()">Ingreso</button>
@@ -93,7 +91,576 @@
                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor003()">Venta</button>
                 </div>
               </div>
-
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Cerobac Forte 100gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="004"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor004()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada004">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor004()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Ciclofusion Chico</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="005"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor005()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada005">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor005()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Ciclofusion 14ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="006"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor006()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada006">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor006()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Cuarzo Fino</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="007"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor007()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada007">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor007()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Desbrik 14ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="008"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor008()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada008">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor008()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Desbrik Chico</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="009"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor009()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada009">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor009()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Deport Plus</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="010"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor010()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada010">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor010()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Emi Blatt F-10</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="011"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor011()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada011">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor011()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Epidermax 100gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="012"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor012()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada012">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor012()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Epiderblan 1000ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="013"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor013()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada013">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor013()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Epiderblan 500ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="014"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor014()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada014">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor014()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Epiderblan 250ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="015"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor015()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada015">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor015()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Fung Talk Aerosol</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="016"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor016()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada016">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor016()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Fung Talk 100gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="017"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor017()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada017">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor017()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Humelastic 250gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="018"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor018()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada018">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor018()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Humelastic 60gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="019"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor019()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada019">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor019()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Inter Poltac 30gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="020"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor020()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada020">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor020()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Locider 1000ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="021"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor021()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada021">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor021()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Locider 500ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="022"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor022()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada022">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor022()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Locider 250ml.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="023"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor023()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada023">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor023()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Monomero 50mm</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="024"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor024()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada024">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor024()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Oleo Fortalecedor</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="025"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor025()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada025">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor025()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Pasta Pae Kit</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="026"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor026()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada026">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor026()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Pasta Pae Repuesto</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="027"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor027()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada027">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor027()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Pasta Iodoformada</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="028"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor028()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada028">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor028()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Polimero Acril-Spein</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="029"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor029()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada029">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor029()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Polimero Egeo</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="030"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor030()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada030">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor030()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Polsec 4gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="031"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor031()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada031">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor031()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Polvo Pedico 250gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="032"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor032()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada032">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor032()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Protector Dermico Skin</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="033"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor033()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada033">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor033()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Proteder Plus Chica</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="034"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor034()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada034">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor034()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Proteder Plus 60gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="035"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor035()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada035">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor035()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Rs 15</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="036"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor036()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada036">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor036()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Rs 15 Chico</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="037"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor037()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada037">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor037()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Suave Pie</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="038"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor038()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada038">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor038()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Crema Nut. Pedica Suavepie 60gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="039"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor039()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada039">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor039()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Crema Nut. Pedica Suavepie 100gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="040"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor040()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada040">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor040()">Venta</button>
+                </div>
+              </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor"> 
+                <div class="card-body">
+                 <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                  <h5 class="text-center nombre" id="div-producto">Crema Nut. Pedica Suavepie 250gr.</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                     <ul class="list-group list-group-flush" id="div">
+                       <li class="list-group-item text-center cantidad-total font-result" id="041"></li>
+                     </ul>
+                   <hr class="m-3 mt-0">
+                  <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso" onclick="agregarValor041()">Ingreso</button>
+                  <input type="number" class="input valor-entrada" id="valor-entrada041">
+                  <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor041()">Venta</button>
+                </div>
+              </div>
 
 
         </section>
