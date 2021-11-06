@@ -1,111 +1,3 @@
-// 97
-var INPUT_TOTAL_INCOME096;
-var _arrayValues096;
-var arrayValues096 = JSON.parse(localStorage.getItem("valores096")) || [];
-var suma096 = JSON.parse(localStorage.getItem("TOTAL096"));
-var TOTAL_INCOME096 = document.getElementById('096').innerText = `${suma096}`;
-var elem = document.getElementById('valor-entrada096');
-elem.onkeyup = function(e){
-if(e.keyCode == 13){agregarValor096();}}
-function agregarValor096 () {
-    if(arrayValues096 != ' ' && arrayValues096 > 0){
-        INPUT_TOTAL_INCOME096 = document.getElementById('valor-entrada096').value;
-        var arrayUnico = INPUT_TOTAL_INCOME096;  //  llamar del localStorage
-        _arrayValues096 = JSON.parse(localStorage.getItem("TOTAL096"));  //  modificar
-        let suma1 = parseInt(_arrayValues096) + parseInt(arrayUnico) ;
-        TOTAL_INCOME096 = document.getElementById('096').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL096", JSON.stringify(suma1));
-        localStorage.setItem("valores096", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME096 = document.getElementById('valor-entrada096').value;
-        arrayValues096 = INPUT_TOTAL_INCOME096;  // mandar al localStorage
-        localStorage.setItem("valores096", JSON.stringify(arrayValues096));  // modificar total productos
-        _arrayValues096 = JSON.parse(localStorage.getItem("valores096"));
-        TOTAL_INCOME096 = document.getElementById('096').innerText = `${arrayValues096}` // mandar al localStorage
-         localStorage.setItem("TOTAL096", JSON.stringify(INPUT_TOTAL_INCOME096));  }   }
-function disminuirValor096 () {
-    _arrayValues096 = JSON.parse(localStorage.getItem("TOTAL096"));
-    suma096 = _arrayValues096;
-    if(arrayValues096 != ' ' && arrayValues096 > 0){
-        INPUT_TOTAL_INCOME096 = document.getElementById('valor-entrada096').value;
-        var arrayUnico = INPUT_TOTAL_INCOME096;  //  llamar del localStorage
-        _arrayValues096 = JSON.parse(localStorage.getItem("TOTAL096"));  //  modificar
-        let suma1 = parseInt(_arrayValues096) - parseInt(arrayUnico) ;
-        TOTAL_INCOME096 = document.getElementById('096').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL096", JSON.stringify(suma1));
-        localStorage.setItem("valores096", JSON.stringify(suma1)); } }
-// 98
-var INPUT_TOTAL_INCOME097;
-var _arrayValues097;
-var arrayValues097 = JSON.parse(localStorage.getItem("valores097")) || [];
-var suma097 = JSON.parse(localStorage.getItem("TOTAL097"));
-var TOTAL_INCOME097 = document.getElementById('097').innerText = `${suma097}`;
-var elem = document.getElementById('valor-entrada097');
-elem.onkeyup = function(e){
-if(e.keyCode == 13){agregarValor097();}}
-function agregarValor097 () {
-    if(arrayValues097 != ' ' && arrayValues097 > 0){
-        INPUT_TOTAL_INCOME097 = document.getElementById('valor-entrada097').value;
-        var arrayUnico = INPUT_TOTAL_INCOME097;  //  llamar del localStorage
-        _arrayValues097 = JSON.parse(localStorage.getItem("TOTAL097"));  //  modificar
-        let suma1 = parseInt(_arrayValues097) + parseInt(arrayUnico) ;
-        TOTAL_INCOME097 = document.getElementById('097').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL097", JSON.stringify(suma1));
-        localStorage.setItem("valores097", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME097 = document.getElementById('valor-entrada097').value;
-        arrayValues097 = INPUT_TOTAL_INCOME097;  // mandar al localStorage
-        localStorage.setItem("valores097", JSON.stringify(arrayValues097));  // modificar total productos
-        _arrayValues097 = JSON.parse(localStorage.getItem("valores097"));
-        TOTAL_INCOME097 = document.getElementById('097').innerText = `${arrayValues097}` // mandar al localStorage
-         localStorage.setItem("TOTAL097", JSON.stringify(INPUT_TOTAL_INCOME097));  }   }
-function disminuirValor097 () {
-    _arrayValues097 = JSON.parse(localStorage.getItem("TOTAL097"));
-    suma097 = _arrayValues097;
-    if(arrayValues097 != ' ' && arrayValues097 > 0){
-        INPUT_TOTAL_INCOME097 = document.getElementById('valor-entrada097').value;
-        var arrayUnico = INPUT_TOTAL_INCOME097;  //  llamar del localStorage
-        _arrayValues097 = JSON.parse(localStorage.getItem("TOTAL097"));  //  modificar
-        let suma1 = parseInt(_arrayValues097) - parseInt(arrayUnico) ;
-        TOTAL_INCOME097 = document.getElementById('097').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL097", JSON.stringify(suma1));
-        localStorage.setItem("valores097", JSON.stringify(suma1)); } }
-// 99
-var INPUT_TOTAL_INCOME098;
-var _arrayValues098;
-var arrayValues098 = JSON.parse(localStorage.getItem("valores098")) || [];
-var suma098 = JSON.parse(localStorage.getItem("TOTAL098"));
-var TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma098}`;
-var elem = document.getElementById('valor-entrada098');
-elem.onkeyup = function(e){
-if(e.keyCode == 13){agregarValor098();}}
-function agregarValor098 () {
-    if(arrayValues098 != ' ' && arrayValues098 > 0){
-        INPUT_TOTAL_INCOME098 = document.getElementById('valor-entrada098').value;
-        var arrayUnico = INPUT_TOTAL_INCOME098;  //  llamar del localStorage
-        _arrayValues098 = JSON.parse(localStorage.getItem("TOTAL098"));  //  modificar
-        let suma1 = parseInt(_arrayValues098) + parseInt(arrayUnico) ;
-        TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL098", JSON.stringify(suma1));
-        localStorage.setItem("valores098", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME098 = document.getElementById('valor-entrada098').value;
-        arrayValues098 = INPUT_TOTAL_INCOME098;  // mandar al localStorage
-        localStorage.setItem("valores098", JSON.stringify(arrayValues098));  // modificar total productos
-        _arrayValues098 = JSON.parse(localStorage.getItem("valores098"));
-        TOTAL_INCOME098 = document.getElementById('098').innerText = `${arrayValues098}` // mandar al localStorage
-         localStorage.setItem("TOTAL098", JSON.stringify(INPUT_TOTAL_INCOME098));  }   }
-function disminuirValor098 () {
-    _arrayValues098 = JSON.parse(localStorage.getItem("TOTAL098"));
-    suma098 = _arrayValues098;
-    if(arrayValues098 != ' ' && arrayValues098 > 0){
-        INPUT_TOTAL_INCOME098 = document.getElementById('valor-entrada098').value;
-        var arrayUnico = INPUT_TOTAL_INCOME098;  //  llamar del localStorage
-        _arrayValues098 = JSON.parse(localStorage.getItem("TOTAL098"));  //  modificar
-        let suma1 = parseInt(_arrayValues098) - parseInt(arrayUnico) ;
-        TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL098", JSON.stringify(suma1));
-        localStorage.setItem("valores098", JSON.stringify(suma1)); } }
 // 100
 var INPUT_TOTAL_INCOME099;
 var _arrayValues099;
@@ -790,7 +682,7 @@ function disminuirValor117 () {
         TOTAL_INCOME117 = document.getElementById('117').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL117", JSON.stringify(suma1));
         localStorage.setItem("valores117", JSON.stringify(suma1)); } }
-// 119
+// 120
 var INPUT_TOTAL_INCOME118;
 var _arrayValues118;
 var arrayValues118 = JSON.parse(localStorage.getItem("valores118")) || [];
@@ -826,3 +718,147 @@ function disminuirValor118 () {
         TOTAL_INCOME118 = document.getElementById('118').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL118", JSON.stringify(suma1));
         localStorage.setItem("valores118", JSON.stringify(suma1)); } }
+// 120
+var INPUT_TOTAL_INCOME119;
+var _arrayValues119;
+var arrayValues119 = JSON.parse(localStorage.getItem("valores119")) || [];
+var suma119 = JSON.parse(localStorage.getItem("TOTAL119"));
+var TOTAL_INCOME119 = document.getElementById('119').innerText = `${suma119}`;
+var elem = document.getElementById('valor-entrada119');
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor119();}}
+function agregarValor119 () {
+    if(arrayValues119 != ' ' && arrayValues119 > 0){
+        INPUT_TOTAL_INCOME119 = document.getElementById('valor-entrada119').value;
+        var arrayUnico = INPUT_TOTAL_INCOME119;  //  llamar del localStorage
+        _arrayValues119 = JSON.parse(localStorage.getItem("TOTAL119"));  //  modificar
+        let suma1 = parseInt(_arrayValues119) + parseInt(arrayUnico) ;
+        TOTAL_INCOME119 = document.getElementById('119').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL119", JSON.stringify(suma1));
+        localStorage.setItem("valores119", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME119 = document.getElementById('valor-entrada119').value;
+        arrayValues119 = INPUT_TOTAL_INCOME119;  // mandar al localStorage
+        localStorage.setItem("valores119", JSON.stringify(arrayValues119));  // modificar total productos
+        _arrayValues119 = JSON.parse(localStorage.getItem("valores119"));
+        TOTAL_INCOME119 = document.getElementById('119').innerText = `${arrayValues119}` // mandar al localStorage
+         localStorage.setItem("TOTAL119", JSON.stringify(INPUT_TOTAL_INCOME119));  }   }
+function disminuirValor119 () {
+    _arrayValues119 = JSON.parse(localStorage.getItem("TOTAL119"));
+    suma119 = _arrayValues119;
+    if(arrayValues119 != ' ' && arrayValues119 > 0){
+        INPUT_TOTAL_INCOME119 = document.getElementById('valor-entrada119').value;
+        var arrayUnico = INPUT_TOTAL_INCOME119;  //  llamar del localStorage
+        _arrayValues119 = JSON.parse(localStorage.getItem("TOTAL119"));  //  modificar
+        let suma1 = parseInt(_arrayValues119) - parseInt(arrayUnico) ;
+        TOTAL_INCOME119 = document.getElementById('119').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL119", JSON.stringify(suma1));
+        localStorage.setItem("valores119", JSON.stringify(suma1)); } }
+// 121
+var INPUT_TOTAL_INCOME120;
+var _arrayValues120;
+var arrayValues120 = JSON.parse(localStorage.getItem("valores120")) || [];
+var suma120 = JSON.parse(localStorage.getItem("TOTAL120"));
+var TOTAL_INCOME120 = document.getElementById('120').innerText = `${suma120}`;
+var elem = document.getElementById('valor-entrada120');
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor120();}}
+function agregarValor120 () {
+    if(arrayValues120 != ' ' && arrayValues120 > 0){
+        INPUT_TOTAL_INCOME120 = document.getElementById('valor-entrada120').value;
+        var arrayUnico = INPUT_TOTAL_INCOME120;  //  llamar del localStorage
+        _arrayValues120 = JSON.parse(localStorage.getItem("TOTAL120"));  //  modificar
+        let suma1 = parseInt(_arrayValues120) + parseInt(arrayUnico) ;
+        TOTAL_INCOME120 = document.getElementById('120').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL120", JSON.stringify(suma1));
+        localStorage.setItem("valores120", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME120 = document.getElementById('valor-entrada120').value;
+        arrayValues120 = INPUT_TOTAL_INCOME120;  // mandar al localStorage
+        localStorage.setItem("valores120", JSON.stringify(arrayValues120));  // modificar total productos
+        _arrayValues120 = JSON.parse(localStorage.getItem("valores120"));
+        TOTAL_INCOME120 = document.getElementById('120').innerText = `${arrayValues120}` // mandar al localStorage
+         localStorage.setItem("TOTAL120", JSON.stringify(INPUT_TOTAL_INCOME120));  }   }
+function disminuirValor120 () {
+    _arrayValues120 = JSON.parse(localStorage.getItem("TOTAL120"));
+    suma120 = _arrayValues120;
+    if(arrayValues120 != ' ' && arrayValues120 > 0){
+        INPUT_TOTAL_INCOME120 = document.getElementById('valor-entrada120').value;
+        var arrayUnico = INPUT_TOTAL_INCOME120;  //  llamar del localStorage
+        _arrayValues120 = JSON.parse(localStorage.getItem("TOTAL120"));  //  modificar
+        let suma1 = parseInt(_arrayValues120) - parseInt(arrayUnico) ;
+        TOTAL_INCOME120 = document.getElementById('120').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL120", JSON.stringify(suma1));
+        localStorage.setItem("valores120", JSON.stringify(suma1)); } }
+// 122
+var INPUT_TOTAL_INCOME121;
+var _arrayValues121;
+var arrayValues121 = JSON.parse(localStorage.getItem("valores121")) || [];
+var suma121 = JSON.parse(localStorage.getItem("TOTAL121"));
+var TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma121}`;
+var elem = document.getElementById('valor-entrada121');
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor121();}}
+function agregarValor121 () {
+    if(arrayValues121 != ' ' && arrayValues121 > 0){
+        INPUT_TOTAL_INCOME121 = document.getElementById('valor-entrada121').value;
+        var arrayUnico = INPUT_TOTAL_INCOME121;  //  llamar del localStorage
+        _arrayValues121 = JSON.parse(localStorage.getItem("TOTAL121"));  //  modificar
+        let suma1 = parseInt(_arrayValues121) + parseInt(arrayUnico) ;
+        TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL121", JSON.stringify(suma1));
+        localStorage.setItem("valores121", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME121 = document.getElementById('valor-entrada121').value;
+        arrayValues121 = INPUT_TOTAL_INCOME121;  // mandar al localStorage
+        localStorage.setItem("valores121", JSON.stringify(arrayValues121));  // modificar total productos
+        _arrayValues121 = JSON.parse(localStorage.getItem("valores121"));
+        TOTAL_INCOME121 = document.getElementById('121').innerText = `${arrayValues121}` // mandar al localStorage
+         localStorage.setItem("TOTAL121", JSON.stringify(INPUT_TOTAL_INCOME121));  }   }
+function disminuirValor121 () {
+    _arrayValues121 = JSON.parse(localStorage.getItem("TOTAL121"));
+    suma121 = _arrayValues121;
+    if(arrayValues121 != ' ' && arrayValues121 > 0){
+        INPUT_TOTAL_INCOME121 = document.getElementById('valor-entrada121').value;
+        var arrayUnico = INPUT_TOTAL_INCOME121;  //  llamar del localStorage
+        _arrayValues121 = JSON.parse(localStorage.getItem("TOTAL121"));  //  modificar
+        let suma1 = parseInt(_arrayValues121) - parseInt(arrayUnico) ;
+        TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL121", JSON.stringify(suma1));
+        localStorage.setItem("valores121", JSON.stringify(suma1)); } }
+// 123
+var INPUT_TOTAL_INCOME122;
+var _arrayValues122;
+var arrayValues122 = JSON.parse(localStorage.getItem("valores122")) || [];
+var suma122 = JSON.parse(localStorage.getItem("TOTAL122"));
+var TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma122}`;
+var elem = document.getElementById('valor-entrada122');
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor122();}}
+function agregarValor122 () {
+    if(arrayValues122 != ' ' && arrayValues122 > 0){
+        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
+        var arrayUnico = INPUT_TOTAL_INCOME122;  //  llamar del localStorage
+        _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));  //  modificar
+        let suma1 = parseInt(_arrayValues122) + parseInt(arrayUnico) ;
+        TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL122", JSON.stringify(suma1));
+        localStorage.setItem("valores122", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
+        arrayValues122 = INPUT_TOTAL_INCOME122;  // mandar al localStorage
+        localStorage.setItem("valores122", JSON.stringify(arrayValues122));  // modificar total productos
+        _arrayValues122 = JSON.parse(localStorage.getItem("valores122"));
+        TOTAL_INCOME122 = document.getElementById('122').innerText = `${arrayValues122}` // mandar al localStorage
+         localStorage.setItem("TOTAL122", JSON.stringify(INPUT_TOTAL_INCOME122));  }   }
+function disminuirValor122 () {
+    _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));
+    suma122 = _arrayValues122;
+    if(arrayValues122 != ' ' && arrayValues122 > 0){
+        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
+        var arrayUnico = INPUT_TOTAL_INCOME122;  //  llamar del localStorage
+        _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));  //  modificar
+        let suma1 = parseInt(_arrayValues122) - parseInt(arrayUnico) ;
+        TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL122", JSON.stringify(suma1));
+        localStorage.setItem("valores122", JSON.stringify(suma1)); } }
