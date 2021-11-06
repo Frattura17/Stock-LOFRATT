@@ -826,39 +826,3 @@ function disminuirValor121 () {
         TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL121", JSON.stringify(suma1));
         localStorage.setItem("valores121", JSON.stringify(suma1)); } }
-// 123
-var INPUT_TOTAL_INCOME122;
-var _arrayValues122;
-var arrayValues122 = JSON.parse(localStorage.getItem("valores122")) || [];
-var suma122 = JSON.parse(localStorage.getItem("TOTAL122"));
-var TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma122}`;
-var elem = document.getElementById('valor-entrada122');
-elem.onkeyup = function(e){
-if(e.keyCode == 13){agregarValor122();}}
-function agregarValor122 () {
-    if(arrayValues122 != ' ' && arrayValues122 > 0){
-        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
-        var arrayUnico = INPUT_TOTAL_INCOME122;  //  llamar del localStorage
-        _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));  //  modificar
-        let suma1 = parseInt(_arrayValues122) + parseInt(arrayUnico) ;
-        TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL122", JSON.stringify(suma1));
-        localStorage.setItem("valores122", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
-        arrayValues122 = INPUT_TOTAL_INCOME122;  // mandar al localStorage
-        localStorage.setItem("valores122", JSON.stringify(arrayValues122));  // modificar total productos
-        _arrayValues122 = JSON.parse(localStorage.getItem("valores122"));
-        TOTAL_INCOME122 = document.getElementById('122').innerText = `${arrayValues122}` // mandar al localStorage
-         localStorage.setItem("TOTAL122", JSON.stringify(INPUT_TOTAL_INCOME122));  }   }
-function disminuirValor122 () {
-    _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));
-    suma122 = _arrayValues122;
-    if(arrayValues122 != ' ' && arrayValues122 > 0){
-        INPUT_TOTAL_INCOME122 = document.getElementById('valor-entrada122').value;
-        var arrayUnico = INPUT_TOTAL_INCOME122;  //  llamar del localStorage
-        _arrayValues122 = JSON.parse(localStorage.getItem("TOTAL122"));  //  modificar
-        let suma1 = parseInt(_arrayValues122) - parseInt(arrayUnico) ;
-        TOTAL_INCOME122 = document.getElementById('122').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL122", JSON.stringify(suma1));
-        localStorage.setItem("valores122", JSON.stringify(suma1)); } }
