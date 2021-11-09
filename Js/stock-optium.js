@@ -1522,7 +1522,7 @@ var arrayValues041 = JSON.parse(localStorage.getItem("valores041")) || [];
 var suma041 = JSON.parse(localStorage.getItem("TOTAL041"));
 var TOTAL_INCOME041 = document.getElementById('041').innerHTML = `${suma041}`
 var elem = document.getElementById('valor-entrada041');
-elem.onkeyup = function(e){
+elem.onkeyup = function (e){
 if(e.keyCode == 13){agregarValor041();}}
 function agregarValor041 () {
     if(arrayValues041 != ' ' && arrayValues041 > 0){
@@ -1551,3 +1551,81 @@ function disminuirValor041 () {
         TOTAL_INCOME041 = document.getElementById('041').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL041", JSON.stringify(suma1));
         localStorage.setItem("valores041", JSON.stringify(suma1)); } }
+const productos = [
+{nombre:'Cero Grams 1000ml.',valor:suma,idValor:'000',function:'agregarValor()',function1: 'disminuirValor()',entrada:"valor-entrada"},
+{nombre:'Cero Grams 500ml.',valor:suma001,idValor:'001',function:'agregarValor001()',function1:'disminuirValor001()',entrada: "valor-entrada001"},
+{nombre:'Cero Grams 250ml.',valor:suma002,idValor:'002',function:'agregarValor002()',function1:'disminuirValor002()',entrada: "valor-entrada002"},
+{nombre:'Cerobac Forte Chica',valor:suma003,idValor:'003',function:'agregarValor003()',function1:'disminuirValor003()',entrada: "valor-entrada003"},
+{nombre:'Cerobac Forte 100gr.',valor:suma004,idValor:'004',function:'agregarValor004()',function1:'disminuirValor004()',entrada: "valor-entrada004"},
+{nombre:'Ciclofusion Chico',valor:suma005,idValor:'005',function:'agregarValor005()',function1:'disminuirValor005()',entrada: "valor-entrada005"},
+{nombre:'Ciclofusion 14ml.',valor:suma006,idValor:'006',function:'agregarValor006()',function1:'disminuirValor006()',entrada: "valor-entrada006"},
+{nombre:'Cuarzo Fino',valor:suma007,idValor:'007',function:'agregarValor007()',function1:'disminuirValor007()',entrada: "valor-entrada007"},
+{nombre:'Desbrik Chico',valor:suma008,idValor:'008',function:'agregarValor008()',function1:'disminuirValor008()',entrada: "valor-entrada008"},
+{nombre:'Desbrik 14ml.',valor:suma009,idValor:'009',function:'agregarValor009()',function1:'disminuirValor009()',entrada: "valor-entrada009"},
+{nombre:'Deport Plus',valor:suma010,idValor:'010',function:'agregarValor010()',function1:'disminuirValor010()',entrada: "valor-entrada010"},
+{nombre:'Emi Blatt F-10',valor:suma011,idValor:'011',function:'agregarValor011()',function1:'disminuirValor011()',entrada: "valor-entrada011"},
+{nombre:'Epidermax 100gr.',valor:suma012,idValor:'012',function:'agregarValor012()',function1:'disminuirValor012()',entrada: "valor-entrada012"},
+{nombre:'Epiderblan 1000ml.',valor:suma013,idValor:'013',function:'agregarValor013()',function1:'disminuirValor013()',entrada: "valor-entrada013"},
+{nombre:'Epiderblan 500ml.',valor:suma014,idValor:'014',function:'agregarValor014()',function1:'disminuirValor014()',entrada: "valor-entrada014"},
+{nombre:'Epiderblan 250ml.',valor:suma015,idValor:'015',function:'agregarValor015()',function1:'disminuirValor015()',entrada: "valor-entrada015"},
+{nombre:'Fung Talk Aero',valor:suma016,idValor:'016',function:'agregarValor016()',function1:'disminuirValor016()',entrada: "valor-entrada016"},
+{nombre:'Fung Talk Polvo 100gr.',valor:suma017,idValor:'017',function:'agregarValor017()',function1:'disminuirValor017()',entrada: "valor-entrada017"},
+{nombre:'Humelastic 250gr.',valor:suma018,idValor:'018',function:'agregarValor018()',function1:'disminuirValor018()',entrada: "valor-entrada018"},
+{nombre:'Humelastic 60gr.',valor:suma019,idValor:'019',function:'agregarValor019()',function1:'disminuirValor019()',entrada: "valor-entrada019"},
+{nombre:'Inter Poltac 30gr.',valor:suma020,idValor:'020',function:'agregarValor020()',function1:'disminuirValor020()',entrada: "valor-entrada020"},
+{nombre:'Locider 1000ml.',valor:suma021,idValor:'021',function:'agregarValor021()',function1:'disminuirValor021()',entrada: "valor-entrada021"},
+{nombre:'Locider 500ml.',valor:suma022,idValor:'022',function:'agregarValor022()',function1:'disminuirValor022()',entrada: "valor-entrada022"},
+{nombre:'Locider 250ml.',valor:suma023,idValor:'023',function:'agregarValor023()',function1:'disminuirValor023()',entrada: "valor-entrada023"},
+{nombre:'Monomero 50mm',valor:suma024,idValor:'024',function:'agregarValor024()',function1:'disminuirValor024()',entrada: "valor-entrada024"},
+{nombre:'Oleo Fortalecedor Libra',valor:suma025,idValor:'025',function:'agregarValor025()',function1:'disminuirValor025()',entrada: "valor-entrada025"},
+{nombre:'Pasta Pae Kit',valor:suma026,idValor:'026',function:'agregarValor026()',function1:'disminuirValor026()',entrada: "valor-entrada026"},
+{nombre:'Pasta Pae Repuesto',valor:suma027,idValor:'027',function:'agregarValor027()',function1:'disminuirValor027()',entrada: "valor-entrada027"},
+{nombre:'Pasta Iodoformada',valor:suma028,idValor:'028',function:'agregarValor028()',function1:'disminuirValor028()',entrada: "valor-entrada028"},
+{nombre:'Polimero Acril-Spein',valor:suma029,idValor:'029',function:'agregarValor029()',function1:'disminuirValor029()',entrada: "valor-entrada029"},
+{nombre:'Polimero Egeo',valor:suma030,idValor:'030',function:'agregarValor030()',function1:'disminuirValor030()',entrada: "valor-entrada030"},
+{nombre:'Polsec 4gr.',valor:suma031,idValor:'031',function:'agregarValor031()',function1:'disminuirValor031()',entrada: "valor-entrada031"},
+{nombre:'Polvo Pedico 250gr.',valor:suma032,idValor:'032',function:'agregarValor032()',function1:'disminuirValor032()',entrada: "valor-entrada032"},
+{nombre:'Protector Dermico Skin',valor:suma033,idValor:'033',function:'agregarValor033()',function1:'disminuirValor033()',entrada: "valor-entrada033"},
+{nombre:'Proteder Plus Chica',valor:suma034,idValor:'034',function:'agregarValor034()',function1:'disminuirValor034()',entrada: "valor-entrada034"},
+{nombre:'Proteder Plus 60gr.',valor:suma035,idValor:'035',function:'agregarValor035()',function1:'disminuirValor035()',entrada: "valor-entrada035"},
+{nombre:'Rs 15 Chico',valor:suma036,idValor:'036',function:'agregarValor036()',function1:'disminuirValor036()',entrada: "valor-entrada036"},
+{nombre:'Rs 15 14ml.',valor:suma037,idValor:'037',function:'agregarValor037()',function1:'disminuirValor037()',entrada: "valor-entrada037"},
+{nombre:'Suavepie Sales Pedicas',valor:suma038,idValor:'038',function:'agregarValor038()',function1:'disminuirValor038()',entrada: "valor-entrada038"},
+{nombre:'Crema Pedica Suavepie 60gr.',valor:suma039,idValor:'039',function:'agregarValor039()',function1:'disminuirValor039()',entrada: "valor-entrada039"},
+{nombre:'Crema Pedica Suavepie 100gr.',valor:suma040,idValor:'040',function:'agregarValor040()',function1:'disminuirValor040()',entrada: "valor-entrada040"},
+{nombre:'Crema Pedica Suavepie 250gr.',valor:suma041,idValor:'041',function:'agregarValor041()',function1:'disminuirValor041()',entrada: "valor-entrada041"},
+     
+ ]
+ var input = document.querySelector('#inputSearch');
+ var boton = document.querySelector('#boton');
+ var changeSearch = document.querySelector('#changeResult');
+ var filtrar = () => {
+     changeSearch.innerHTML = '';
+     var textoSearch = input.value.toLowerCase();
+     for(let producto of productos) {
+         let nombre = producto.nombre.toLowerCase();
+         let valorTotal = producto.valor
+         let id = producto.idValor
+         let func = producto.function
+         let func1 = producto.function1
+         let entry = producto.entrada
+         if(nombre.indexOf(textoSearch) !== -1) {
+             changeSearch.innerHTML += `<div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+             <div class="card-body" >
+              <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
+               <h5 class="text-center nombre" id="div-producto" value="ciclofusion">${nombre}</h5>
+             </div>
+             <div class="mt-3 mb-3 text-center" id="div-incomes">
+                  <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="${id}">${valorTotal}</li>
+                  </ul>
+                <hr class="m-3 mt-0">
+               <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="${func}">Ingreso</button>
+               <input type="number" class="input valor-entrada" id="${entry}">
+               <button href="#" class="btn btn-outline-danger m-1 mb-2 venta " id="venta" onclick="${func1}">Venta</button>
+             </div>
+           </div>` 
+         }
+     }}
+ boton.addEventListener('click',filtrar);
+ input.addEventListener('keyup',filtrar);

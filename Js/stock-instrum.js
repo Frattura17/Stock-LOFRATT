@@ -143,6 +143,42 @@ function disminuirValor045 () {
         localStorage.setItem("TOTAL045", JSON.stringify(suma1));
         localStorage.setItem("valores045", JSON.stringify(suma1)); } }
 // 47
+var INPUT_TOTAL_INCOME045;
+var _arrayValues045;
+var arrayValues045 = JSON.parse(localStorage.getItem("valores045")) || [];
+var suma045 = JSON.parse(localStorage.getItem("TOTAL045"));
+var TOTAL_INCOME045 = document.getElementById('045').innerText = `${suma045}`;
+var elem = document.getElementById('valor-entrada045');
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor045();}}
+function agregarValor045 () {
+    if(arrayValues045 != ' ' && arrayValues045 > 0){
+        INPUT_TOTAL_INCOME045 = document.getElementById('valor-entrada045').value;
+        var arrayUnico = INPUT_TOTAL_INCOME045;  //  llamar del localStorage
+        _arrayValues045 = JSON.parse(localStorage.getItem("TOTAL045"));  //  modificar
+        let suma1 = parseInt(_arrayValues045) + parseInt(arrayUnico) ;
+        TOTAL_INCOME045 = document.getElementById('045').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL045", JSON.stringify(suma1));
+        localStorage.setItem("valores045", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME045 = document.getElementById('valor-entrada045').value;
+        arrayValues045 = INPUT_TOTAL_INCOME045;  // mandar al localStorage
+        localStorage.setItem("valores045", JSON.stringify(arrayValues045));  // modificar total productos
+        _arrayValues045 = JSON.parse(localStorage.getItem("valores045"));
+        TOTAL_INCOME045 = document.getElementById('045').innerText = `${arrayValues045}` // mandar al localStorage
+         localStorage.setItem("TOTAL045", JSON.stringify(INPUT_TOTAL_INCOME045));  }   }
+function disminuirValor045 () {
+    _arrayValues045 = JSON.parse(localStorage.getItem("TOTAL045"));
+    suma045 = _arrayValues045;
+    if(arrayValues045 != ' ' && arrayValues045 > 0){
+        INPUT_TOTAL_INCOME045 = document.getElementById('valor-entrada045').value;
+        var arrayUnico = INPUT_TOTAL_INCOME045;  //  llamar del localStorage
+        _arrayValues045 = JSON.parse(localStorage.getItem("TOTAL045"));  //  modificar
+        let suma1 = parseInt(_arrayValues045) - parseInt(arrayUnico) ;
+        TOTAL_INCOME045 = document.getElementById('045').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL045", JSON.stringify(suma1));
+        localStorage.setItem("valores045", JSON.stringify(suma1)); } }
+// 48
 var INPUT_TOTAL_INCOME046;
 var _arrayValues046;
 var arrayValues046 = JSON.parse(localStorage.getItem("valores046")) || [];
@@ -178,7 +214,7 @@ function disminuirValor046 () {
         TOTAL_INCOME046 = document.getElementById('046').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL046", JSON.stringify(suma1));
         localStorage.setItem("valores046", JSON.stringify(suma1)); } }
-// 48
+// 49
 var INPUT_TOTAL_INCOME047;
 var _arrayValues047;
 var arrayValues047 = JSON.parse(localStorage.getItem("valores047")) || [];
@@ -214,7 +250,7 @@ function disminuirValor047 () {
         TOTAL_INCOME047 = document.getElementById('047').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL047", JSON.stringify(suma1));
         localStorage.setItem("valores047", JSON.stringify(suma1)); } }
-// 49
+// 50
 var INPUT_TOTAL_INCOME048;
 var _arrayValues048;
 var arrayValues048 = JSON.parse(localStorage.getItem("valores048")) || [];
@@ -250,7 +286,7 @@ function disminuirValor048 () {
         TOTAL_INCOME048 = document.getElementById('048').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL048", JSON.stringify(suma1));
         localStorage.setItem("valores048", JSON.stringify(suma1)); } }
-// 50
+// 51
 var INPUT_TOTAL_INCOME049;
 var _arrayValues049;
 var arrayValues049 = JSON.parse(localStorage.getItem("valores049")) || [];
@@ -286,7 +322,7 @@ function disminuirValor049 () {
         TOTAL_INCOME049 = document.getElementById('049').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL049", JSON.stringify(suma1));
         localStorage.setItem("valores049", JSON.stringify(suma1)); } }
-// 51
+// 52
 var INPUT_TOTAL_INCOME050;
 var _arrayValues050;
 var arrayValues050 = JSON.parse(localStorage.getItem("valores050")) || [];
@@ -322,7 +358,7 @@ function disminuirValor050 () {
         TOTAL_INCOME050 = document.getElementById('050').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL050", JSON.stringify(suma1));
         localStorage.setItem("valores050", JSON.stringify(suma1)); } }
-// 52
+// 53
 var INPUT_TOTAL_INCOME051;
 var _arrayValues051;
 var arrayValues051 = JSON.parse(localStorage.getItem("valores051")) || [];
@@ -358,7 +394,7 @@ function disminuirValor051 () {
         TOTAL_INCOME051 = document.getElementById('051').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL051", JSON.stringify(suma1));
         localStorage.setItem("valores051", JSON.stringify(suma1)); } }
-// 53
+// num
 var INPUT_TOTAL_INCOME052;
 var _arrayValues052;
 var arrayValues052 = JSON.parse(localStorage.getItem("valores052")) || [];
@@ -368,32 +404,32 @@ var elem = document.getElementById('valor-entrada052');
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor052();}}
 function agregarValor052 () {
-    if(arrayValues052 != ' ' && arrayValues052 > 0){
-        INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
-        var arrayUnico = INPUT_TOTAL_INCOME052;  //  llamar del localStorage
-        _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));  //  modificar
-        let suma1 = parseInt(_arrayValues052) + parseInt(arrayUnico) ;
-        TOTAL_INCOME052 = document.getElementById('052').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL052", JSON.stringify(suma1));
-        localStorage.setItem("valores052", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
-        arrayValues052 = INPUT_TOTAL_INCOME052;  // mandar al localStorage
-        localStorage.setItem("valores052", JSON.stringify(arrayValues052));  // modificar total productos
-        _arrayValues052 = JSON.parse(localStorage.getItem("valores052"));
-        TOTAL_INCOME052 = document.getElementById('052').innerText = `${arrayValues052}` // mandar al localStorage
-         localStorage.setItem("TOTAL052", JSON.stringify(INPUT_TOTAL_INCOME052));  }   }
-function disminuirValor052 () {
-    _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));
-    suma052 = _arrayValues052;
-    if(arrayValues052 != ' ' && arrayValues052 > 0){
-        INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
-        var arrayUnico = INPUT_TOTAL_INCOME052;  //  llamar del localStorage
-        _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));  //  modificar
-        let suma1 = parseInt(_arrayValues052) - parseInt(arrayUnico) ;
-        TOTAL_INCOME052 = document.getElementById('052').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL052", JSON.stringify(suma1));
-        localStorage.setItem("valores052", JSON.stringify(suma1)); } }
+            if(arrayValues052 != ' ' && arrayValues052 > 0){
+                INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
+                var arrayUnico = INPUT_TOTAL_INCOME052;  //  llamar del localStorage
+                _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));  //  modificar
+                let suma1 = parseInt(_arrayValues052) + parseInt(arrayUnico) ;
+                TOTAL_INCOME052 = document.getElementById('052').innerText = `${suma1}`;  // mandar al localStorage
+                localStorage.setItem("TOTAL052", JSON.stringify(suma1));
+                localStorage.setItem("valores052", JSON.stringify(suma1));
+            } else {
+                INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
+                arrayValues052 = INPUT_TOTAL_INCOME052;  // mandar al localStorage
+                localStorage.setItem("valores052", JSON.stringify(arrayValues052));  // modificar total productos
+                _arrayValues052 = JSON.parse(localStorage.getItem("valores052"));
+                TOTAL_INCOME052 = document.getElementById('052').innerText = `${arrayValues052}` // mandar al localStorage
+    localStorage.setItem("TOTAL052", JSON.stringify(INPUT_TOTAL_INCOME052));  }   }
+ function disminuirValor052 () {
+            _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));
+            suma052 = _arrayValues052;
+            if(arrayValues052 != ' ' && arrayValues052 > 0){
+                INPUT_TOTAL_INCOME052 = document.getElementById('valor-entrada052').value;
+                var arrayUnico = INPUT_TOTAL_INCOME052;  //  llamar del localStorage
+                _arrayValues052 = JSON.parse(localStorage.getItem("TOTAL052"));  //  modificar
+                let suma1 = parseInt(_arrayValues052) - parseInt(arrayUnico) ;
+                TOTAL_INCOME052 = document.getElementById('052').innerText = `${suma1}`  // mandar al localStorage
+                localStorage.setItem("TOTAL052", JSON.stringify(suma1));
+    localStorage.setItem("valores052", JSON.stringify(suma1)); } }
 // 54
 var INPUT_TOTAL_INCOME053;
 var _arrayValues053;
@@ -1762,3 +1798,86 @@ function disminuirValor090 () {
         TOTAL_INCOME090 = document.getElementById('090').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL090", JSON.stringify(suma1));
         localStorage.setItem("valores090", JSON.stringify(suma1)); } }
+
+const productos = [
+{nombre:'Alicate Uña Encarnada Mundial',valor:suma042,idValor:'042',function:'agregarValor042()',function1:'disminuirValor042()',entrada: "valor-entrada042"},
+{nombre:'Alicate Mundial Art. 776',valor:suma043,idValor:'043',function:'agregarValor043()',function1:'disminuirValor043()',entrada: "valor-entrada043"},
+{nombre:'Set Mundial',valor:suma044,idValor:'044',function:'agregarValor044()',function1:'disminuirValor044()',entrada: "valor-entrada044"},
+{nombre:'Algodonero Acero',valor:suma045,idValor:'045',function:'agregarValor045()',function1:'disminuirValor045()',entrada: "valor-entrada045"},
+{nombre:'Aplicador de Pasta',valor:suma046,idValor:'046',function:'agregarValor046()',function1:'disminuirValor046()',entrada: "valor-entrada046"},
+{nombre:'Bandeja Acanalada',valor:suma047,idValor:'047',function:'agregarValor047()',function1:'disminuirValor047()',entrada: "valor-entrada047"},
+{nombre:'Bandeja Posapie Aymara',valor:suma048,idValor:'048',function:'agregarValor048()',function1:'disminuirValor048()',entrada: "valor-entrada048"},
+{nombre:'Bloque Blanco',valor:suma049,idValor:'049',function:'agregarValor049()',function1:'disminuirValor049()',entrada: "valor-entrada049"},
+{nombre:'Dedos Plasticos',valor:suma050,idValor:'050',function:'agregarValor050()',function1:'disminuirValor050()',entrada: "valor-entrada050"},
+{nombre:'Caja Instrum. Acero 17x7x3',valor:suma051,idValor:'051',function:'agregarValor051()',function1:'disminuirValor051()',entrada: "valor-entrada051"},
+{nombre:'Corta Uñas Bolsillo',valor:suma052,idValor:'052',function:'agregarValor052()',function1:'disminuirValor052()',entrada: "valor-entrada052"},
+{nombre:'Cureta Cucharita',valor:suma053,idValor:'053',function:'agregarValor053()',function1:'disminuirValor053()',entrada: "valor-entrada053"},
+{nombre:'Elevador Espicular',valor:suma054,idValor:'054',function:'agregarValor054()',function1:'disminuirValor054()',entrada: "valor-entrada054"},
+{nombre:'Fibraspan x1',valor:suma055,idValor:'055',function:'agregarValor055()',function1:'disminuirValor055()',entrada: "valor-entrada055"},
+{nombre:'Fibraspan x10',valor:suma056,idValor:'056',function:'agregarValor056()',function1:'disminuirValor056()',entrada: "valor-entrada056"},
+{nombre:'Formon Filo Curvo 3mm',valor:suma057,idValor:'057',function:'agregarValor057()',function1:'disminuirValor057()',entrada: "valor-entrada057"},
+{nombre:'Fresa Diamante Chica',valor:suma058,idValor:'058',function:'agregarValor058()',function1:'disminuirValor058()',entrada: "valor-entrada058"},
+{nombre:'Fresa Diamante Grande',valor:suma059,idValor:'059',function:'agregarValor059()',function1:'disminuirValor059()',entrada: "valor-entrada059"},
+{nombre:'Fresa de Piedra',valor:suma060,idValor:'060',function:'agregarValor060()',function1:'disminuirValor060()',entrada: "valor-entrada060"},
+{nombre:'Fresas K4,K6,K8',valor:suma061,idValor:'061',function:'agregarValor061()',function1:'disminuirValor061()',entrada: "valor-entrada061"},
+{nombre:'Fresa Acero K8 Eje Largo',valor:suma062,idValor:'062',function:'agregarValor062()',function1:'disminuirValor062()',entrada: "valor-entrada062"},
+{nombre:'Fresero Redondo',valor:suma063,idValor:'063',function:'agregarValor063()',function1:'disminuirValor063()',entrada: "valor-entrada063"},
+{nombre:'Freson Acero comun',valor:suma064,idValor:'064',function:'agregarValor064()',function1:'disminuirValor064()',entrada: "valor-entrada064"},
+{nombre:'Freson de Goma',valor:suma065,idValor:'065',function:'agregarValor065()',function1:'disminuirValor065()',entrada: "valor-entrada065"},
+{nombre:'Freson Tungsteno/Ceramica',valor:suma066,idValor:'066',function:'agregarValor066()',function1:'disminuirValor066()',entrada: "valor-entrada066"},
+{nombre:'Freson Acero largo',valor:suma067,idValor:'067',function:'agregarValor067()',function1:'disminuirValor067()',entrada: "valor-entrada067"},
+{nombre:'Gubia',valor:suma068,idValor:'068',function:'agregarValor068()',function1:'disminuirValor068()',entrada: "valor-entrada068"},
+{nombre:'Mango Bisturi 3y4',valor:suma069,idValor:'069',function:'agregarValor069()',function1:'disminuirValor069()',entrada: "valor-entrada069"},
+{nombre:'Mordaza para Torno',valor:suma070,idValor:'070',function:'agregarValor070()',function1:'disminuirValor070()',entrada: "valor-entrada070"},
+{nombre:'Palo de Golf',valor:suma071,idValor:'071',function:'agregarValor071()',function1:'disminuirValor071()',entrada: "valor-entrada071"},
+{nombre:'Pinza Mosquito',valor:suma072,idValor:'072',function:'agregarValor072()',function1:'disminuirValor072()',entrada: "valor-entrada072"},
+{nombre:'Smeril Press Soporte c/10 Repuesto',valor:suma073,idValor:'073',function:'agregarValor073()',function1:'disminuirValor073()',entrada: "valor-entrada073"},
+{nombre:'Smeril Press 10 Repuesto',valor:suma074,idValor:'074',function:'agregarValor074()',function1:'disminuirValor074()',entrada: "valor-entrada074"},
+{nombre:'Tijerita Chica',valor:suma075,idValor:'075',function:'agregarValor075()',function1:'disminuirValor075()',entrada: "valor-entrada075"},
+{nombre:'Vaso Dappen Comun',valor:suma076,idValor:'076',function:'agregarValor076()',function1:'disminuirValor076()',entrada: "valor-entrada076"},
+{nombre:'Vaso Dappen Caja p/Fresas',valor:suma077,idValor:'077',function:'agregarValor077()',function1:'disminuirValor077()',entrada: "valor-entrada077"},
+{nombre:'Fosforos Hemostaticos x6',valor:suma078,idValor:'078',function:'agregarValor078()',function1:'disminuirValor078()',entrada: "valor-entrada078"},
+{nombre:'Separador Interdig. Helomas',valor:suma079,idValor:'079',function:'agregarValor079()',function1:'disminuirValor079()',entrada: "valor-entrada079"},
+{nombre:'Aplicador Gasa Tubular',valor:suma080,idValor:'080',function:'agregarValor080()',function1:'disminuirValor080()',entrada: "valor-entrada080"},
+{nombre:'Gasa Tubular x2 MT',valor:suma081,idValor:'081',function:'agregarValor081()',function1:'disminuirValor081()',entrada: "valor-entrada081"},
+{nombre:'Gasa Tubular x1 MT',valor:suma082,idValor:'082',function:'agregarValor082()',function1:'disminuirValor082()',entrada: "valor-entrada082"},
+{nombre:'Venda Tubular Elastisada x2 MT',valor:suma083,idValor:'083',function:'agregarValor083()',function1:'disminuirValor083()',entrada: "valor-entrada083"},
+{nombre:'Venda Tubular Elastisada x4 MT',valor:suma084,idValor:'084',function:'agregarValor084()',function1:'disminuirValor084()',entrada: "valor-entrada084"},
+{nombre:'Formon Meier',valor:suma085,idValor:'085',function:'agregarValor085()',function1:'disminuirValor085()',entrada: "valor-entrada085"},
+{nombre:'Aplicador de Clip',valor:suma086,idValor:'086',function:'agregarValor086()',function1:'disminuirValor086()',entrada: "valor-entrada086"},
+{nombre:'Pie Didactico',valor:suma087,idValor:'087',function:'agregarValor087()',function1:'disminuirValor087()',entrada: "valor-entrada087"}
+     
+ ]
+ var input = document.querySelector('#inputSearch');
+ var boton = document.querySelector('#boton');
+ var changeSearch = document.querySelector('#changeResult');
+ var filtrar = () => {
+     changeSearch.innerHTML = '';
+     var textoSearch = input.value.toLowerCase();
+     for(let producto of productos) {
+         let nombre = producto.nombre.toLowerCase();
+         let valorTotal = producto.valor
+         let id = producto.idValor
+         let func = producto.function
+         let func1 = producto.function1
+         let entry = producto.entrada
+         if(nombre.indexOf(textoSearch) !== -1) {
+             changeSearch.innerHTML += `<div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+             <div class="card-body" >
+              <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
+               <h5 class="text-center nombre" id="div-producto" value="ciclofusion">${nombre}</h5>
+             </div>
+             <div class="mt-3 mb-3 text-center" id="div-incomes">
+                  <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="${id}">${valorTotal}</li>
+                  </ul>
+                <hr class="m-3 mt-0">
+               <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="${func}">Ingreso</button>
+               <input type="number" class="input valor-entrada" id="${entry}">
+               <button href="#" class="btn btn-outline-danger m-1 mb-2 venta " id="venta" onclick="${func1}">Venta</button>
+             </div>
+           </div>` 
+         }
+     }}
+ boton.addEventListener('click',filtrar);
+ input.addEventListener('keyup',filtrar);

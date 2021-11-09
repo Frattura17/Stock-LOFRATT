@@ -34,23 +34,28 @@
     font-size: 0.9rem;
 }
 .input2 {
-    width: 18rem;
-    height: 2.2rem;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
+    width: 20rem;
+    height: 2.5rem;
+    padding: 1rem .75rem;
+    font-size: 1.2rem;
+    font-weight: 450;
     line-height: 1.5;
     color: #212529;
     text-align: center;
     white-space: nowrap;
     background-color: #e9ecef;
-    border: 1px solid #ced4da;
+    border: 0.5px solid #8c8c8d;
     border-radius: .25rem;
 }
-.btn-agg {
-    width: 18rem;
+/* .btn-agg {
+    width: 12rem;
     font-size: 1rem;
+    border: 1.5px solid violet;
+    color: rgb(5, 5, 5);
 }
+.btn-agg:hover {
+    background: rgb(221, 60, 221);
+} */
 #links {
     color: rgb(35, 34, 34);
     font-weight: 350;

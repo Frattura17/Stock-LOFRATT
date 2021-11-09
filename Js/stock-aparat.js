@@ -286,3 +286,47 @@ function disminuirValor098 () {
         TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL098", JSON.stringify(suma1));
         localStorage.setItem("valores098", JSON.stringify(suma1)); } }
+const productos = [
+{nombre:'Alta Frecuencia + Campana',valor:suma091,idValor:'091',function:'agregarValor091()',function1:'disminuirValor091()',entrada: "valor-entrada091"},
+{nombre:'Pipeta Campana',valor:suma092,idValor:'092',function:'agregarValor092()',function1:'disminuirValor092()',entrada: "valor-entrada092"},
+{nombre:'Pipeta Espiral',valor:suma093,idValor:'093',function:'agregarValor093()',function1:'disminuirValor093()',entrada: "valor-entrada093"},
+{nombre:'Pipeta Cebolla-Peine-Papada-Gota',valor:suma094,idValor:'094',function:'agregarValor094()',function1:'disminuirValor094()',entrada: "valor-entrada094"},
+{nombre:'Torno Driller Egeo Gris',valor:suma095,idValor:'095',function:'agregarValor095()',function1:'disminuirValor095()',entrada: "valor-entrada095"},
+{nombre:'Soporte Para Torno Colgante',valor:suma096,idValor:'096',function:'agregarValor096()',function1:'disminuirValor096()',entrada: "valor-entrada096"},
+{nombre:'Sillon + Silla Profesional',valor:suma097,idValor:'097',function:'agregarValor097()',function1:'disminuirValor097()',entrada: "valor-entrada097"},
+{nombre:'Esterilizador',valor:suma098,idValor:'098',function:'agregarValor098()',function1:'disminuirValor098()',entrada: "valor-entrada098"}
+     
+ ]
+ var input = document.querySelector('#inputSearch');
+ var boton = document.querySelector('#boton');
+ var changeSearch = document.querySelector('#changeResult');
+ var filtrar = () => {
+     changeSearch.innerHTML = '';
+     var textoSearch = input.value.toLowerCase();
+     for(let producto of productos) {
+         let nombre = producto.nombre.toLowerCase();
+         let valorTotal = producto.valor
+         let id = producto.idValor
+         let func = producto.function
+         let func1 = producto.function1
+         let entry = producto.entrada
+         if(nombre.indexOf(textoSearch) !== -1) {
+             changeSearch.innerHTML += `<div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+             <div class="card-body" >
+              <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
+               <h5 class="text-center nombre" id="div-producto" value="ciclofusion">${nombre}</h5>
+             </div>
+             <div class="mt-3 mb-3 text-center" id="div-incomes">
+                  <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="${id}">${valorTotal}</li>
+                  </ul>
+                <hr class="m-3 mt-0">
+               <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="${func}">Ingreso</button>
+               <input type="number" class="input valor-entrada" id="${entry}">
+               <button href="#" class="btn btn-outline-danger m-1 mb-2 venta " id="venta" onclick="${func1}">Venta</button>
+             </div>
+           </div>` 
+         }
+     }}
+ boton.addEventListener('click',filtrar);
+ input.addEventListener('keyup',filtrar);
