@@ -1006,3 +1006,67 @@ function disminuirValor149 () {
         TOTAL_INCOME149 = document.getElementById('149').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL149", JSON.stringify(suma1));
         localStorage.setItem("valores149", JSON.stringify(suma1)); } }
+
+const productos = [
+{nombre:'Alcohol Etilico 1L.',valor:suma122,idValor:'122',function:'agregarValor122()',function1:'disminuirValor122()',entrada: "valor-entrada122"},
+{nombre:'Alcohol Etilico 1/2.',valor:suma123,idValor:'123',function:'agregarValor123()',function1:'disminuirValor123()',entrada: "valor-entrada123"},
+{nombre:'Alcohol Etilico 1/4.',valor:suma124,idValor:'124',function:'agregarValor124()',function1:'disminuirValor124()',entrada: "valor-entrada124"},
+{nombre:'Barbijos Caja x50',valor:suma125,idValor:'125',function:'agregarValor125()',function1:'disminuirValor125()',entrada: "valor-entrada125"},
+{nombre:'Barbijos Caja x2',valor:suma126,idValor:'126',function:'agregarValor126()',function1:'disminuirValor126()',entrada: "valor-entrada126"},
+{nombre:'Barbijos x Unidad',valor:suma127,idValor:'127',function:'agregarValor127()',function1:'disminuirValor127()',entrada: "valor-entrada127"},
+{nombre:'Camisolin 45gr. + Cofia',valor:suma128,idValor:'128',function:'agregarValor128()',function1:'disminuirValor128()',entrada: "valor-entrada128"},
+{nombre:'Cinta Hipoalergenica 2,5cm',valor:suma129,idValor:'129',function:'agregarValor129()',function1:'disminuirValor129()',entrada: "valor-entrada129"},
+{nombre:'Cofia x 10 Unidades',valor:suma130,idValor:'130',function:'agregarValor130()',function1:'disminuirValor130()',entrada: "valor-entrada130"},
+{nombre:'Cofia x Unidad',valor:suma131,idValor:'131',function:'agregarValor131()',function1:'disminuirValor131()',entrada: "valor-entrada131"},
+{nombre:'Compresas x 10',valor:suma132,idValor:'132',function:'agregarValor132()',function1:'disminuirValor132()',entrada: "valor-entrada132"},
+{nombre:'Compresas x 100',valor:suma133,idValor:'133',function:'agregarValor133()',function1:'disminuirValor133()',entrada: "valor-entrada133"},
+{nombre:'Cubrecamilla Descart. Elastico',valor:suma134,idValor:'134',function:'agregarValor134()',function1:'disminuirValor134()',entrada: "valor-entrada134"},
+{nombre:'Descartador Hojitas Grande',valor:suma135,idValor:'135',function:'agregarValor135()',function1:'disminuirValor135()',entrada: "valor-entrada135"},
+{nombre:'Gasas 10x10',valor:suma136,idValor:'136',function:'agregarValor136()',function1:'disminuirValor136()',entrada: "valor-entrada136"},
+{nombre:'Cubre Calzado x Par',valor:suma137,idValor:'137',function:'agregarValor137()',function1:'disminuirValor137()',entrada: "valor-entrada137"},
+{nombre:'Guantes Nitrilo',valor:suma138,idValor:'138',function:'agregarValor138()',function1:'disminuirValor138()',entrada: "valor-entrada138"},
+{nombre:'Guantes x Par Nitrilo',valor:suma139,idValor:'139',function:'agregarValor139()',function1:'disminuirValor139()',entrada: "valor-entrada139"},
+{nombre:'Guantes XS,SyM Latex',valor:suma140,idValor:'140',function:'agregarValor140()',function1:'disminuirValor140()',entrada: "valor-entrada140"},
+{nombre:'Guantes Latex Par',valor:suma141,idValor:'141',function:'agregarValor141()',function1:'disminuirValor141()',entrada: "valor-entrada141"},
+{nombre:'Hojas Bisturi Suavering/Paramount x Caja',valor:suma142,idValor:'142',function:'agregarValor142()',function1:'disminuirValor142()',entrada: "valor-entrada142"},
+{nombre:'Hojas Bisturi Suavering/Paramount x 1',valor:suma143,idValor:'143',function:'agregarValor143()',function1:'disminuirValor143()',entrada: "valor-entrada143"},
+{nombre:'Hojas Bisturi x Caja',valor:suma144,idValor:'144',function:'agregarValor144()',function1:'disminuirValor144()',entrada: "valor-entrada144"},
+{nombre:'Hojas Bisturi x Unidad',valor:suma145,idValor:'145',function:'agregarValor145()',function1:'disminuirValor145()',entrada: "valor-entrada145"},
+{nombre:'Pulverizadores Chicos',valor:suma146,idValor:'146',function:'agregarValor146()',function1:'disminuirValor146()',entrada: "valor-entrada146"},
+{nombre:'Pulverizadores Grandes',valor:suma147,idValor:'147',function:'agregarValor147()',function1:'disminuirValor147()',entrada: "valor-entrada147"},
+{nombre:'Toallas de Papel Caja x 10',valor:suma148,idValor:'148',function:'agregarValor148()',function1:'disminuirValor148()',entrada: "valor-entrada148"},
+{nombre:'Toallas de Papel x Unidad',valor:suma149,idValor:'149',function:'agregarValor149()',function1:'disminuirValor149()',entrada: "valor-entrada149"}
+ ]
+ var input = document.querySelector('#inputSearch');
+ var boton = document.querySelector('#boton');
+ var changeSearch = document.querySelector('#changeResult');
+ var filtrar = () => {
+     changeSearch.innerHTML = '';
+     var textoSearch = input.value.toLowerCase();
+     for(let producto of productos) {
+         let nombre = producto.nombre.toLowerCase();
+         let valorTotal = producto.valor
+         let id = producto.idValor
+         let func = producto.function
+         let func1 = producto.function1
+         let entry = producto.entrada
+         if(nombre.indexOf(textoSearch) !== -1) {
+             changeSearch.innerHTML += `<div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+             <div class="card-body" >
+              <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
+               <h5 class="text-center nombre" id="div-producto" value="ciclofusion">${nombre}</h5>
+             </div>
+             <div class="mt-3 mb-3 text-center" id="div-incomes">
+                  <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="${id}">${valorTotal}</li>
+                  </ul>
+                <hr class="m-3 mt-0">
+               <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="${func}">Ingreso</button>
+               <input type="number" class="input valor-entrada" id="${entry}">
+               <button href="#" class="btn btn-outline-danger m-1 mb-2 venta " id="venta" onclick="${func1}">Venta</button>
+             </div>
+           </div>` 
+         }
+     }}
+ boton.addEventListener('click',filtrar);
+ input.addEventListener('keyup',filtrar);

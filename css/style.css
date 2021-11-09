@@ -58,12 +58,12 @@
 } */
 #links {
     color: rgb(35, 34, 34);
-    font-weight: 350;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 #links:hover{
-    color: rgb(160, 8, 198) !important;
+    color: rgb(158, 27, 191) !important;
 }
 .ingreso,.venta {
     font-size: 0.82rem;

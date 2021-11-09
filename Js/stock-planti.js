@@ -826,3 +826,63 @@ function disminuirValor121 () {
         TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL121", JSON.stringify(suma1));
         localStorage.setItem("valores121", JSON.stringify(suma1)); } }
+
+const productos = [
+{nombre:'Arcos Latinos',valor:suma099,idValor:'099',function:'agregarValor099()',function1:'disminuirValor099()',entrada: "valor-entrada099"},
+{nombre:'Arcos N°0',valor:suma100,idValor:'100',function:'agregarValor100()',function1:'disminuirValor100()',entrada: "valor-entrada100"},
+{nombre:'Arcos N°1',valor:suma101,idValor:'101',function:'agregarValor101()',function1:'disminuirValor101()',entrada: "valor-entrada101"},
+{nombre:'Arcos N°2',valor:suma102,idValor:'102',function:'agregarValor102()',function1:'disminuirValor102()',entrada: "valor-entrada102"},
+{nombre:'Arcos N°3',valor:suma103,idValor:'103',function:'agregarValor103()',function1:'disminuirValor103()',entrada: "valor-entrada103"},
+{nombre:'Bisel Corcho 3mm x Metro',valor:suma104,idValor:'104',function:'agregarValor104()',function1:'disminuirValor104()',entrada: "valor-entrada104"},
+{nombre:'Espuma Fenolica',valor:suma105,idValor:'105',function:'agregarValor105()',function1:'disminuirValor105()',entrada: "valor-entrada105"},
+{nombre:'Goma Latex 3mm 28x63',valor:suma106,idValor:'106',function:'agregarValor106()',function1:'disminuirValor106()',entrada: "valor-entrada106"},
+{nombre:'Olivas N°0',valor:suma107,idValor:'107',function:'agregarValor107()',function1:'disminuirValor107()',entrada: "valor-entrada107"},
+{nombre:'Olivas N°1',valor:suma108,idValor:'108',function:'agregarValor108()',function1:'disminuirValor108()',entrada: "valor-entrada108"},
+{nombre:'Olivas N°2',valor:suma109,idValor:'109',function:'agregarValor109()',function1:'disminuirValor109()',entrada: "valor-entrada109"},
+{nombre:'Olivas N°3',valor:suma110,idValor:'110',function:'agregarValor110()',function1:'disminuirValor110()',entrada: "valor-entrada110"},
+{nombre:'Olivas N°4',valor:suma111,idValor:'111',function:'agregarValor111()',function1:'disminuirValor111()',entrada: "valor-entrada111"},
+{nombre:'Olivas N°5',valor:suma112,idValor:'112',function:'agregarValor112()',function1:'disminuirValor112()',entrada: "valor-entrada112"},
+{nombre:'Pedigrafos',valor:suma113,idValor:'113',function:'agregarValor113()',function1:'disminuirValor113()',entrada: "valor-entrada113"},
+{nombre:'Plastofoam Liso 2y3mm 30x90cm',valor:suma114,idValor:'114',function:'agregarValor114()',function1:'disminuirValor114()',entrada: "valor-entrada114"},
+{nombre:'Plastofoam Liso 30x140',valor:suma115,idValor:'115',function:'agregarValor115()',function1:'disminuirValor115()',entrada: "valor-entrada115"},
+{nombre:'Plastofoam Perforado 2y3mm 30x90cm',valor:suma116,idValor:'116',function:'agregarValor116()',function1:'disminuirValor116()',entrada: "valor-entrada116"},
+{nombre:'Talonera N°0',valor:suma117,idValor:'117',function:'agregarValor117()',function1:'disminuirValor117()',entrada: "valor-entrada117"},
+{nombre:'Talonera N°1',valor:suma118,idValor:'118',function:'agregarValor118()',function1:'disminuirValor118()',entrada: "valor-entrada118"},
+{nombre:'Talonera N°2',valor:suma119,idValor:'119',function:'agregarValor119()',function1:'disminuirValor119()',entrada: "valor-entrada119"},
+{nombre:'Venda Yeso Gedos 15cm',valor:suma120,idValor:'120',function:'agregarValor120()',function1:'disminuirValor120()',entrada: "valor-entrada120"},
+{nombre:'Filtro Grueso 8,5x13cm',valor:suma121,idValor:'121',function:'agregarValor121()',function1:'disminuirValor121()',entrada: "valor-entrada121"},
+     
+ ]
+ var input = document.querySelector('#inputSearch');
+ var boton = document.querySelector('#boton');
+ var changeSearch = document.querySelector('#changeResult');
+ var filtrar = () => {
+     changeSearch.innerHTML = '';
+     var textoSearch = input.value.toLowerCase();
+     for(let producto of productos) {
+         let nombre = producto.nombre.toLowerCase();
+         let valorTotal = producto.valor
+         let id = producto.idValor
+         let func = producto.function
+         let func1 = producto.function1
+         let entry = producto.entrada
+         if(nombre.indexOf(textoSearch) !== -1) {
+             changeSearch.innerHTML += `<div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+             <div class="card-body" >
+              <!-- <img src="/assets/cerogram-img.jpeg" class="card-img-top img-logo" alt="..."> -->
+               <h5 class="text-center nombre" id="div-producto" value="ciclofusion">${nombre}</h5>
+             </div>
+             <div class="mt-3 mb-3 text-center" id="div-incomes">
+                  <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="${id}">${valorTotal}</li>
+                  </ul>
+                <hr class="m-3 mt-0">
+               <button class="btn btn-outline-success m-1 mb-2 ingreso " id="ingreso" onclick="${func}">Ingreso</button>
+               <input type="number" class="input valor-entrada" id="${entry}">
+               <button href="#" class="btn btn-outline-danger m-1 mb-2 venta " id="venta" onclick="${func1}">Venta</button>
+             </div>
+           </div>` 
+         }
+     }}
+ boton.addEventListener('click',filtrar);
+ input.addEventListener('keyup',filtrar);
