@@ -1,0 +1,138 @@
+.navbar {
+    background-color:rgba(155, 37, 184, 0.777);
+    height: 5.8rem;
+}
+.LOFRATT {
+    font-size: 2.5rem;
+}
+.img-logo {
+    width: 8rem;
+    height: 6rem;
+    border-radius: 45%; 
+}
+.card-body {
+    height: 3.2rem !important;
+}
+.font-result {
+    color: rgb(237, 162, 237);
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 2px 2px rgb(228, 103, 228),
+                 1px 4px 4px rgb(203, 55, 203),
+                 1px 5px 6px rgb(128, 23, 128),
+                 2px 6px 7px rgb(8, 1, 8);
+}
+.input {
+    width: 4rem;
+    height: 1.8rem;
+}
+.input1 {
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.input2 {
+    width: 20rem;
+    height: 2.5rem;
+    padding: 1rem .75rem;
+    font-size: 1.2rem;
+    font-weight: 450;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 0.5px solid #8c8c8d;
+    border-radius: .25rem;
+}
+/* .btn-agg {
+    width: 12rem;
+    font-size: 1rem;
+    border: 1.5px solid violet;
+    color: rgb(5, 5, 5);
+}
+.btn-agg:hover {
+    background: rgb(221, 60, 221);
+} */
+#links {
+    color: rgb(35, 34, 34);
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#links:hover{
+    color: rgb(158, 27, 191) !important;
+}
+.ingreso,.venta {
+    font-size: 0.82rem;
+    width: 4.4rem;
+    height: 2rem;
+}
+#div-contenedor{
+    margin-bottom: 1.5rem !important;
+    border: 1px solid black;
+}
+#div-producto {
+    text-shadow: 1px 1.5px 2px rgb(189, 189, 189);
+}
+
+           /*////* GO - TOP *//*/////*/
+
+
+.go-top-container{
+    position: fixed;
+    bottom: 4rem;
+    right: 0rem;
+    width: 4rem;
+    height: 3rem;
+    z-index: -1;
+}
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
+    background:rgba(155, 37, 184, 0.777);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .6s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.go-top-button i{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    transition: .6;
+}
+.show{
+    z-index: 10;
+}
+.show .go-top-button{
+    animation: popup .6s ease-in-out;
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 11;
+}
+.show i{
+    transform: translate(-50%, -50%) scale(1);
+}
+@keyframes popup {
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 6rem;
+        height: 6rem;
+    }
+    100%{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}
