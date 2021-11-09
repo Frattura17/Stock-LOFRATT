@@ -3,7 +3,8 @@
     height: 5.8rem;
 }
 .LOFRATT {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    font-weight: 200;
 }
 .img-logo {
     width: 8rem;
@@ -134,5 +135,38 @@
     100%{
         width: 4.5rem;
         height: 4.5rem;
+    }
+}
+@media (max-width: 850px) {
+    .LOFRATT{
+        font-size: 2.1rem;
+    }
+    #links{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:650px) {
+    #links{
+        font-size: 0.95rem;
+    }
+}
+@media (max-width:530px) {
+    .input2{
+        width: 15rem;
+        font-size: 0.8rem;
+    }
+    .LOFRATT{
+        font-size: 1.6rem;
+    }
+    #links{
+        font-size: 0.75rem;
+    }
+}
+@media (max-width:420px) {
+    .LOFRATT{
+        font-size: 1.3rem;
+    }
+    #links{
+        font-size: 0.55rem;
     }
 }
