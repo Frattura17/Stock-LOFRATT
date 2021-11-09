@@ -1006,6 +1006,7 @@ function disminuirValor149 () {
         TOTAL_INCOME149 = document.getElementById('149').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL149", JSON.stringify(suma1));
         localStorage.setItem("valores149", JSON.stringify(suma1)); } }
+        
 
 const productos = [
 {nombre:'Alcohol Etilico 1L.',valor:suma122,idValor:'122',function:'agregarValor122()',function1:'disminuirValor122()',entrada: "valor-entrada122"},
