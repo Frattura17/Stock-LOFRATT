@@ -2,7 +2,7 @@ var INPUT_TOTAL_INCOME;
 var _arrayValues;
 var suma = JSON.parse(localStorage.getItem("TOTAL"));
 var TOTAL_INCOME = document.getElementById('000').innerHTML = `${suma}`;
-var arrayValues = JSON.parse(localStorage.getItem("valores")) || [];
+var arrayValues = JSON.parse(localStorage.getItem("TOTAL")) || [];
 var elem = document.getElementById('valor-entrada');
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
