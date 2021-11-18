@@ -17,7 +17,7 @@ function agregarValor () {
         localStorage.setItem("TOTAL", JSON.stringify(suma1));
         localStorage.setItem("valores", JSON.stringify(suma1));
     } else {
-        INPUT_TOTAL_INCOME = document.getElementById('valor-entrada').value;
+        INPUT_TOTAL_INCOME = document.getElementById('valor-entrada').value ;
         arrayValues = INPUT_TOTAL_INCOME;  // mandar al localStorage
         localStorage.setItem("valores", JSON.stringify(arrayValues));  // modificar total productos
         _arrayValues = JSON.parse(localStorage.getItem("valores"));
