@@ -8,7 +8,7 @@ elem.onkeyup = function(e){
     if(e.keyCode == 13){
         agregarValor();}}
 function agregarValor () {
-    if(arrayValues != ' ' && arrayValues > 0){
+    if(arrayValues != '' && arrayValues > 0){
         INPUT_TOTAL_INCOME = document.getElementById('valor-entrada').value;
         var arrayUnico = INPUT_TOTAL_INCOME;  //  llamar del localStorage
         _arrayValues = JSON.parse(localStorage.getItem("TOTAL"));  //  modificar
