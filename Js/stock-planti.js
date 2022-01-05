@@ -5,6 +5,10 @@ var arrayValues099 = JSON.parse(localStorage.getItem("valores099")) || [];
 var suma099 = JSON.parse(localStorage.getItem("TOTAL099"));
 var TOTAL_INCOME099 = document.getElementById('099').innerText = `${suma099}`;
 var elem = document.getElementById('valor-entrada099');
+var alert099 = JSON.parse(localStorage.getItem("TOTAL099"));
+if (alert099 < 6){
+    alert(` ! ALERTA !     ARCOS LATINOS     ${alert099} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor099();}}
 function agregarValor099 () {
@@ -41,6 +45,10 @@ var arrayValues100 = JSON.parse(localStorage.getItem("valores100")) || [];
 var suma100 = JSON.parse(localStorage.getItem("TOTAL100"));
 var TOTAL_INCOME100 = document.getElementById('100').innerText = `${suma100}`;
 var elem = document.getElementById('valor-entrada100');
+var alert100 = JSON.parse(localStorage.getItem("TOTAL100"));
+if (alert100 < 5){
+    alert(` ! ALERTA !     ARCOS N°0     ${alert100} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor100();}}
 function agregarValor100 () {
@@ -77,6 +85,10 @@ var arrayValues101 = JSON.parse(localStorage.getItem("valores101")) || [];
 var suma101 = JSON.parse(localStorage.getItem("TOTAL101"));
 var TOTAL_INCOME101 = document.getElementById('101').innerText = `${suma101}`;
 var elem = document.getElementById('valor-entrada101');
+var alert101 = JSON.parse(localStorage.getItem("TOTAL101"));
+if (alert101 < 5){
+    alert(` ! ALERTA !     ARCOS N°1     ${alert101} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor101();}}
 function agregarValor101 () {
@@ -113,6 +125,10 @@ var arrayValues102 = JSON.parse(localStorage.getItem("valores102")) || [];
 var suma102 = JSON.parse(localStorage.getItem("TOTAL102"));
 var TOTAL_INCOME102 = document.getElementById('102').innerText = `${suma102}`;
 var elem = document.getElementById('valor-entrada102');
+var alert102 = JSON.parse(localStorage.getItem("TOTAL102"));
+if (alert102 < 5){
+    alert(` ! ALERTA !     ARCOS N°2     ${alert102} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor102();}}
 function agregarValor102 () {
@@ -149,6 +165,10 @@ var arrayValues103 = JSON.parse(localStorage.getItem("valores103")) || [];
 var suma103 = JSON.parse(localStorage.getItem("TOTAL103"));
 var TOTAL_INCOME103 = document.getElementById('103').innerText = `${suma103}`;
 var elem = document.getElementById('valor-entrada103');
+var alert103 = JSON.parse(localStorage.getItem("TOTAL103"));
+if (alert103 < 5){
+    alert(` ! ALERTA !     ARCOS N°3     ${alert103} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor103();}}
 function agregarValor103 () {
@@ -185,6 +205,10 @@ var arrayValues104 = JSON.parse(localStorage.getItem("valores104")) || [];
 var suma104 = JSON.parse(localStorage.getItem("TOTAL104"));
 var TOTAL_INCOME104 = document.getElementById('104').innerText = `${suma104}`;
 var elem = document.getElementById('valor-entrada104');
+var alert104 = JSON.parse(localStorage.getItem("TOTAL104"));
+if (alert104 < 2){
+    alert(` ! ALERTA !     BISEL CORCHO 3MM X M.     ${alert104} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor104();}}
 function agregarValor104 () {
@@ -221,6 +245,10 @@ var arrayValues105 = JSON.parse(localStorage.getItem("valores105")) || [];
 var suma105 = JSON.parse(localStorage.getItem("TOTAL105"));
 var TOTAL_INCOME105 = document.getElementById('105').innerText = `${suma105}`;
 var elem = document.getElementById('valor-entrada105');
+var alert105 = JSON.parse(localStorage.getItem("TOTAL105"));
+if (alert105 < 2){
+    alert(` ! ALERTA !     ESPUMA FENOLICA     ${alert105} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor105();}}
 function agregarValor105 () {
@@ -257,6 +285,10 @@ var arrayValues106 = JSON.parse(localStorage.getItem("valores106")) || [];
 var suma106 = JSON.parse(localStorage.getItem("TOTAL106"));
 var TOTAL_INCOME106 = document.getElementById('106').innerText = `${suma106}`;
 var elem = document.getElementById('valor-entrada106');
+var alert106 = JSON.parse(localStorage.getItem("TOTAL106"));
+if (alert106 < 2){
+    alert(` ! ALERTA !     GOMA LATEX 3 MM 28X63     ${alert106} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor106();}}
 function agregarValor106 () {
@@ -293,6 +325,10 @@ var arrayValues107 = JSON.parse(localStorage.getItem("valores107")) || [];
 var suma107 = JSON.parse(localStorage.getItem("TOTAL107"));
 var TOTAL_INCOME107 = document.getElementById('107').innerText = `${suma107}`;
 var elem = document.getElementById('valor-entrada107');
+var alert107 = JSON.parse(localStorage.getItem("TOTAL107"));
+if (alert107 < 5){
+    alert(` ! ALERTA !     OLIVA N°0     ${alert107} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor107();}}
 function agregarValor107 () {
@@ -329,6 +365,10 @@ var arrayValues108 = JSON.parse(localStorage.getItem("valores108")) || [];
 var suma108 = JSON.parse(localStorage.getItem("TOTAL108"));
 var TOTAL_INCOME108 = document.getElementById('108').innerText = `${suma108}`;
 var elem = document.getElementById('valor-entrada108');
+var alert108 = JSON.parse(localStorage.getItem("TOTAL108"));
+if (alert108 < 5){
+    alert(` ! ALERTA !     OLIVA N°1     ${alert108} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor108();}}
 function agregarValor108 () {
@@ -365,6 +405,10 @@ var arrayValues109 = JSON.parse(localStorage.getItem("valores109")) || [];
 var suma109 = JSON.parse(localStorage.getItem("TOTAL109"));
 var TOTAL_INCOME109 = document.getElementById('109').innerText = `${suma109}`;
 var elem = document.getElementById('valor-entrada109');
+var alert109 = JSON.parse(localStorage.getItem("TOTAL109"));
+if (alert109 < 5){
+    alert(` ! ALERTA !     OLIVA N°2     ${alert109} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor109();}}
 function agregarValor109 () {
@@ -401,6 +445,10 @@ var arrayValues110 = JSON.parse(localStorage.getItem("valores110")) || [];
 var suma110 = JSON.parse(localStorage.getItem("TOTAL110"));
 var TOTAL_INCOME110 = document.getElementById('110').innerText = `${suma110}`;
 var elem = document.getElementById('valor-entrada110');
+var alert110 = JSON.parse(localStorage.getItem("TOTAL110"));
+if (alert110 < 5){
+    alert(` ! ALERTA !     OLIVA N°3     ${alert110} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor110();}}
 function agregarValor110 () {
@@ -437,6 +485,10 @@ var arrayValues111 = JSON.parse(localStorage.getItem("valores111")) || [];
 var suma111 = JSON.parse(localStorage.getItem("TOTAL111"));
 var TOTAL_INCOME111 = document.getElementById('111').innerText = `${suma111}`;
 var elem = document.getElementById('valor-entrada111');
+var alert111 = JSON.parse(localStorage.getItem("TOTAL111"));
+if (alert111 < 5){
+    alert(` ! ALERTA !     OLIVA N°4     ${alert111} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor111();}}
 function agregarValor111 () {
@@ -473,6 +525,10 @@ var arrayValues112 = JSON.parse(localStorage.getItem("valores112")) || [];
 var suma112 = JSON.parse(localStorage.getItem("TOTAL112"));
 var TOTAL_INCOME112 = document.getElementById('112').innerText = `${suma112}`;
 var elem = document.getElementById('valor-entrada112');
+var alert112 = JSON.parse(localStorage.getItem("TOTAL112"));
+if (alert112 < 5){
+    alert(` ! ALERTA !     OLIVA N°5     ${alert112} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor112();}}
 function agregarValor112 () {
@@ -509,6 +565,10 @@ var arrayValues113 = JSON.parse(localStorage.getItem("valores113")) || [];
 var suma113 = JSON.parse(localStorage.getItem("TOTAL113"));
 var TOTAL_INCOME113 = document.getElementById('113').innerText = `${suma113}`;
 var elem = document.getElementById('valor-entrada113');
+var alert113 = JSON.parse(localStorage.getItem("TOTAL113"));
+if (alert113 < 2){
+    alert(` ! ALERTA !     PEDIGRAFOS     ${alert113} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor113();}}
 function agregarValor113 () {
@@ -545,6 +605,10 @@ var arrayValues114 = JSON.parse(localStorage.getItem("valores114")) || [];
 var suma114 = JSON.parse(localStorage.getItem("TOTAL114"));
 var TOTAL_INCOME114 = document.getElementById('114').innerText = `${suma114}`;
 var elem = document.getElementById('valor-entrada114');
+var alert114 = JSON.parse(localStorage.getItem("TOTAL114"));
+if (alert114 < 2){
+    alert(` ! ALERTA !     PLASTOFOAM LISO 2 Y 3 MM 30X90    ${alert114} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor114();}}
 function agregarValor114 () {
@@ -581,6 +645,10 @@ var arrayValues115 = JSON.parse(localStorage.getItem("valores115")) || [];
 var suma115 = JSON.parse(localStorage.getItem("TOTAL115"));
 var TOTAL_INCOME115 = document.getElementById('115').innerText = `${suma115}`;
 var elem = document.getElementById('valor-entrada115');
+var alert115 = JSON.parse(localStorage.getItem("TOTAL115"));
+if (alert115 < 2){
+    alert(` ! ALERTA !     PLASTOFOAM LISO 2 Y 3 MM 30X140     ${alert115} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor115();}}
 function agregarValor115 () {
@@ -617,6 +685,10 @@ var arrayValues116 = JSON.parse(localStorage.getItem("valores116")) || [];
 var suma116 = JSON.parse(localStorage.getItem("TOTAL116"));
 var TOTAL_INCOME116 = document.getElementById('116').innerText = `${suma116}`;
 var elem = document.getElementById('valor-entrada116');
+var alert116 = JSON.parse(localStorage.getItem("TOTAL116"));
+if (alert116 < 2){
+    alert(` ! ALERTA !     PLASTOFOAM PERFORADO 2 Y 3 MM 30X90     ${alert116} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor116();}}
 function agregarValor116 () {
@@ -653,6 +725,10 @@ var arrayValues117 = JSON.parse(localStorage.getItem("valores117")) || [];
 var suma117 = JSON.parse(localStorage.getItem("TOTAL117"));
 var TOTAL_INCOME117 = document.getElementById('117').innerText = `${suma117}`;
 var elem = document.getElementById('valor-entrada117');
+var alert117 = JSON.parse(localStorage.getItem("TOTAL117"));
+if (alert117 < 2){
+    alert(` ! ALERTA !     TALONERA N°0     ${alert117} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor117();}}
 function agregarValor117 () {
@@ -689,6 +765,10 @@ var arrayValues118 = JSON.parse(localStorage.getItem("valores118")) || [];
 var suma118 = JSON.parse(localStorage.getItem("TOTAL118"));
 var TOTAL_INCOME118 = document.getElementById('118').innerText = `${suma118}`;
 var elem = document.getElementById('valor-entrada118');
+var alert118 = JSON.parse(localStorage.getItem("TOTAL118"));
+if (alert118 < 2){
+    alert(` ! ALERTA !     TALONERA N°1     ${alert118} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor118();}}
 function agregarValor118 () {
@@ -725,6 +805,10 @@ var arrayValues119 = JSON.parse(localStorage.getItem("valores119")) || [];
 var suma119 = JSON.parse(localStorage.getItem("TOTAL119"));
 var TOTAL_INCOME119 = document.getElementById('119').innerText = `${suma119}`;
 var elem = document.getElementById('valor-entrada119');
+var alert119 = JSON.parse(localStorage.getItem("TOTAL119"));
+if (alert119 < 2){
+    alert(` ! ALERTA !     TALONERA N°2     ${alert119} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor119();}}
 function agregarValor119 () {
@@ -761,6 +845,10 @@ var arrayValues120 = JSON.parse(localStorage.getItem("valores120")) || [];
 var suma120 = JSON.parse(localStorage.getItem("TOTAL120"));
 var TOTAL_INCOME120 = document.getElementById('120').innerText = `${suma120}`;
 var elem = document.getElementById('valor-entrada120');
+var alert120 = JSON.parse(localStorage.getItem("TOTAL120"));
+if (alert120 < 2){
+    alert(` ! ALERTA !     VENDA DE YESO GEDOS 15CM     ${alert120} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor120();}}
 function agregarValor120 () {
@@ -797,6 +885,10 @@ var arrayValues121 = JSON.parse(localStorage.getItem("valores121")) || [];
 var suma121 = JSON.parse(localStorage.getItem("TOTAL121"));
 var TOTAL_INCOME121 = document.getElementById('121').innerText = `${suma121}`;
 var elem = document.getElementById('valor-entrada121');
+var alert121 = JSON.parse(localStorage.getItem("TOTAL121"));
+if (alert121 < 2){
+    alert(` ! ALERTA !     FILTRO GRUESO 8,5 X 13CM     ${alert121} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor121();}}
 function agregarValor121 () {

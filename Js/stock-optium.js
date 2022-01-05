@@ -4,11 +4,15 @@ var suma = JSON.parse(localStorage.getItem("TOTAL"));
 var TOTAL_INCOME = document.getElementById('000').innerHTML = `${suma}`;
 var arrayValues = JSON.parse(localStorage.getItem("TOTAL")) || [];
 var elem = document.getElementById('valor-entrada');
+var alert000 = JSON.parse(localStorage.getItem("TOTAL"));
+if (alert000 < 13){
+    alert(` ! ALERTA !   CERO GRAMM 1000 ML.  ${alert000} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
         agregarValor();}}
 function agregarValor () {
-    if(arrayValues != '' && arrayValues > 0){
+    if(arrayValues != '' && arrayValues > 0){ 
         INPUT_TOTAL_INCOME = document.getElementById('valor-entrada').value;
         var arrayUnico = INPUT_TOTAL_INCOME;  //  llamar del localStorage
         _arrayValues = JSON.parse(localStorage.getItem("TOTAL"));  //  modificar
@@ -41,6 +45,10 @@ var arrayValues001 = JSON.parse(localStorage.getItem("valores001")) || [];
 var suma001 = JSON.parse(localStorage.getItem("TOTAL001"));
 var TOTAL_INCOME001 = document.getElementById('001').innerText = `${suma001}`;
 var elem = document.getElementById('valor-entrada001');
+var alert001 = JSON.parse(localStorage.getItem("TOTAL001"));
+if (alert001 < 5){
+    alert(` ! ALERTA !   CERO GRAMM 500 ML.  ${alert001} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor001();}}
@@ -78,6 +86,10 @@ var arrayValues002 = JSON.parse(localStorage.getItem("valores002")) || [];
 var suma002 = JSON.parse(localStorage.getItem("TOTAL002"));
 var TOTAL_INCOME002 = document.getElementById('002').innerText = `${suma002}`;
 var elem = document.getElementById('valor-entrada002');
+var alert002 = JSON.parse(localStorage.getItem("TOTAL002"));
+if (alert002 < 5){
+    alert(` ! ALERTA !   CERO GRAMM 250 ML.  ${alert002} UNIDADES`);
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor002();}}
@@ -115,6 +127,10 @@ var arrayValues003 = JSON.parse(localStorage.getItem("valores003")) || [];
 var suma003 = JSON.parse(localStorage.getItem("TOTAL003"));
 var TOTAL_INCOME003 = document.getElementById('003').innerText = `${suma003}`;
 var elem = document.getElementById('valor-entrada003');
+var alert003 = JSON.parse(localStorage.getItem("TOTAL003"));
+if (alert003 < 13){
+    alert(` ! ALERTA !  CERO BAC FORTE CHICA   ${alert003} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor003();}}
@@ -152,6 +168,10 @@ var arrayValues004 = JSON.parse(localStorage.getItem("valores004")) || [];
 var suma004 = JSON.parse(localStorage.getItem("TOTAL004"));
 var TOTAL_INCOME004 = document.getElementById('004').innerText = `${suma004}`;
 var elem = document.getElementById('valor-entrada004');
+var alert004 = JSON.parse(localStorage.getItem("TOTAL004"));
+if (alert004 < 13){
+    alert(` ! ALERTA !  CERO BAC FORTE GRANDE   ${alert004} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor004();}}
@@ -189,6 +209,10 @@ var arrayValues005 = JSON.parse(localStorage.getItem("valores005")) || [];
 var suma005 = JSON.parse(localStorage.getItem("TOTAL005"));
 var TOTAL_INCOME005 = document.getElementById('005').innerText = `${suma005}`;
 var elem = document.getElementById('valor-entrada005');
+var alert005 = JSON.parse(localStorage.getItem("TOTAL005"));
+if (alert005 < 11){
+    alert(` ! ALERTA !  CICLOFUSION CHICO   ${alert005} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor005();}}
@@ -226,6 +250,10 @@ var arrayValues006 = JSON.parse(localStorage.getItem("valores006")) || [];
 var suma006 = JSON.parse(localStorage.getItem("TOTAL006"));
 var TOTAL_INCOME006 = document.getElementById('006').innerText = `${suma006}`;
 var elem = document.getElementById('valor-entrada006');
+var alert006 = JSON.parse(localStorage.getItem("TOTAL006"));
+if (alert006 < 15){
+    alert(` ! ALERTA !  CICLOFUSION GRANDE   ${alert006} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor006();}}
@@ -263,6 +291,10 @@ var arrayValues007 = JSON.parse(localStorage.getItem("valores007")) || [];
 var suma007 = JSON.parse(localStorage.getItem("TOTAL007"));
 var TOTAL_INCOME007 = document.getElementById('007').innerText = `${suma007}`;
 var elem = document.getElementById('valor-entrada007');
+var alert007 = JSON.parse(localStorage.getItem("TOTAL007"));
+if (alert007 < 5){
+    alert(` ! ALERTA !  CUARZO FINO   ${alert007} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor007();}}
@@ -300,6 +332,10 @@ var arrayValues008 = JSON.parse(localStorage.getItem("valores008")) || [];
 var suma008 = JSON.parse(localStorage.getItem("TOTAL008"));
 var TOTAL_INCOME008 = document.getElementById('008').innerText = `${suma008}`;
 var elem = document.getElementById('valor-entrada008');
+var alert008 = JSON.parse(localStorage.getItem("TOTAL008"));
+if (alert008 < 15){
+    alert(` ! ALERTA !   DESBRIK GRANDE   ${alert008} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor008();}}
@@ -337,6 +373,10 @@ var arrayValues009 = JSON.parse(localStorage.getItem("valores009")) || [];
 var suma009 = JSON.parse(localStorage.getItem("TOTAL009"));
 var TOTAL_INCOME009 = document.getElementById('009').innerText = `${suma009}`;
 var elem = document.getElementById('valor-entrada009');
+var alert009 = JSON.parse(localStorage.getItem("TOTAL009"));
+if (alert009 < 11){
+    alert(` ! ALERTA !   DESBRIK CHICO   ${alert009} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor009();}}
@@ -374,6 +414,10 @@ var arrayValues010 = JSON.parse(localStorage.getItem("valores010")) || [];
 var suma010 = JSON.parse(localStorage.getItem("TOTAL010"));
 var TOTAL_INCOME010 = document.getElementById('010').innerText = `${suma010}`;
 var elem = document.getElementById('valor-entrada010');
+var alert010 = JSON.parse(localStorage.getItem("TOTAL010"));
+if (alert010 < 9){
+    alert(` ! ALERTA !   DEPORT PLUS   ${alert010} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor010();}}
@@ -411,6 +455,10 @@ var arrayValues011 = JSON.parse(localStorage.getItem("valores011")) || [];
 var suma011 = JSON.parse(localStorage.getItem("TOTAL011"));
 var TOTAL_INCOME011 = document.getElementById('011').innerText = `${suma011}`;
 var elem = document.getElementById('valor-entrada011');
+var alert011 = JSON.parse(localStorage.getItem("TOTAL011"));
+if (alert011 < 13){
+    alert(` ! ALERTA !   EMI BLATT F-10   ${alert011} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor011();}}
@@ -448,6 +496,10 @@ var arrayValues012 = JSON.parse(localStorage.getItem("valores012")) || [];
 var suma012 = JSON.parse(localStorage.getItem("TOTAL012"));
 var TOTAL_INCOME012 = document.getElementById('012').innerText = `${suma012}`;
 var elem = document.getElementById('valor-entrada012');
+var alert012 = JSON.parse(localStorage.getItem("TOTAL012"));
+if (alert012 < 11){
+    alert(` ! ALERTA !   EPIDERMAX GRANDE   ${alert012} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor012();}}
@@ -485,6 +537,10 @@ var arrayValues013 = JSON.parse(localStorage.getItem("valores013")) || [];
 var suma013 = JSON.parse(localStorage.getItem("TOTAL013"));
 var TOTAL_INCOME013 = document.getElementById('013').innerText = `${suma013}`;
 var elem = document.getElementById('valor-entrada013');
+var alert013 = JSON.parse(localStorage.getItem("TOTAL013"));
+if (alert013 < 13){
+    alert(` ! ALERTA !   EPIDERBLAN 1000 ML.  ${alert013} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor013();}}
@@ -522,6 +578,10 @@ var arrayValues014 = JSON.parse(localStorage.getItem("valores014")) || [];
 var suma014 = JSON.parse(localStorage.getItem("TOTAL014"));
 var TOTAL_INCOME014 = document.getElementById('014').innerText = `${suma014}`;
 var elem = document.getElementById('valor-entrada014');
+var alert014 = JSON.parse(localStorage.getItem("TOTAL014"));
+if (alert014 < 8 ){
+    alert(` ! ALERTA !   EPIDERBLAN 500 ML.   ${alert014} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor014();}}
@@ -559,6 +619,10 @@ var arrayValues015 = JSON.parse(localStorage.getItem("valores015")) || [];
 var suma015 = JSON.parse(localStorage.getItem("TOTAL015"));
 var TOTAL_INCOME015 = document.getElementById('015').innerText = `${suma015}`;
 var elem = document.getElementById('valor-entrada015');
+var alert015 = JSON.parse(localStorage.getItem("TOTAL015"));
+if (alert015 < 6 ){
+    alert(` ! ALERTA !   EPIDERBLAN 250 ML.   ${alert015} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor015();}}
@@ -596,6 +660,10 @@ var arrayValues016 = JSON.parse(localStorage.getItem("valores016")) || [];
 var suma016 = JSON.parse(localStorage.getItem("TOTAL016"));
 var TOTAL_INCOME016 = document.getElementById('016').innerText = `${suma016}`;
 var elem = document.getElementById('valor-entrada016');
+var alert016 = JSON.parse(localStorage.getItem("TOTAL016"));
+if (alert016 < 7 ){
+    alert(` ! ALERTA !   FUNG TALK AEROSOL   ${alert016} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor016();}}
@@ -633,6 +701,10 @@ var arrayValues017 = JSON.parse(localStorage.getItem("valores017")) || [];
 var suma017 = JSON.parse(localStorage.getItem("TOTAL017"));
 var TOTAL_INCOME017 = document.getElementById('017').innerText = `${suma017}`;
 var elem = document.getElementById('valor-entrada017');
+var alert017 = JSON.parse(localStorage.getItem("TOTAL017"));
+if (alert017 < 7 ){
+    alert(` ! ALERTA !   FUNG TALK POLVO   ${alert017} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor017();}}
@@ -670,6 +742,10 @@ var arrayValues018 = JSON.parse(localStorage.getItem("valores018")) || [];
 var suma018 = JSON.parse(localStorage.getItem("TOTAL018"));
 var TOTAL_INCOME018 = document.getElementById('018').innerText = `${suma018}`;
 var elem = document.getElementById('valor-entrada018');
+var alert018 = JSON.parse(localStorage.getItem("TOTAL018"));
+if (alert018 < 11 ){
+    alert(` ! ALERTA !   HUMELASTIC 250 GR.   ${alert018} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor018();}}
@@ -707,6 +783,10 @@ var arrayValues019 = JSON.parse(localStorage.getItem("valores019")) || [];
 var suma019 = JSON.parse(localStorage.getItem("TOTAL019"));
 var TOTAL_INCOME019 = document.getElementById('019').innerText = `${suma019}`;
 var elem = document.getElementById('valor-entrada019');
+var alert019 = JSON.parse(localStorage.getItem("TOTAL019"));
+if (alert019 < 11 ){
+    alert(` ! ALERTA !   HUMELASTIC 60 GR.   ${alert019} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor019();}}
@@ -744,6 +824,10 @@ var arrayValues020 = JSON.parse(localStorage.getItem("valores020")) || [];
 var suma020 = JSON.parse(localStorage.getItem("TOTAL020"));
 var TOTAL_INCOME020 = document.getElementById('020').innerText = `${suma020}`;
 var elem = document.getElementById('valor-entrada020');
+var alert020 = JSON.parse(localStorage.getItem("TOTAL020"));
+if (alert020 < 7 ){
+    alert(` ! ALERTA !   INTER POLTAC    ${alert020} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor020();}}
@@ -781,6 +865,10 @@ var arrayValues021 = JSON.parse(localStorage.getItem("valores021")) || [];
 var suma021 = JSON.parse(localStorage.getItem("TOTAL021"));
 var TOTAL_INCOME021 = document.getElementById('021').innerText = `${suma021}`;
 var elem = document.getElementById('valor-entrada021');
+var alert021 = JSON.parse(localStorage.getItem("TOTAL021"));
+if (alert021 < 13){
+    alert(` ! ALERTA !   LOCIDER 1000 ML.  ${alert021} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor021();}}
@@ -818,6 +906,10 @@ var arrayValues022 = JSON.parse(localStorage.getItem("valores022")) || [];
 var suma022 = JSON.parse(localStorage.getItem("TOTAL022"));
 var TOTAL_INCOME022 = document.getElementById('022').innerText = `${suma022}`;
 var elem = document.getElementById('valor-entrada022');
+var alert022 = JSON.parse(localStorage.getItem("TOTAL022"));
+if (alert022 < 7){
+    alert(` ! ALERTA !   LOCIDER 500 ML.  ${alert022} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor022();}}
@@ -855,6 +947,10 @@ var arrayValues023 = JSON.parse(localStorage.getItem("valores023")) || [];
 var suma023 = JSON.parse(localStorage.getItem("TOTAL023"));
 var TOTAL_INCOME023 = document.getElementById('023').innerText = `${suma023}`;
 var elem = document.getElementById('valor-entrada023');
+var alert023 = JSON.parse(localStorage.getItem("TOTAL023"));
+if (alert023 < 6){
+    alert(` ! ALERTA !   LOCIDER 250 ML.  ${alert023} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor023();}}
@@ -892,6 +988,10 @@ var arrayValues024 = JSON.parse(localStorage.getItem("valores024")) || [];
 var suma024 = JSON.parse(localStorage.getItem("TOTAL024"));
 var TOTAL_INCOME024 = document.getElementById('024').innerText = `${suma024}`;
 var elem = document.getElementById('valor-entrada024');
+var alert024 = JSON.parse(localStorage.getItem("TOTAL024"));
+if (alert024 < 6){
+    alert(` ! ALERTA !   MONOMERO  ${alert024} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor024();}}
@@ -929,6 +1029,10 @@ var arrayValues025 = JSON.parse(localStorage.getItem("valores025")) || [];
 var suma025 = JSON.parse(localStorage.getItem("TOTAL025"));
 var TOTAL_INCOME025 = document.getElementById('025').innerText = `${suma025}`;
 var elem = document.getElementById('valor-entrada025');
+var alert025 = JSON.parse(localStorage.getItem("TOTAL025"));
+if (alert025 < 6){
+    alert(` ! ALERTA !   OLEO FORTALECEDOR   ${alert025} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor025();}}
@@ -966,6 +1070,10 @@ var arrayValues026 = JSON.parse(localStorage.getItem("valores026")) || [];
 var suma026 = JSON.parse(localStorage.getItem("TOTAL026"));
 var TOTAL_INCOME026 = document.getElementById('026').innerText = `${suma026}`;
 var elem = document.getElementById('valor-entrada026');
+var alert026 = JSON.parse(localStorage.getItem("TOTAL026"));
+if (alert026 < 3){
+    alert(` ! ALERTA !   PASTA PAE KIT   ${alert026} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor026();}}
@@ -1003,6 +1111,10 @@ var arrayValues027 = JSON.parse(localStorage.getItem("valores027")) || [];
 var suma027 = JSON.parse(localStorage.getItem("TOTAL027"));
 var TOTAL_INCOME027 = document.getElementById('027').innerText = `${suma027}`;
 var elem = document.getElementById('valor-entrada027');
+var alert027 = JSON.parse(localStorage.getItem("TOTAL027"));
+if (alert027 < 5){
+    alert(` ! ALERTA !   PASTA PAE REPUESTO   ${alert027} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor027();}}
@@ -1040,6 +1152,10 @@ var arrayValues028 = JSON.parse(localStorage.getItem("valores028")) || [];
 var suma028 = JSON.parse(localStorage.getItem("TOTAL028"));
 var TOTAL_INCOME028 = document.getElementById('028').innerText = `${suma028}`;
 var elem = document.getElementById('valor-entrada028');
+var alert028 = JSON.parse(localStorage.getItem("TOTAL028"));
+if (alert028 < 4){
+    alert(` ! ALERTA !   PASTA IODOFORMADA   ${alert028} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor028();}}
@@ -1077,6 +1193,10 @@ var arrayValues029 = JSON.parse(localStorage.getItem("valores029")) || [];
 var suma029 = JSON.parse(localStorage.getItem("TOTAL029"));
 var TOTAL_INCOME029 = document.getElementById('029').innerText = `${suma029}`;
 var elem = document.getElementById('valor-entrada029');
+var alert029 = JSON.parse(localStorage.getItem("TOTAL029"));
+if (alert029 < 6){
+    alert(` ! ALERTA !   POLIMERO ACRIL SPEIN   ${alert029} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor029();}}
@@ -1115,6 +1235,10 @@ var arrayValues030 = JSON.parse(localStorage.getItem("valores030")) || [];
 var suma030 = JSON.parse(localStorage.getItem("TOTAL030"));
 var TOTAL_INCOME030 = document.getElementById('030').innerText = `${suma030}`;
 var elem = document.getElementById('valor-entrada030');
+var alert030 = JSON.parse(localStorage.getItem("TOTAL030"));
+if (alert030 < 9){
+    alert(` ! ALERTA !   POLIMERO EGEO   ${alert030} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor030();}}
@@ -1152,6 +1276,10 @@ var arrayValues031 = JSON.parse(localStorage.getItem("valores031")) || [];
 var suma031 = JSON.parse(localStorage.getItem("TOTAL031"));
 var TOTAL_INCOME031 = document.getElementById('031').innerText = `${suma031}`;
 var elem = document.getElementById('valor-entrada031');
+var alert031 = JSON.parse(localStorage.getItem("TOTAL031"));
+if (alert031 < 5){
+    alert(` ! ALERTA !   POLSEC 4 GR.   ${alert031} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor031();}}
@@ -1183,42 +1311,7 @@ function disminuirValor031 () {
         localStorage.setItem("TOTAL031", JSON.stringify(suma1));
         localStorage.setItem("valores031", JSON.stringify(suma1)); } }
 // 33
-var INPUT_TOTAL_INCOME032;
-var _arrayValues032;
-var arrayValues032 = JSON.parse(localStorage.getItem("valores032")) || [];
-var suma032 = JSON.parse(localStorage.getItem("TOTAL032"));
-var TOTAL_INCOME032 = document.getElementById('032').innerText = `${suma032}`;
-var elem = document.getElementById('valor-entrada032');
-elem.onkeyup = function(e){
-    if(e.keyCode == 13){
-agregarValor032();}}
-function agregarValor032 () {
-    if(arrayValues032 != ' ' && arrayValues032 > 0){
-        INPUT_TOTAL_INCOME032 = document.getElementById('valor-entrada032').value;
-        var arrayUnico = INPUT_TOTAL_INCOME032;  //  llamar del localStorage
-        _arrayValues032 = JSON.parse(localStorage.getItem("TOTAL032"));  //  modificar
-        let suma1 = parseInt(_arrayValues032) + parseInt(arrayUnico) ;
-        TOTAL_INCOME032 = document.getElementById('032').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL032", JSON.stringify(suma1));
-        localStorage.setItem("valores032", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME032 = document.getElementById('valor-entrada032').value;
-        arrayValues032 = INPUT_TOTAL_INCOME032;  // mandar al localStorage
-        localStorage.setItem("valores032", JSON.stringify(arrayValues032));  // modificar total productos
-        _arrayValues032 = JSON.parse(localStorage.getItem("valores032"));
-        TOTAL_INCOME032 = document.getElementById('032').innerText = `${arrayValues032}` // mandar al localStorage
-         localStorage.setItem("TOTAL032", JSON.stringify(INPUT_TOTAL_INCOME032));  }   }
-function disminuirValor032 () {
-    _arrayValues032 = JSON.parse(localStorage.getItem("TOTAL032"));
-    suma032 = _arrayValues032;
-    if(arrayValues032 != ' ' && arrayValues032 > 0){
-        INPUT_TOTAL_INCOME032 = document.getElementById('valor-entrada032').value;
-        var arrayUnico = INPUT_TOTAL_INCOME032;  //  llamar del localStorage
-        _arrayValues032 = JSON.parse(localStorage.getItem("TOTAL032"));  //  modificar
-        let suma1 = parseInt(_arrayValues032) - parseInt(arrayUnico) ;
-        TOTAL_INCOME032 = document.getElementById('032').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL032", JSON.stringify(suma1));
-        localStorage.setItem("valores032", JSON.stringify(suma1)); } }
+
 // 34
 var INPUT_TOTAL_INCOME033;
 var _arrayValues033;
@@ -1226,6 +1319,10 @@ var arrayValues033 = JSON.parse(localStorage.getItem("valores033")) || [];
 var suma033 = JSON.parse(localStorage.getItem("TOTAL033"));
 var TOTAL_INCOME033 = document.getElementById('033').innerText = `${suma033}`;
 var elem = document.getElementById('valor-entrada033');
+var alert033 = JSON.parse(localStorage.getItem("TOTAL033"));
+if (alert033 < 2){
+    alert(` ! ALERTA !   PROTECTOR DERMICO SKIN   ${alert033} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor033();}}
@@ -1263,6 +1360,10 @@ var arrayValues034 = JSON.parse(localStorage.getItem("valores034")) || [];
 var suma034 = JSON.parse(localStorage.getItem("TOTAL034"));
 var TOTAL_INCOME034 = document.getElementById('034').innerText = `${suma034}`;
 var elem = document.getElementById('valor-entrada034');
+var alert034 = JSON.parse(localStorage.getItem("TOTAL034"));
+if (alert034 < 9){
+    alert(` ! ALERTA !   PROTEDER PLUS CHICA   ${alert034} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor034();}}
@@ -1300,6 +1401,10 @@ var arrayValues035 = JSON.parse(localStorage.getItem("valores035")) || [];
 var suma035 = JSON.parse(localStorage.getItem("TOTAL035"));
 var TOTAL_INCOME035 = document.getElementById('035').innerText = `${suma035}`;
 var elem = document.getElementById('valor-entrada035');
+var alert035 = JSON.parse(localStorage.getItem("TOTAL035"));
+if (alert035 < 9){
+    alert(` ! ALERTA !   PROTEDER PLUS GRANDE   ${alert035} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor035();}}
@@ -1337,6 +1442,10 @@ var arrayValues036 = JSON.parse(localStorage.getItem("valores036")) || [];
 var suma036 = JSON.parse(localStorage.getItem("TOTAL036"));
 var TOTAL_INCOME036 = document.getElementById('036').innerText = `${suma036}`;
 var elem = document.getElementById('valor-entrada036');
+var alert036 = JSON.parse(localStorage.getItem("TOTAL036"));
+if (alert036 < 13){
+    alert(` ! ALERTA !   RS-15 GRANDE   ${alert036} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor036();}}
@@ -1374,6 +1483,10 @@ var arrayValues037 = JSON.parse(localStorage.getItem("valores037")) || [];
 var suma037 = JSON.parse(localStorage.getItem("TOTAL037"));
 var TOTAL_INCOME037 = document.getElementById('037').innerText = `${suma037}`;
 var elem = document.getElementById('valor-entrada037');
+var alert037 = JSON.parse(localStorage.getItem("TOTAL037"));
+if (alert037 < 11){
+    alert(` ! ALERTA !   RS-15 CHICO   ${alert037} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor037();}}
@@ -1405,42 +1518,7 @@ function disminuirValor037 () {
         localStorage.setItem("TOTAL037", JSON.stringify(suma1));
         localStorage.setItem("valores037", JSON.stringify(suma1)); } }
 // 39
-var INPUT_TOTAL_INCOME038;
-var _arrayValues038;
-var arrayValues038 = JSON.parse(localStorage.getItem("valores038")) || [];
-var suma038 = JSON.parse(localStorage.getItem("TOTAL038"));
-var TOTAL_INCOME038 = document.getElementById('038').innerText = `${suma038}`;
-var elem = document.getElementById('valor-entrada038');
-elem.onkeyup = function(e){
-    if(e.keyCode == 13){
-agregarValor038();}}
-function agregarValor038 () {
-    if(arrayValues038 != ' ' && arrayValues038 > 0){
-        INPUT_TOTAL_INCOME038 = document.getElementById('valor-entrada038').value;
-        var arrayUnico = INPUT_TOTAL_INCOME038;  //  llamar del localStorage
-        _arrayValues038 = JSON.parse(localStorage.getItem("TOTAL038"));  //  modificar
-        let suma1 = parseInt(_arrayValues038) + parseInt(arrayUnico) ;
-        TOTAL_INCOME038 = document.getElementById('038').innerText = `${suma1}`;  // mandar al localStorage
-        localStorage.setItem("TOTAL038", JSON.stringify(suma1));
-        localStorage.setItem("valores038", JSON.stringify(suma1));
-    } else {
-        INPUT_TOTAL_INCOME038 = document.getElementById('valor-entrada038').value;
-        arrayValues038 = INPUT_TOTAL_INCOME038;  // mandar al localStorage
-        localStorage.setItem("valores038", JSON.stringify(arrayValues038));  // modificar total productos
-        _arrayValues038 = JSON.parse(localStorage.getItem("valores038"));
-        TOTAL_INCOME038 = document.getElementById('038').innerText = `${arrayValues038}` // mandar al localStorage
-         localStorage.setItem("TOTAL038", JSON.stringify(INPUT_TOTAL_INCOME038));  }   }
-function disminuirValor038 () {
-    _arrayValues038 = JSON.parse(localStorage.getItem("TOTAL038"));
-    suma038 = _arrayValues038;
-    if(arrayValues038 != ' ' && arrayValues038 > 0){
-        INPUT_TOTAL_INCOME038 = document.getElementById('valor-entrada038').value;
-        var arrayUnico = INPUT_TOTAL_INCOME038;  //  llamar del localStorage
-        _arrayValues038 = JSON.parse(localStorage.getItem("TOTAL038"));  //  modificar
-        let suma1 = parseInt(_arrayValues038) - parseInt(arrayUnico) ;
-        TOTAL_INCOME038 = document.getElementById('038').innerText = `${suma1}`  // mandar al localStorage
-        localStorage.setItem("TOTAL038", JSON.stringify(suma1));
-        localStorage.setItem("valores038", JSON.stringify(suma1)); } }
+
 // 40
 var INPUT_TOTAL_INCOME039;
 var _arrayValues039;
@@ -1448,6 +1526,10 @@ var arrayValues039 = JSON.parse(localStorage.getItem("valores039")) || [];
 var suma039 = JSON.parse(localStorage.getItem("TOTAL039"));
 var TOTAL_INCOME039 = document.getElementById('039').innerText = `${suma039}`;
 var elem = document.getElementById('valor-entrada039');
+var alert039 = JSON.parse(localStorage.getItem("TOTAL039"));
+if (alert039 < 6){
+    alert(` ! ALERTA !   CREMA SUAVE PIE 60 GR.   ${alert039} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor039();}}
@@ -1485,6 +1567,10 @@ var arrayValues040 = JSON.parse(localStorage.getItem("valores040")) || [];
 var suma040 = JSON.parse(localStorage.getItem("TOTAL040"));
 var TOTAL_INCOME040 = document.getElementById('040').innerText = `${suma040}`;
 var elem = document.getElementById('valor-entrada040');
+var alert040 = JSON.parse(localStorage.getItem("TOTAL040"));
+if (alert040 < 6){
+    alert(` ! ALERTA !   CREMA SUAVE PIE 100 GR.   ${alert040} UNIDADES`)
+}
 elem.onkeyup = function(e){
     if(e.keyCode == 13){
 agregarValor040();}}
@@ -1522,6 +1608,10 @@ var arrayValues041 = JSON.parse(localStorage.getItem("valores041")) || [];
 var suma041 = JSON.parse(localStorage.getItem("TOTAL041"));
 var TOTAL_INCOME041 = document.getElementById('041').innerHTML = `${suma041}`
 var elem = document.getElementById('valor-entrada041');
+var alert041 = JSON.parse(localStorage.getItem("TOTAL041"));
+if (alert041 < 6){
+    alert(` ! ALERTA !   CREMA SUAVE PIE 250 GR.   ${alert041} UNIDADES`);
+}
 elem.onkeyup = function (e){
 if(e.keyCode == 13){agregarValor041();}}
 function agregarValor041 () {
@@ -1584,13 +1674,11 @@ const productos = [
 {nombre:'Polimero Acril-Spein',valor:suma029,idValor:'029',function:'agregarValor029()',function1:'disminuirValor029()',entrada: "valor-entrada029"},
 {nombre:'Polimero Egeo',valor:suma030,idValor:'030',function:'agregarValor030()',function1:'disminuirValor030()',entrada: "valor-entrada030"},
 {nombre:'Polsec 4gr.',valor:suma031,idValor:'031',function:'agregarValor031()',function1:'disminuirValor031()',entrada: "valor-entrada031"},
-{nombre:'Polvo Pedico 250gr.',valor:suma032,idValor:'032',function:'agregarValor032()',function1:'disminuirValor032()',entrada: "valor-entrada032"},
 {nombre:'Protector Dermico Skin',valor:suma033,idValor:'033',function:'agregarValor033()',function1:'disminuirValor033()',entrada: "valor-entrada033"},
 {nombre:'Proteder Plus Chica',valor:suma034,idValor:'034',function:'agregarValor034()',function1:'disminuirValor034()',entrada: "valor-entrada034"},
 {nombre:'Proteder Plus 60gr.',valor:suma035,idValor:'035',function:'agregarValor035()',function1:'disminuirValor035()',entrada: "valor-entrada035"},
 {nombre:'Rs 15 Chico',valor:suma036,idValor:'036',function:'agregarValor036()',function1:'disminuirValor036()',entrada: "valor-entrada036"},
 {nombre:'Rs 15 14ml.',valor:suma037,idValor:'037',function:'agregarValor037()',function1:'disminuirValor037()',entrada: "valor-entrada037"},
-{nombre:'Suavepie Sales Pedicas',valor:suma038,idValor:'038',function:'agregarValor038()',function1:'disminuirValor038()',entrada: "valor-entrada038"},
 {nombre:'Crema Pedica Suavepie 60gr.',valor:suma039,idValor:'039',function:'agregarValor039()',function1:'disminuirValor039()',entrada: "valor-entrada039"},
 {nombre:'Crema Pedica Suavepie 100gr.',valor:suma040,idValor:'040',function:'agregarValor040()',function1:'disminuirValor040()',entrada: "valor-entrada040"},
 {nombre:'Crema Pedica Suavepie 250gr.',valor:suma041,idValor:'041',function:'agregarValor041()',function1:'disminuirValor041()',entrada: "valor-entrada041"},

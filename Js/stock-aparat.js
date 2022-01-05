@@ -5,6 +5,10 @@ var arrayValues091 = JSON.parse(localStorage.getItem("valores091")) || [];
 var suma091 = JSON.parse(localStorage.getItem("TOTAL091"));
 var TOTAL_INCOME091 = document.getElementById('091').innerText = `${suma091}`;
 var elem = document.getElementById('valor-entrada091');
+var alert091 = JSON.parse(localStorage.getItem("TOTAL091"));
+if (alert091 < 1){
+    alert(` ! ALERTA !    ALTA FRECUENCIA + CAMPANA    ${alert091} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor091();}}
 function agregarValor091 () {
@@ -41,6 +45,10 @@ var arrayValues092 = JSON.parse(localStorage.getItem("valores092")) || [];
 var suma092 = JSON.parse(localStorage.getItem("TOTAL092"));
 var TOTAL_INCOME092 = document.getElementById('092').innerText = `${suma092}`;
 var elem = document.getElementById('valor-entrada092');
+var alert092 = JSON.parse(localStorage.getItem("TOTAL092"));
+if (alert092 < 1){
+    alert(` ! ALERTA !    PIPETA CAMPANA    ${alert092} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor092();}}
 function agregarValor092 () {
@@ -77,6 +85,10 @@ var arrayValues093 = JSON.parse(localStorage.getItem("valores093")) || [];
 var suma093 = JSON.parse(localStorage.getItem("TOTAL093"));
 var TOTAL_INCOME093 = document.getElementById('093').innerText = `${suma093}`;
 var elem = document.getElementById('valor-entrada093');
+var alert093 = JSON.parse(localStorage.getItem("TOTAL093"));
+if (alert093 < 1){
+    alert(` ! ALERTA !    PIPETA ESPIRAL    ${alert093} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor093();}}
 function agregarValor093 () {
@@ -113,6 +125,10 @@ var arrayValues094 = JSON.parse(localStorage.getItem("valores094")) || [];
 var suma094 = JSON.parse(localStorage.getItem("TOTAL094"));
 var TOTAL_INCOME094 = document.getElementById('094').innerText = `${suma094}`;
 var elem = document.getElementById('valor-entrada094');
+var alert094 = JSON.parse(localStorage.getItem("TOTAL094"));
+if (alert094 < 1){
+    alert(` ! ALERTA !    PIP. CEBOLLA,PEINE,GOTA,PAPADA    ${alert094} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor094();}}
 function agregarValor094 () {
@@ -149,6 +165,10 @@ var arrayValues095 = JSON.parse(localStorage.getItem("valores095")) || [];
 var suma095 = JSON.parse(localStorage.getItem("TOTAL095"));
 var TOTAL_INCOME095 = document.getElementById('095').innerText = `${suma095}`;
 var elem = document.getElementById('valor-entrada095');
+var alert095 = JSON.parse(localStorage.getItem("TOTAL095"));
+if (alert095 < 1){
+    alert(` ! ALERTA !   DRILLER EGEO GRIS     ${alert095} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor095();}}
 function agregarValor095 () {
@@ -185,6 +205,10 @@ var arrayValues096 = JSON.parse(localStorage.getItem("valores096")) || [];
 var suma096 = JSON.parse(localStorage.getItem("TOTAL096"));
 var TOTAL_INCOME096 = document.getElementById('096').innerText = `${suma096}`;
 var elem = document.getElementById('valor-entrada096');
+var alert096 = JSON.parse(localStorage.getItem("TOTAL096"));
+if (alert096 < 1){
+    alert(` ! ALERTA !    SOPORTE TORNO COLGANTE     ${alert096} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor096();}}
 function agregarValor096 () {
@@ -221,6 +245,10 @@ var arrayValues097 = JSON.parse(localStorage.getItem("valores097")) || [];
 var suma097 = JSON.parse(localStorage.getItem("TOTAL097"));
 var TOTAL_INCOME097 = document.getElementById('097').innerText = `${suma097}`;
 var elem = document.getElementById('valor-entrada097');
+var alert097 = JSON.parse(localStorage.getItem("TOTAL097"));
+if (alert097 < 1){
+    alert(` ! ALERTA !     SILLON + SILLA PRO     ${alert097} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor097();}}
 function agregarValor097 () {
@@ -257,6 +285,10 @@ var arrayValues098 = JSON.parse(localStorage.getItem("valores098")) || [];
 var suma098 = JSON.parse(localStorage.getItem("TOTAL098"));
 var TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma098}`;
 var elem = document.getElementById('valor-entrada098');
+var alert098 = JSON.parse(localStorage.getItem("TOTAL098"));
+if (alert098 < 1){
+    alert(` ! ALERTA !     ESTERILIZADOR     ${alert098} UNIDADES`);
+}
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor098();}}
 function agregarValor098 () {
