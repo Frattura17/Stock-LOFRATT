@@ -169,7 +169,7 @@ var suma004 = JSON.parse(localStorage.getItem("TOTAL004"));
 var TOTAL_INCOME004 = document.getElementById('004').innerText = `${suma004}`;
 var elem = document.getElementById('valor-entrada004');
 var alert004 = JSON.parse(localStorage.getItem("TOTAL004"));
-if (alert004 < 13){
+if (alert004 < 11){
     alert(` ! ALERTA !  CERO BAC FORTE GRANDE   ${alert004} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -292,7 +292,7 @@ var suma007 = JSON.parse(localStorage.getItem("TOTAL007"));
 var TOTAL_INCOME007 = document.getElementById('007').innerText = `${suma007}`;
 var elem = document.getElementById('valor-entrada007');
 var alert007 = JSON.parse(localStorage.getItem("TOTAL007"));
-if (alert007 < 5){
+if (alert007 < 3){
     alert(` ! ALERTA !  CUARZO FINO   ${alert007} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -456,7 +456,7 @@ var suma011 = JSON.parse(localStorage.getItem("TOTAL011"));
 var TOTAL_INCOME011 = document.getElementById('011').innerText = `${suma011}`;
 var elem = document.getElementById('valor-entrada011');
 var alert011 = JSON.parse(localStorage.getItem("TOTAL011"));
-if (alert011 < 13){
+if (alert011 < 9){
     alert(` ! ALERTA !   EMI BLATT F-10   ${alert011} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -497,7 +497,7 @@ var suma012 = JSON.parse(localStorage.getItem("TOTAL012"));
 var TOTAL_INCOME012 = document.getElementById('012').innerText = `${suma012}`;
 var elem = document.getElementById('valor-entrada012');
 var alert012 = JSON.parse(localStorage.getItem("TOTAL012"));
-if (alert012 < 11){
+if (alert012 < 7){
     alert(` ! ALERTA !   EPIDERMAX GRANDE   ${alert012} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -579,7 +579,7 @@ var suma014 = JSON.parse(localStorage.getItem("TOTAL014"));
 var TOTAL_INCOME014 = document.getElementById('014').innerText = `${suma014}`;
 var elem = document.getElementById('valor-entrada014');
 var alert014 = JSON.parse(localStorage.getItem("TOTAL014"));
-if (alert014 < 8 ){
+if (alert014 < 6 ){
     alert(` ! ALERTA !   EPIDERBLAN 500 ML.   ${alert014} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -620,7 +620,7 @@ var suma015 = JSON.parse(localStorage.getItem("TOTAL015"));
 var TOTAL_INCOME015 = document.getElementById('015').innerText = `${suma015}`;
 var elem = document.getElementById('valor-entrada015');
 var alert015 = JSON.parse(localStorage.getItem("TOTAL015"));
-if (alert015 < 6 ){
+if (alert015 < 5 ){
     alert(` ! ALERTA !   EPIDERBLAN 250 ML.   ${alert015} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -784,7 +784,7 @@ var suma019 = JSON.parse(localStorage.getItem("TOTAL019"));
 var TOTAL_INCOME019 = document.getElementById('019').innerText = `${suma019}`;
 var elem = document.getElementById('valor-entrada019');
 var alert019 = JSON.parse(localStorage.getItem("TOTAL019"));
-if (alert019 < 11 ){
+if (alert019 < 8 ){
     alert(` ! ALERTA !   HUMELASTIC 60 GR.   ${alert019} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -825,7 +825,7 @@ var suma020 = JSON.parse(localStorage.getItem("TOTAL020"));
 var TOTAL_INCOME020 = document.getElementById('020').innerText = `${suma020}`;
 var elem = document.getElementById('valor-entrada020');
 var alert020 = JSON.parse(localStorage.getItem("TOTAL020"));
-if (alert020 < 7 ){
+if (alert020 < 5 ){
     alert(` ! ALERTA !   INTER POLTAC    ${alert020} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -907,7 +907,7 @@ var suma022 = JSON.parse(localStorage.getItem("TOTAL022"));
 var TOTAL_INCOME022 = document.getElementById('022').innerText = `${suma022}`;
 var elem = document.getElementById('valor-entrada022');
 var alert022 = JSON.parse(localStorage.getItem("TOTAL022"));
-if (alert022 < 7){
+if (alert022 < 6){
     alert(` ! ALERTA !   LOCIDER 500 ML.  ${alert022} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -948,7 +948,7 @@ var suma023 = JSON.parse(localStorage.getItem("TOTAL023"));
 var TOTAL_INCOME023 = document.getElementById('023').innerText = `${suma023}`;
 var elem = document.getElementById('valor-entrada023');
 var alert023 = JSON.parse(localStorage.getItem("TOTAL023"));
-if (alert023 < 6){
+if (alert023 < 4){
     alert(` ! ALERTA !   LOCIDER 250 ML.  ${alert023} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1030,7 +1030,7 @@ var suma025 = JSON.parse(localStorage.getItem("TOTAL025"));
 var TOTAL_INCOME025 = document.getElementById('025').innerText = `${suma025}`;
 var elem = document.getElementById('valor-entrada025');
 var alert025 = JSON.parse(localStorage.getItem("TOTAL025"));
-if (alert025 < 6){
+if (alert025 < 9){
     alert(` ! ALERTA !   OLEO FORTALECEDOR   ${alert025} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1071,7 +1071,7 @@ var suma026 = JSON.parse(localStorage.getItem("TOTAL026"));
 var TOTAL_INCOME026 = document.getElementById('026').innerText = `${suma026}`;
 var elem = document.getElementById('valor-entrada026');
 var alert026 = JSON.parse(localStorage.getItem("TOTAL026"));
-if (alert026 < 3){
+if (alert026 < 2){
     alert(` ! ALERTA !   PASTA PAE KIT   ${alert026} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1112,7 +1112,7 @@ var suma027 = JSON.parse(localStorage.getItem("TOTAL027"));
 var TOTAL_INCOME027 = document.getElementById('027').innerText = `${suma027}`;
 var elem = document.getElementById('valor-entrada027');
 var alert027 = JSON.parse(localStorage.getItem("TOTAL027"));
-if (alert027 < 5){
+if (alert027 < 4){
     alert(` ! ALERTA !   PASTA PAE REPUESTO   ${alert027} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1153,7 +1153,7 @@ var suma028 = JSON.parse(localStorage.getItem("TOTAL028"));
 var TOTAL_INCOME028 = document.getElementById('028').innerText = `${suma028}`;
 var elem = document.getElementById('valor-entrada028');
 var alert028 = JSON.parse(localStorage.getItem("TOTAL028"));
-if (alert028 < 4){
+if (alert028 < 3){
     alert(` ! ALERTA !   PASTA IODOFORMADA   ${alert028} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1194,7 +1194,7 @@ var suma029 = JSON.parse(localStorage.getItem("TOTAL029"));
 var TOTAL_INCOME029 = document.getElementById('029').innerText = `${suma029}`;
 var elem = document.getElementById('valor-entrada029');
 var alert029 = JSON.parse(localStorage.getItem("TOTAL029"));
-if (alert029 < 6){
+if (alert029 < 5){
     alert(` ! ALERTA !   POLIMERO ACRIL SPEIN   ${alert029} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1236,7 +1236,7 @@ var suma030 = JSON.parse(localStorage.getItem("TOTAL030"));
 var TOTAL_INCOME030 = document.getElementById('030').innerText = `${suma030}`;
 var elem = document.getElementById('valor-entrada030');
 var alert030 = JSON.parse(localStorage.getItem("TOTAL030"));
-if (alert030 < 9){
+if (alert030 < 4){
     alert(` ! ALERTA !   POLIMERO EGEO   ${alert030} UNIDADES`)
 }
 elem.onkeyup = function(e){
