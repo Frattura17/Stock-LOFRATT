@@ -1071,7 +1071,7 @@ var suma026 = JSON.parse(localStorage.getItem("TOTAL026"));
 var TOTAL_INCOME026 = document.getElementById('026').innerText = `${suma026}`;
 var elem = document.getElementById('valor-entrada026');
 var alert026 = JSON.parse(localStorage.getItem("TOTAL026"));
-if (alert026 < 2){
+if (alert026 < 1){
     alert(` ! ALERTA !   PASTA PAE KIT   ${alert026} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1153,7 +1153,7 @@ var suma028 = JSON.parse(localStorage.getItem("TOTAL028"));
 var TOTAL_INCOME028 = document.getElementById('028').innerText = `${suma028}`;
 var elem = document.getElementById('valor-entrada028');
 var alert028 = JSON.parse(localStorage.getItem("TOTAL028"));
-if (alert028 < 3){
+if (alert028 < 2){
     alert(` ! ALERTA !   PASTA IODOFORMADA   ${alert028} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1236,7 +1236,7 @@ var suma030 = JSON.parse(localStorage.getItem("TOTAL030"));
 var TOTAL_INCOME030 = document.getElementById('030').innerText = `${suma030}`;
 var elem = document.getElementById('valor-entrada030');
 var alert030 = JSON.parse(localStorage.getItem("TOTAL030"));
-if (alert030 < 4){
+if (alert030 < 3){
     alert(` ! ALERTA !   POLIMERO EGEO   ${alert030} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1320,7 +1320,7 @@ var suma033 = JSON.parse(localStorage.getItem("TOTAL033"));
 var TOTAL_INCOME033 = document.getElementById('033').innerText = `${suma033}`;
 var elem = document.getElementById('valor-entrada033');
 var alert033 = JSON.parse(localStorage.getItem("TOTAL033"));
-if (alert033 < 2){
+if (alert033 < 1){
     alert(` ! ALERTA !   PROTECTOR DERMICO SKIN   ${alert033} UNIDADES`)
 }
 elem.onkeyup = function(e){
@@ -1609,7 +1609,7 @@ var suma041 = JSON.parse(localStorage.getItem("TOTAL041"));
 var TOTAL_INCOME041 = document.getElementById('041').innerHTML = `${suma041}`
 var elem = document.getElementById('valor-entrada041');
 var alert041 = JSON.parse(localStorage.getItem("TOTAL041"));
-if (alert041 < 6){
+if (alert041 < 4){
     alert(` ! ALERTA !   CREMA SUAVE PIE 250 GR.   ${alert041} UNIDADES`);
 }
 elem.onkeyup = function (e){
