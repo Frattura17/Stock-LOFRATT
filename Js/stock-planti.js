@@ -919,6 +919,7 @@ function disminuirValor121 () {
         localStorage.setItem("TOTAL121", JSON.stringify(suma1));
         localStorage.setItem("valores121", JSON.stringify(suma1)); } }
 
+
 const productos = [
 {nombre:'Arcos Latinos',valor:suma099,idValor:'099',function:'agregarValor099()',function1:'disminuirValor099()',entrada: "valor-entrada099"},
 {nombre:'Arcos N°0',valor:suma100,idValor:'100',function:'agregarValor100()',function1:'disminuirValor100()',entrada: "valor-entrada100"},

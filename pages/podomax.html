@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f89b9764e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <title>Podomax-Stock</title>
 </head>
 <body>
     <nav class="navbar justify-content-center mb-4 fixed-top">
         <!-- <div><img src="/assets/WhatsApp LOGO.jpeg" alt="LOGO LOFRATT" class="img-logo"></div> -->
-        <div class="m-3 text-white LOFRATT" id="#LOFRATT">LOFRATT </div>
-        <div class="m-3 text-white LOFRATT" id="#LOFRATT">STOCK - INSTRUMENTAL</div>
+        <div class="m-3 mb-4 text-white LOFRATT" id="#LOFRATT">LOFRATT </div>
+        <div class="m-3 mb-4 text-white LOFRATT" id="#LOFRATT">STOCK - PODOMAX</div>
     </nav>
     <div class="container-lg">
         <article class="container-fluid text-center ms-2"><BR></BR><BR></BR>
@@ -28,14 +29,1286 @@
               <div style="width: 2px; background-color: black;"></div>
               <a href="/pages/descartables.html" class="text-decoration-none my-3" id="links">Descartables</a>
             </div>
-          </article>
+          </article><br><br>
+          <div class="text-center">
+            <input type="text" class="input2 m-3" id="inputSearch" placeholder="Que producto estas buscando?"><br>
+            <button class="btn btn-outline-success btn-agg m-3 mt-0 mb-4" id="boton" hidden>Buscar</button>
+          </div><br>
     <section class="container mt-5">
         <div class="row justify-content-center" id="changeResult">
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 504</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                    <ul class="list-group list-group-flush" id="div">
+                    <li class="list-group-item text-center cantidad-total font-result" id="150"></li>
+                    </ul>
+                    <hr class="m-3 mt-0">
+                    <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor150()"> Ingreso</button>
+                    <input type="number" class="input valor-entrada" id="valor-entrada150">
+                    <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor150()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1101</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="151"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor151()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada151">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor151()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1128</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="152"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor152()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada152">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor152()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1102</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="153"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor153()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada153">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor153()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1149</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="154"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor154()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada154">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor154()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1103</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="155"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor155()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada155">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor155()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1137</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="156"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor156()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada156">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor156()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1250</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="157"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor157()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada157">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor157()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1270</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="158"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor158()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada158">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor158()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1281</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="159"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor159()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada159">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor159()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1500</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="160"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor160()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada160">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor160()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1501</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="161"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor161()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada161">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor161()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1552</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="162"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor162()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada162">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor162()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1553</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="163"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor163()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada163">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor163()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1554</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="164"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor164()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada164">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor164()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1604</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="165"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor165()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada165">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor165()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1609</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="166"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor166()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada166">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor166()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 1610</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="167"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor167()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada167">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor167()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2262</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="168"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor168()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada168">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor168()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2263</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="169"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor169()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada169">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor169()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2264</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="170"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor170()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada170">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor170()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2270</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="171"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor171()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada171">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor171()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2271</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="172"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor172()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada172">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor172()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2272</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="173"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor173()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada173">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor173()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2273</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="174"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor174()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada174">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor174()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2275</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="175"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor175()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada175">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor175()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2276</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="176"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor176()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada176">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor176()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2277</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="177"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor177()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada177">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor177()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2279</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="178"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor178()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada178">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor178()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2280</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="179"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor179()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada179">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor179()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ART. 2281</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="180"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor180()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada180">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor180()">Venta</button>
+            </div>
+                </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2282</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="181"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor181()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada181">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor181()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2290</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="182"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor182()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada182">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor182()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2291</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="183"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor183()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada183">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor183()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2296</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="184"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor184()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada184">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor184()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2297</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="185"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor185()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada185">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor185()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2298</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="186"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor186()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada186">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor186()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2299</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="187"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor187()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada187">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor187()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2310</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="188"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor188()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada188">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor188()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2311</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="189"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor189()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada189">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor189()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 2312</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="190"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor190()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada190">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor190()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4223</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="191"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor191()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada191">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor191()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4015</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="192"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor192()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada192">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor192()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4025</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="193"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor193()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada193">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor193()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4030</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="194"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor194()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada194">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor194()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4035</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="195"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor195()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada195">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor195()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4045</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="196"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor196()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada196">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor196()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4050</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="197"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor197()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada197">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor197()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4055</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="198"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor198()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada198">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor198()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4056</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="199"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor199()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada199">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor199()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4057</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="200"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor200()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada200">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor200()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 4058</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="201"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor201()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada201">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor201()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 5025</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="202"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor202()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada202">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor202()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 5030</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="203"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor203()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada203">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor203()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 5035</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="204"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor204()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada204">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor204()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 5050</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="205"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor205()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada205">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor205()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 5070</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="206"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor206()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada206">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor206()">Venta</button>
+                </div>
+                    </div>
+            <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 6005</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="207"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor207()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada207">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor207()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 6010</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="208"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor208()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada208">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor208()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 6015</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="209"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor209()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada209">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor209()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 8001</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="210"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor210()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada210">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor210()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 601</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="211"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor211()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada211">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor211()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 602</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="212"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor212()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada212">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor212()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 603</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="213"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor213()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada213">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor213()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 604</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="214"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor214()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada214">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor214()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 605</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="215"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor215()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada215">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor215()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 606</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="216"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor216()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada216">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor216()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 607</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="217"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor217()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada217">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor217()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 608</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="218"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor218()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada218">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor218()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 609</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="219"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor219()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada219">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor219()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 610</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="220"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor220()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada220">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor220()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ANILLO GEL N1</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="221"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor221()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada221">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor221()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ANILLO GEL N2</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="222"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor222()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada222">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor222()">Venta</button>
+                </div>
+                    </div>
+             <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 1214</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="223"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor223()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada223">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor223()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 1215</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="224"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor224()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada224">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor224()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 1142</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="225"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor225()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada225">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor225()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 611</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="226"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor226()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada226">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor226()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 612</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="227"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor227()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada227">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor227()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 613</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="228"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor228()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada228">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor228()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+                <div class="card-body">
+                    <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                    <h5 class="text-center nombre" id="div-producto">ART. 614</h5>
+                </div>
+                <div class="mt-3 mb-3" id="div-incomes">
+                   <ul class="list-group list-group-flush" id="div">
+                   <li class="list-group-item text-center cantidad-total font-result" id="229"></li>
+                   </ul>
+                   <hr class="m-3 mt-0">
+                   <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor229()"> Ingreso</button>
+                   <input type="number" class="input valor-entrada" id="valor-entrada229">
+                   <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor229()">Venta</button>
+                </div>
+                    </div>
+              <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">TUBO GEL N1</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="230"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor230()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada230">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor230()">Venta</button>
+            </div>
+                </div>
+                 <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">TUBO GEL N2</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="231"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor231()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada231">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor231()">Venta</button>
+            </div>
+                </div>
+                 <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">TUBO FLEXOR</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="232"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor232()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada232">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor232()">Venta</button>
+            </div>
+                </div>
+                 <div class="card col-4 m-2" style="width: 16rem;" id="div-contenedor">  
+            <div class="card-body">
+                <!-- <img src="" class="card-img-top img-js" alt="..."> -->
+                <h5 class="text-center nombre" id="div-producto">ACOLCHADO SEPARADOR</h5>
+            </div>
+            <div class="mt-3 mb-3" id="div-incomes">
+                <ul class="list-group list-group-flush" id="div">
+                <li class="list-group-item text-center cantidad-total font-result" id="233"></li>
+                </ul>
+                <hr class="m-3 mt-0">
+                <button class="btn btn-outline-success m-1 mb-2 ingreso" id="ingreso"onclick="agregarValor233()"> Ingreso</button>
+                <input type="number" class="input valor-entrada" id="valor-entrada233">
+                <button href="#" class="btn btn-outline-danger m-1 mb-2 venta" id="venta" onclick="disminuirValor233()">Venta</button>
+            </div>
+                </div>
+            
+            
             
             
         </div>
     </section><br><br><br><br><br>
 </div>
-    
+<nav class="go-top-container">
+    <div class="go-top-button">
+      <i class="fas fa-angle-up"></i>
+    </div>
+ </nav><br><br><br><br>
+<script src="/Js/scroll-up.js"></script>
+<script src="/Js/stock-podomax.js"></script>
 </body>
 </html>
