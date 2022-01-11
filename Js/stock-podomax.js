@@ -5,7 +5,7 @@ var suma150 = JSON.parse(localStorage.getItem("TOTAL150"));
 var TOTAL_INCOME150 = document.getElementById('150').innerText = `${suma150}`;
 var elem = document.getElementById('valor-entrada150');
 var alert150 = JSON.parse(localStorage.getItem("TOTAL150"));
-if (alert150 < 2) {
+if (alert150 < 1) {
     alert(` ! ALERTA !     ART. 504      ${alert150} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -50,7 +50,7 @@ var suma151 = JSON.parse(localStorage.getItem("TOTAL151"));
 var TOTAL_INCOME151 = document.getElementById('151').innerText = `${suma151}`;
 var elem = document.getElementById('valor-entrada151');
 var alert151 = JSON.parse(localStorage.getItem("TOTAL151"));
-if (alert151 < 2) {
+if (alert151 < 1) {
     alert(` ! ALERTA !    ART. 1101      ${alert151} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -95,7 +95,7 @@ var suma152 = JSON.parse(localStorage.getItem("TOTAL152"));
 var TOTAL_INCOME152 = document.getElementById('152').innerText = `${suma152}`;
 var elem = document.getElementById('valor-entrada152');
 var alert152 = JSON.parse(localStorage.getItem("TOTAL152"));
-if (alert152 < 2) {
+if (alert152 < 1) {
     alert(` ! ALERTA !    ART. 1128      ${alert152} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -140,7 +140,7 @@ var suma153 = JSON.parse(localStorage.getItem("TOTAL153"));
 var TOTAL_INCOME153 = document.getElementById('153').innerText = `${suma153}`;
 var elem = document.getElementById('valor-entrada153');
 var alert153 = JSON.parse(localStorage.getItem("TOTAL153"));
-if (alert153 < 2) {
+if (alert153 < 1) {
     alert(` ! ALERTA !    ART. 1102      ${alert153} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -185,7 +185,7 @@ var suma154 = JSON.parse(localStorage.getItem("TOTAL154"));
 var TOTAL_INCOME154 = document.getElementById('154').innerText = `${suma154}`;
 var elem = document.getElementById('valor-entrada154');
 var alert154 = JSON.parse(localStorage.getItem("TOTAL154"));
-if (alert154 < 2) {
+if (alert154 < 1) {
     alert(` ! ALERTA !    ART. 1149      ${alert154} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -230,7 +230,7 @@ var suma155 = JSON.parse(localStorage.getItem("TOTAL155"));
 var TOTAL_INCOME155 = document.getElementById('155').innerText = `${suma155}`;
 var elem = document.getElementById('valor-entrada155');
 var alert155 = JSON.parse(localStorage.getItem("TOTAL155"));
-if (alert155 < 2) {
+if (alert155 < 1) {
     alert(` ! ALERTA !    ART. 1103      ${alert155} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -275,7 +275,7 @@ var suma156 = JSON.parse(localStorage.getItem("TOTAL156"));
 var TOTAL_INCOME156 = document.getElementById('156').innerText = `${suma156}`;
 var elem = document.getElementById('valor-entrada156');
 var alert156 = JSON.parse(localStorage.getItem("TOTAL156"));
-if (alert156 < 2) {
+if (alert156 < 1) {
     alert(` ! ALERTA !    ART. 1137      ${alert156} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -320,7 +320,7 @@ var suma157 = JSON.parse(localStorage.getItem("TOTAL157"));
 var TOTAL_INCOME157 = document.getElementById('157').innerText = `${suma157}`;
 var elem = document.getElementById('valor-entrada157');
 var alert157 = JSON.parse(localStorage.getItem("TOTAL157"));
-if (alert157 < 2) {
+if (alert157 < 1) {
     alert(` ! ALERTA !    ART. 1250      ${alert157} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -365,7 +365,7 @@ var suma158 = JSON.parse(localStorage.getItem("TOTAL158"));
 var TOTAL_INCOME158 = document.getElementById('158').innerText = `${suma158}`;
 var elem = document.getElementById('valor-entrada158');
 var alert158 = JSON.parse(localStorage.getItem("TOTAL158"));
-if (alert158 < 2) {
+if (alert158 < 1) {
     alert(` ! ALERTA !    ART. 1270      ${alert158} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -410,7 +410,7 @@ var suma233 = JSON.parse(localStorage.getItem("TOTAL233"));
 var TOTAL_INCOME233 = document.getElementById('233').innerText = `${suma233}`;
 var elem = document.getElementById('valor-entrada233');
 var alert233 = JSON.parse(localStorage.getItem("TOTAL233"));
-if (alert233 < 2) {
+if (alert233 < 1) {
     alert(` ! ALERTA !    ACOLCHADO SEPARADOR      ${alert233} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -455,7 +455,7 @@ var suma159 = JSON.parse(localStorage.getItem("TOTAL159"));
 var TOTAL_INCOME159 = document.getElementById('159').innerText = `${suma159}`;
 var elem = document.getElementById('valor-entrada159');
 var alert159 = JSON.parse(localStorage.getItem("TOTAL159"));
-if (alert159 < 2) {
+if (alert159 < 1) {
     alert(` ! ALERTA !    ART. 1281      ${alert159} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -500,7 +500,7 @@ var suma160 = JSON.parse(localStorage.getItem("TOTAL160"));
 var TOTAL_INCOME160 = document.getElementById('160').innerText = `${suma160}`;
 var elem = document.getElementById('valor-entrada160');
 var alert160 = JSON.parse(localStorage.getItem("TOTAL160"));
-if (alert160 < 2) {
+if (alert160 < 1) {
     alert(` ! ALERTA !    ART. 1500      ${alert160} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -547,7 +547,7 @@ var suma161 = JSON.parse(localStorage.getItem("TOTAL161"));
 var TOTAL_INCOME161 = document.getElementById('161').innerText = `${suma161}`;
 var elem = document.getElementById('valor-entrada161');
 var alert161 = JSON.parse(localStorage.getItem("TOTAL161"));
-if (alert161 < 2) {
+if (alert161 < 1) {
     alert(` ! ALERTA !    ART. 1501      ${alert161} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -592,7 +592,7 @@ var suma162 = JSON.parse(localStorage.getItem("TOTAL162"));
 var TOTAL_INCOME162 = document.getElementById('162').innerText = `${suma162}`;
 var elem = document.getElementById('valor-entrada162');
 var alert162 = JSON.parse(localStorage.getItem("TOTAL162"));
-if (alert162 < 2) {
+if (alert162 < 1) {
     alert(` ! ALERTA !    ART. 1552      ${alert162} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -637,7 +637,7 @@ var suma163 = JSON.parse(localStorage.getItem("TOTAL163"));
 var TOTAL_INCOME163 = document.getElementById('163').innerText = `${suma163}`;
 var elem = document.getElementById('valor-entrada163');
 var alert163 = JSON.parse(localStorage.getItem("TOTAL163"));
-if (alert163 < 2) {
+if (alert163 < 1) {
     alert(` ! ALERTA !    ART. 1553      ${alert163} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -682,7 +682,7 @@ var suma164 = JSON.parse(localStorage.getItem("TOTAL164"));
 var TOTAL_INCOME164 = document.getElementById('164').innerText = `${suma164}`;
 var elem = document.getElementById('valor-entrada164');
 var alert164 = JSON.parse(localStorage.getItem("TOTAL164"));
-if (alert164 < 2) {
+if (alert164 < 1) {
     alert(` ! ALERTA !    ART. 1554      ${alert164} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -727,7 +727,7 @@ var suma165 = JSON.parse(localStorage.getItem("TOTAL165"));
 var TOTAL_INCOME165 = document.getElementById('165').innerText = `${suma165}`;
 var elem = document.getElementById('valor-entrada165');
 var alert165 = JSON.parse(localStorage.getItem("TOTAL165"));
-if (alert165 < 2) {
+if (alert165 < 1) {
     alert(` ! ALERTA !    ART. 1594      ${alert165} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -772,7 +772,7 @@ var suma166 = JSON.parse(localStorage.getItem("TOTAL166"));
 var TOTAL_INCOME166 = document.getElementById('166').innerText = `${suma166}`;
 var elem = document.getElementById('valor-entrada166');
 var alert166 = JSON.parse(localStorage.getItem("TOTAL166"));
-if (alert166 < 2) {
+if (alert166 < 1) {
     alert(` ! ALERTA !    ART. 1599      ${alert166} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -817,7 +817,7 @@ var suma167 = JSON.parse(localStorage.getItem("TOTAL167"));
 var TOTAL_INCOME167 = document.getElementById('167').innerText = `${suma167}`;
 var elem = document.getElementById('valor-entrada167');
 var alert167 = JSON.parse(localStorage.getItem("TOTAL167"));
-if (alert167 < 2) {
+if (alert167 < 1) {
     alert(` ! ALERTA !    ART. 1610      ${alert167} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -862,7 +862,7 @@ var suma168 = JSON.parse(localStorage.getItem("TOTAL168"));
 var TOTAL_INCOME168 = document.getElementById('168').innerText = `${suma168}`;
 var elem = document.getElementById('valor-entrada168');
 var alert168 = JSON.parse(localStorage.getItem("TOTAL168"));
-if (alert168 < 2) {
+if (alert168 < 1) {
     alert(` ! ALERTA !    ART. 2252      ${alert168} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -907,7 +907,7 @@ var suma169 = JSON.parse(localStorage.getItem("TOTAL169"));
 var TOTAL_INCOME169 = document.getElementById('169').innerText = `${suma169}`;
 var elem = document.getElementById('valor-entrada169');
 var alert169 = JSON.parse(localStorage.getItem("TOTAL169"));
-if (alert169 < 2) {
+if (alert169 < 1) {
     alert(` ! ALERTA !    ART. 2253      ${alert169} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -952,7 +952,7 @@ var suma170 = JSON.parse(localStorage.getItem("TOTAL170"));
 var TOTAL_INCOME170 = document.getElementById('170').innerText = `${suma170}`;
 var elem = document.getElementById('valor-entrada170');
 var alert170 = JSON.parse(localStorage.getItem("TOTAL170"));
-if (alert170 < 2) {
+if (alert170 < 1) {
     alert(` ! ALERTA !    ART. 2254      ${alert170} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -997,7 +997,7 @@ var suma171 = JSON.parse(localStorage.getItem("TOTAL171"));
 var TOTAL_INCOME171 = document.getElementById('171').innerText = `${suma171}`;
 var elem = document.getElementById('valor-entrada171');
 var alert171 = JSON.parse(localStorage.getItem("TOTAL171"));
-if (alert171 < 2) {
+if (alert171 < 1) {
     alert(` ! ALERTA !    ART. 2270      ${alert171} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1042,7 +1042,7 @@ var suma172 = JSON.parse(localStorage.getItem("TOTAL172"));
 var TOTAL_INCOME172 = document.getElementById('172').innerText = `${suma172}`;
 var elem = document.getElementById('valor-entrada172');
 var alert172 = JSON.parse(localStorage.getItem("TOTAL172"));
-if (alert172 < 2) {
+if (alert172 < 1) {
     alert(` ! ALERTA !    ART. 2271      ${alert172} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1087,7 +1087,7 @@ var suma173 = JSON.parse(localStorage.getItem("TOTAL173"));
 var TOTAL_INCOME173 = document.getElementById('173').innerText = `${suma173}`;
 var elem = document.getElementById('valor-entrada173');
 var alert173 = JSON.parse(localStorage.getItem("TOTAL173"));
-if (alert173 < 2) {
+if (alert173 < 1) {
     alert(` ! ALERTA !    ART. 2272      ${alert173} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1132,7 +1132,7 @@ var suma174 = JSON.parse(localStorage.getItem("TOTAL174"));
 var TOTAL_INCOME174 = document.getElementById('174').innerText = `${suma174}`;
 var elem = document.getElementById('valor-entrada174');
 var alert174 = JSON.parse(localStorage.getItem("TOTAL174"));
-if (alert174 < 2) {
+if (alert174 < 1) {
     alert(` ! ALERTA !   ART. 2273    ${alert174} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1177,7 +1177,7 @@ var suma175 = JSON.parse(localStorage.getItem("TOTAL175"));
 var TOTAL_INCOME175 = document.getElementById('175').innerText = `${suma175}`;
 var elem = document.getElementById('valor-entrada175');
 var alert175 = JSON.parse(localStorage.getItem("TOTAL175"));
-if (alert175 < 2) {
+if (alert175 < 1) {
     alert(` ! ALERTA !   ART. 2275    ${alert175} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1222,7 +1222,7 @@ var suma176 = JSON.parse(localStorage.getItem("TOTAL176"));
 var TOTAL_INCOME176 = document.getElementById('176').innerText = `${suma176}`;
 var elem = document.getElementById('valor-entrada176');
 var alert176 = JSON.parse(localStorage.getItem("TOTAL176"));
-if (alert176 < 2) {
+if (alert176 < 1) {
     alert(` ! ALERTA !   ART. 2276    ${alert176} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1267,7 +1267,7 @@ var suma177 = JSON.parse(localStorage.getItem("TOTAL177"));
 var TOTAL_INCOME177 = document.getElementById('177').innerText = `${suma177}`;
 var elem = document.getElementById('valor-entrada177');
 var alert177 = JSON.parse(localStorage.getItem("TOTAL177"));
-if (alert177 < 2) {
+if (alert177 < 1) {
     alert(` ! ALERTA !   ART. 2277    ${alert177} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1312,7 +1312,7 @@ var suma178 = JSON.parse(localStorage.getItem("TOTAL178"));
 var TOTAL_INCOME178 = document.getElementById('178').innerText = `${suma178}`;
 var elem = document.getElementById('valor-entrada178');
 var alert178 = JSON.parse(localStorage.getItem("TOTAL178"));
-if (alert178 < 2) {
+if (alert178 < 1) {
     alert(` ! ALERTA !   ART. 2279    ${alert178} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1357,7 +1357,7 @@ var suma179 = JSON.parse(localStorage.getItem("TOTAL179"));
 var TOTAL_INCOME179 = document.getElementById('179').innerText = `${suma179}`;
 var elem = document.getElementById('valor-entrada179');
 var alert179 = JSON.parse(localStorage.getItem("TOTAL179"));
-if (alert179 < 2) {
+if (alert179 < 1) {
     alert(` ! ALERTA !   ART. 2280    ${alert179} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1402,7 +1402,7 @@ var suma180 = JSON.parse(localStorage.getItem("TOTAL180"));
 var TOTAL_INCOME180 = document.getElementById('180').innerText = `${suma180}`;
 var elem = document.getElementById('valor-entrada180');
 var alert180 = JSON.parse(localStorage.getItem("TOTAL180"));
-if (alert180 < 2) {
+if (alert180 < 1) {
     alert(` ! ALERTA !   ART. 2281    ${alert180} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1448,7 +1448,7 @@ var suma181 = JSON.parse(localStorage.getItem("TOTAL181"));
 var TOTAL_INCOME181 = document.getElementById('181').innerText = `${suma181}`;
 var elem = document.getElementById('valor-entrada181');
 var alert181 = JSON.parse(localStorage.getItem("TOTAL181"));
-if (alert181 < 2) {
+if (alert181 < 1) {
     alert(` ! ALERTA !    ART. 2282      ${alert181} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1493,7 +1493,7 @@ var suma182 = JSON.parse(localStorage.getItem("TOTAL182"));
 var TOTAL_INCOME182 = document.getElementById('182').innerText = `${suma182}`;
 var elem = document.getElementById('valor-entrada182');
 var alert182 = JSON.parse(localStorage.getItem("TOTAL182"));
-if (alert182 < 2) {
+if (alert182 < 1) {
     alert(` ! ALERTA !    ART. 2290      ${alert182} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1538,7 +1538,7 @@ var suma183 = JSON.parse(localStorage.getItem("TOTAL183"));
 var TOTAL_INCOME183 = document.getElementById('183').innerText = `${suma183}`;
 var elem = document.getElementById('valor-entrada183');
 var alert183 = JSON.parse(localStorage.getItem("TOTAL183"));
-if (alert183 < 2) {
+if (alert183 < 1) {
     alert(` ! ALERTA !    ART. 2291      ${alert183} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1583,7 +1583,7 @@ var suma184 = JSON.parse(localStorage.getItem("TOTAL184"));
 var TOTAL_INCOME184 = document.getElementById('184').innerText = `${suma184}`;
 var elem = document.getElementById('valor-entrada184');
 var alert184 = JSON.parse(localStorage.getItem("TOTAL184"));
-if (alert184 < 2) {
+if (alert184 < 1) {
     alert(` ! ALERTA !    ART. 2296      ${alert184} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1628,7 +1628,7 @@ var suma185 = JSON.parse(localStorage.getItem("TOTAL185"));
 var TOTAL_INCOME185 = document.getElementById('185').innerText = `${suma185}`;
 var elem = document.getElementById('valor-entrada185');
 var alert185 = JSON.parse(localStorage.getItem("TOTAL185"));
-if (alert185 < 2) {
+if (alert185 < 1) {
     alert(` ! ALERTA !    ART. 2297      ${alert185} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1673,7 +1673,7 @@ var suma186 = JSON.parse(localStorage.getItem("TOTAL186"));
 var TOTAL_INCOME186 = document.getElementById('186').innerText = `${suma186}`;
 var elem = document.getElementById('valor-entrada186');
 var alert186 = JSON.parse(localStorage.getItem("TOTAL186"));
-if (alert186 < 2) {
+if (alert186 < 1) {
     alert(` ! ALERTA !    ART. 2298      ${alert186} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1718,7 +1718,7 @@ var suma187 = JSON.parse(localStorage.getItem("TOTAL187"));
 var TOTAL_INCOME187 = document.getElementById('187').innerText = `${suma187}`;
 var elem = document.getElementById('valor-entrada187');
 var alert187 = JSON.parse(localStorage.getItem("TOTAL187"));
-if (alert187 < 2) {
+if (alert187 < 1) {
     alert(` ! ALERTA !    ART. 2299      ${alert187} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1763,7 +1763,7 @@ var suma188 = JSON.parse(localStorage.getItem("TOTAL188"));
 var TOTAL_INCOME188 = document.getElementById('188').innerText = `${suma188}`;
 var elem = document.getElementById('valor-entrada188');
 var alert188 = JSON.parse(localStorage.getItem("TOTAL188"));
-if (alert188 < 2) {
+if (alert188 < 1) {
     alert(` ! ALERTA !    ART. 2310      ${alert188} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1808,7 +1808,7 @@ var suma189 = JSON.parse(localStorage.getItem("TOTAL189"));
 var TOTAL_INCOME189 = document.getElementById('189').innerText = `${suma189}`;
 var elem = document.getElementById('valor-entrada189');
 var alert189 = JSON.parse(localStorage.getItem("TOTAL189"));
-if (alert189 < 2) {
+if (alert189 < 1) {
     alert(` ! ALERTA !    ART. 2311      ${alert189} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1853,7 +1853,7 @@ var suma190 = JSON.parse(localStorage.getItem("TOTAL190"));
 var TOTAL_INCOME190 = document.getElementById('190').innerText = `${suma190}`;
 var elem = document.getElementById('valor-entrada190');
 var alert190 = JSON.parse(localStorage.getItem("TOTAL190"));
-if (alert190 < 2) {
+if (alert190 < 1) {
     alert(` ! ALERTA !    ART. 2312      ${alert190} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1898,7 +1898,7 @@ var suma191 = JSON.parse(localStorage.getItem("TOTAL191"));
 var TOTAL_INCOME191 = document.getElementById('191').innerText = `${suma191}`;
 var elem = document.getElementById('valor-entrada191');
 var alert191 = JSON.parse(localStorage.getItem("TOTAL191"));
-if (alert191 < 2) {
+if (alert191 < 1) {
     alert(` ! ALERTA !    ART. 4223      ${alert191} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1943,7 +1943,7 @@ var suma192 = JSON.parse(localStorage.getItem("TOTAL192"));
 var TOTAL_INCOME192 = document.getElementById('192').innerText = `${suma192}`;
 var elem = document.getElementById('valor-entrada192');
 var alert192 = JSON.parse(localStorage.getItem("TOTAL192"));
-if (alert192 < 2) {
+if (alert192 < 1) {
     alert(` ! ALERTA !    ART. 4015      ${alert192} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -1988,7 +1988,7 @@ var suma193 = JSON.parse(localStorage.getItem("TOTAL193"));
 var TOTAL_INCOME193 = document.getElementById('193').innerText = `${suma193}`;
 var elem = document.getElementById('valor-entrada193');
 var alert193 = JSON.parse(localStorage.getItem("TOTAL193"));
-if (alert193 < 2) {
+if (alert193 < 1) {
     alert(` ! ALERTA !    ART. 4025      ${alert193} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2033,7 +2033,7 @@ var suma194 = JSON.parse(localStorage.getItem("TOTAL194"));
 var TOTAL_INCOME194 = document.getElementById('194').innerText = `${suma194}`;
 var elem = document.getElementById('valor-entrada194');
 var alert194 = JSON.parse(localStorage.getItem("TOTAL194"));
-if (alert194 < 2) {
+if (alert194 < 1) {
     alert(` ! ALERTA !    ART. 4030      ${alert194} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2078,7 +2078,7 @@ var suma195 = JSON.parse(localStorage.getItem("TOTAL195"));
 var TOTAL_INCOME195 = document.getElementById('195').innerText = `${suma195}`;
 var elem = document.getElementById('valor-entrada195');
 var alert195 = JSON.parse(localStorage.getItem("TOTAL195"));
-if (alert195 < 2) {
+if (alert195 < 1) {
     alert(` ! ALERTA !    ART. 4035      ${alert195} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2123,7 +2123,7 @@ var suma196 = JSON.parse(localStorage.getItem("TOTAL196"));
 var TOTAL_INCOME196 = document.getElementById('196').innerText = `${suma196}`;
 var elem = document.getElementById('valor-entrada196');
 var alert196 = JSON.parse(localStorage.getItem("TOTAL196"));
-if (alert196 < 2) {
+if (alert196 < 1) {
     alert(` ! ALERTA !    ART. 4045      ${alert196} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2168,7 +2168,7 @@ var suma197 = JSON.parse(localStorage.getItem("TOTAL197"));
 var TOTAL_INCOME197 = document.getElementById('197').innerText = `${suma197}`;
 var elem = document.getElementById('valor-entrada197');
 var alert197 = JSON.parse(localStorage.getItem("TOTAL197"));
-if (alert197 < 2) {
+if (alert197 < 1) {
     alert(` ! ALERTA !    ART. 4050      ${alert197} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2213,7 +2213,7 @@ var suma198 = JSON.parse(localStorage.getItem("TOTAL198"));
 var TOTAL_INCOME198 = document.getElementById('198').innerText = `${suma198}`;
 var elem = document.getElementById('valor-entrada198');
 var alert198 = JSON.parse(localStorage.getItem("TOTAL198"));
-if (alert198 < 2) {
+if (alert198 < 1) {
     alert(` ! ALERTA !    ART. 4055      ${alert198} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2258,7 +2258,7 @@ var suma199 = JSON.parse(localStorage.getItem("TOTAL199"));
 var TOTAL_INCOME199 = document.getElementById('199').innerText = `${suma199}`;
 var elem = document.getElementById('valor-entrada199');
 var alert199 = JSON.parse(localStorage.getItem("TOTAL199"));
-if (alert199 < 2) {
+if (alert199 < 1) {
     alert(` ! ALERTA !    ART. 4056      ${alert199} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2303,7 +2303,7 @@ var suma200 = JSON.parse(localStorage.getItem("TOTAL200"));
 var TOTAL_INCOME200 = document.getElementById('200').innerText = `${suma200}`;
 var elem = document.getElementById('valor-entrada200');
 var alert200 = JSON.parse(localStorage.getItem("TOTAL200"));
-if (alert200 < 2) {
+if (alert200 < 1) {
     alert(` ! ALERTA !    ART. 4057      ${alert200} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2348,7 +2348,7 @@ var suma201 = JSON.parse(localStorage.getItem("TOTAL201"));
 var TOTAL_INCOME201 = document.getElementById('201').innerText = `${suma201}`;
 var elem = document.getElementById('valor-entrada201');
 var alert201 = JSON.parse(localStorage.getItem("TOTAL201"));
-if (alert201 < 2) {
+if (alert201 < 1) {
     alert(` ! ALERTA !    ART. 4058      ${alert201} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2393,7 +2393,7 @@ var suma202 = JSON.parse(localStorage.getItem("TOTAL202"));
 var TOTAL_INCOME202 = document.getElementById('202').innerText = `${suma202}`;
 var elem = document.getElementById('valor-entrada202');
 var alert202 = JSON.parse(localStorage.getItem("TOTAL202"));
-if (alert202 < 2) {
+if (alert202 < 1) {
     alert(` ! ALERTA !    ART. 5025      ${alert202} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2438,7 +2438,7 @@ var suma203 = JSON.parse(localStorage.getItem("TOTAL203"));
 var TOTAL_INCOME203 = document.getElementById('203').innerText = `${suma203}`;
 var elem = document.getElementById('valor-entrada203');
 var alert203 = JSON.parse(localStorage.getItem("TOTAL203"));
-if (alert203 < 2) {
+if (alert203 < 1) {
     alert(` ! ALERTA !    ART. 5030      ${alert203} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2483,7 +2483,7 @@ var suma204 = JSON.parse(localStorage.getItem("TOTAL204"));
 var TOTAL_INCOME204 = document.getElementById('204').innerText = `${suma204}`;
 var elem = document.getElementById('valor-entrada204');
 var alert204 = JSON.parse(localStorage.getItem("TOTAL204"));
-if (alert204 < 2) {
+if (alert204 < 1) {
     alert(` ! ALERTA !    ART. 5035      ${alert204} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2528,7 +2528,7 @@ var suma205 = JSON.parse(localStorage.getItem("TOTAL205"));
 var TOTAL_INCOME205 = document.getElementById('205').innerText = `${suma205}`;
 var elem = document.getElementById('valor-entrada205');
 var alert205 = JSON.parse(localStorage.getItem("TOTAL205"));
-if (alert205 < 2) {
+if (alert205 < 1) {
     alert(` ! ALERTA !    ART. 5050      ${alert205} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2573,7 +2573,7 @@ var suma206 = JSON.parse(localStorage.getItem("TOTAL206"));
 var TOTAL_INCOME206 = document.getElementById('206').innerText = `${suma206}`;
 var elem = document.getElementById('valor-entrada206');
 var alert206 = JSON.parse(localStorage.getItem("TOTAL206"));
-if (alert206 < 2) {
+if (alert206 < 1) {
     alert(` ! ALERTA !    ART. 5070      ${alert206} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2618,7 +2618,7 @@ var suma207 = JSON.parse(localStorage.getItem("TOTAL207"));
 var TOTAL_INCOME207 = document.getElementById('207').innerText = `${suma207}`;
 var elem = document.getElementById('valor-entrada207');
 var alert207 = JSON.parse(localStorage.getItem("TOTAL207"));
-if (alert207 < 2) {
+if (alert207 < 1) {
     alert(` ! ALERTA !    ART. 6005      ${alert207} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2663,7 +2663,7 @@ var suma208 = JSON.parse(localStorage.getItem("TOTAL208"));
 var TOTAL_INCOME208 = document.getElementById('208').innerText = `${suma208}`;
 var elem = document.getElementById('valor-entrada208');
 var alert208 = JSON.parse(localStorage.getItem("TOTAL208"));
-if (alert208 < 2) {
+if (alert208 < 1) {
     alert(` ! ALERTA !    ART. 6010      ${alert208} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2708,7 +2708,7 @@ var suma209 = JSON.parse(localStorage.getItem("TOTAL209"));
 var TOTAL_INCOME209 = document.getElementById('209').innerText = `${suma209}`;
 var elem = document.getElementById('valor-entrada209');
 var alert209 = JSON.parse(localStorage.getItem("TOTAL209"));
-if (alert209 < 2) {
+if (alert209 < 1) {
     alert(` ! ALERTA !    ART. 6015      ${alert209} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2753,7 +2753,7 @@ var suma210 = JSON.parse(localStorage.getItem("TOTAL210"));
 var TOTAL_INCOME210 = document.getElementById('210').innerText = `${suma210}`;
 var elem = document.getElementById('valor-entrada210');
 var alert210 = JSON.parse(localStorage.getItem("TOTAL210"));
-if (alert210 < 2) {
+if (alert210 < 1) {
     alert(` ! ALERTA !    ART. 8001      ${alert210} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2798,7 +2798,7 @@ var suma211 = JSON.parse(localStorage.getItem("TOTAL211"));
 var TOTAL_INCOME211 = document.getElementById('211').innerText = `${suma211}`;
 var elem = document.getElementById('valor-entrada211');
 var alert211 = JSON.parse(localStorage.getItem("TOTAL211"));
-if (alert211 < 2) {
+if (alert211 < 1) {
     alert(` ! ALERTA !    ART. 601      ${alert211} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2843,7 +2843,7 @@ var suma212 = JSON.parse(localStorage.getItem("TOTAL212"));
 var TOTAL_INCOME212 = document.getElementById('212').innerText = `${suma212}`;
 var elem = document.getElementById('valor-entrada212');
 var alert212 = JSON.parse(localStorage.getItem("TOTAL212"));
-if (alert212 < 2) {
+if (alert212 < 1) {
     alert(` ! ALERTA !    ART. 602      ${alert212} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2888,7 +2888,7 @@ var suma213 = JSON.parse(localStorage.getItem("TOTAL213"));
 var TOTAL_INCOME213 = document.getElementById('213').innerText = `${suma213}`;
 var elem = document.getElementById('valor-entrada213');
 var alert213 = JSON.parse(localStorage.getItem("TOTAL213"));
-if (alert213 < 2) {
+if (alert213 < 1) {
     alert(` ! ALERTA !    ART. 603      ${alert213} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2933,7 +2933,7 @@ var suma214 = JSON.parse(localStorage.getItem("TOTAL214"));
 var TOTAL_INCOME214 = document.getElementById('214').innerText = `${suma214}`;
 var elem = document.getElementById('valor-entrada214');
 var alert214 = JSON.parse(localStorage.getItem("TOTAL214"));
-if (alert214 < 2) {
+if (alert214 < 1) {
     alert(` ! ALERTA !    ART. 604      ${alert214} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -2978,7 +2978,7 @@ var suma215 = JSON.parse(localStorage.getItem("TOTAL215"));
 var TOTAL_INCOME215 = document.getElementById('215').innerText = `${suma215}`;
 var elem = document.getElementById('valor-entrada215');
 var alert215 = JSON.parse(localStorage.getItem("TOTAL215"));
-if (alert215 < 2) {
+if (alert215 < 1) {
     alert(` ! ALERTA !    ART. 605      ${alert215} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3023,7 +3023,7 @@ var suma216 = JSON.parse(localStorage.getItem("TOTAL216"));
 var TOTAL_INCOME216 = document.getElementById('216').innerText = `${suma216}`;
 var elem = document.getElementById('valor-entrada216');
 var alert216 = JSON.parse(localStorage.getItem("TOTAL216"));
-if (alert216 < 2) {
+if (alert216 < 1) {
     alert(` ! ALERTA !    ART. 606      ${alert216} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3068,7 +3068,7 @@ var suma217 = JSON.parse(localStorage.getItem("TOTAL217"));
 var TOTAL_INCOME217 = document.getElementById('217').innerText = `${suma217}`;
 var elem = document.getElementById('valor-entrada217');
 var alert217 = JSON.parse(localStorage.getItem("TOTAL217"));
-if (alert217 < 2) {
+if (alert217 < 1) {
     alert(` ! ALERTA !    ART. 607      ${alert217} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3113,7 +3113,7 @@ var suma218 = JSON.parse(localStorage.getItem("TOTAL218"));
 var TOTAL_INCOME218 = document.getElementById('218').innerText = `${suma218}`;
 var elem = document.getElementById('valor-entrada218');
 var alert218 = JSON.parse(localStorage.getItem("TOTAL218"));
-if (alert218 < 2) {
+if (alert218 < 1) {
     alert(` ! ALERTA !    ART. 608      ${alert218} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3158,7 +3158,7 @@ var suma219 = JSON.parse(localStorage.getItem("TOTAL219"));
 var TOTAL_INCOME219 = document.getElementById('219').innerText = `${suma219}`;
 var elem = document.getElementById('valor-entrada219');
 var alert219 = JSON.parse(localStorage.getItem("TOTAL219"));
-if (alert219 < 2) {
+if (alert219 < 1) {
     alert(` ! ALERTA !    ART. 609      ${alert219} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3203,7 +3203,7 @@ var suma220 = JSON.parse(localStorage.getItem("TOTAL220"));
 var TOTAL_INCOME220 = document.getElementById('220').innerText = `${suma220}`;
 var elem = document.getElementById('valor-entrada220');
 var alert220 = JSON.parse(localStorage.getItem("TOTAL220"));
-if (alert220 < 2) {
+if (alert220 < 1) {
     alert(` ! ALERTA !    ART. 610      ${alert220} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3248,7 +3248,7 @@ var suma221 = JSON.parse(localStorage.getItem("TOTAL221"));
 var TOTAL_INCOME221 = document.getElementById('221').innerText = `${suma221}`;
 var elem = document.getElementById('valor-entrada221');
 var alert221 = JSON.parse(localStorage.getItem("TOTAL221"));
-if (alert221 < 2) {
+if (alert221 < 1) {
     alert(` ! ALERTA !    ANILLO GEL N1      ${alert221} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3293,7 +3293,7 @@ var suma222 = JSON.parse(localStorage.getItem("TOTAL222"));
 var TOTAL_INCOME222 = document.getElementById('222').innerText = `${suma222}`;
 var elem = document.getElementById('valor-entrada222');
 var alert222 = JSON.parse(localStorage.getItem("TOTAL222"));
-if (alert222 < 2) {
+if (alert222 < 1) {
     alert(` ! ALERTA !    ANILLO GEL N2      ${alert222} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3338,7 +3338,7 @@ var suma223 = JSON.parse(localStorage.getItem("TOTAL223"));
 var TOTAL_INCOME223 = document.getElementById('223').innerText = `${suma223}`;
 var elem = document.getElementById('valor-entrada223');
 var alert223 = JSON.parse(localStorage.getItem("TOTAL223"));
-if (alert223 < 2) {
+if (alert223 < 1) {
     alert(` ! ALERTA !    ART. 2304      ${alert223} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3383,7 +3383,7 @@ var suma224 = JSON.parse(localStorage.getItem("TOTAL224"));
 var TOTAL_INCOME224 = document.getElementById('224').innerText = `${suma224}`;
 var elem = document.getElementById('valor-entrada224');
 var alert224 = JSON.parse(localStorage.getItem("TOTAL224"));
-if (alert224 < 2) {
+if (alert224 < 1) {
     alert(` ! ALERTA !    ART. 2295      ${alert224} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3428,7 +3428,7 @@ var suma225 = JSON.parse(localStorage.getItem("TOTAL225"));
 var TOTAL_INCOME225 = document.getElementById('225').innerText = `${suma225}`;
 var elem = document.getElementById('valor-entrada225');
 var alert225 = JSON.parse(localStorage.getItem("TOTAL225"));
-if (alert225 < 2) {
+if (alert225 < 1) {
     alert(` ! ALERTA !    ART. 1142      ${alert225} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3473,7 +3473,7 @@ var suma226 = JSON.parse(localStorage.getItem("TOTAL226"));
 var TOTAL_INCOME226 = document.getElementById('226').innerText = `${suma226}`;
 var elem = document.getElementById('valor-entrada226');
 var alert226 = JSON.parse(localStorage.getItem("TOTAL226"));
-if (alert226 < 2) {
+if (alert226 < 1) {
     alert(` ! ALERTA !    ART. 611      ${alert226} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3518,7 +3518,7 @@ var suma227 = JSON.parse(localStorage.getItem("TOTAL227"));
 var TOTAL_INCOME227 = document.getElementById('227').innerText = `${suma227}`;
 var elem = document.getElementById('valor-entrada227');
 var alert227 = JSON.parse(localStorage.getItem("TOTAL227"));
-if (alert227 < 2) {
+if (alert227 < 1) {
     alert(` ! ALERTA !    ART. 612      ${alert227} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3563,7 +3563,7 @@ var suma228 = JSON.parse(localStorage.getItem("TOTAL228"));
 var TOTAL_INCOME228 = document.getElementById('228').innerText = `${suma228}`;
 var elem = document.getElementById('valor-entrada228');
 var alert228 = JSON.parse(localStorage.getItem("TOTAL228"));
-if (alert228 < 2) {
+if (alert228 < 1) {
     alert(` ! ALERTA !    ART. 613      ${alert228} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3608,7 +3608,7 @@ var suma229 = JSON.parse(localStorage.getItem("TOTAL229"));
 var TOTAL_INCOME229 = document.getElementById('229').innerText = `${suma229}`;
 var elem = document.getElementById('valor-entrada229');
 var alert229 = JSON.parse(localStorage.getItem("TOTAL229"));
-if (alert229 < 2) {
+if (alert229 < 1) {
     alert(` ! ALERTA !    ART. 614      ${alert229} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3653,7 +3653,7 @@ var suma230 = JSON.parse(localStorage.getItem("TOTAL230"));
 var TOTAL_INCOME230 = document.getElementById('230').innerText = `${suma230}`;
 var elem = document.getElementById('valor-entrada230');
 var alert230 = JSON.parse(localStorage.getItem("TOTAL230"));
-if (alert230 < 2) {
+if (alert230 < 1) {
     alert(` ! ALERTA !    TUBO GEL N1      ${alert230} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3698,7 +3698,7 @@ var suma231 = JSON.parse(localStorage.getItem("TOTAL231"));
 var TOTAL_INCOME231 = document.getElementById('231').innerText = `${suma231}`;
 var elem = document.getElementById('valor-entrada231');
 var alert231 = JSON.parse(localStorage.getItem("TOTAL231"));
-if (alert231 < 2) {
+if (alert231 < 1) {
     alert(` ! ALERTA !    TUBO GEL N2      ${alert231} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3743,7 +3743,7 @@ var suma232 = JSON.parse(localStorage.getItem("TOTAL232"));
 var TOTAL_INCOME232 = document.getElementById('232').innerText = `${suma232}`;
 var elem = document.getElementById('valor-entrada232');
 var alert232 = JSON.parse(localStorage.getItem("TOTAL232"));
-if (alert232 < 2) {
+if (alert232 < 1) {
     alert(` ! ALERTA !    TUBO FLEXOR      ${alert232} UNIDADES`);
 }
 elem.onkeyup = function (e) {
@@ -3780,6 +3780,446 @@ function disminuirValor232() {
         localStorage.setItem("valores232", JSON.stringify(suma1));
     }
 }
+// 235
+var INPUT_TOTAL_INCOME234;
+var _arrayValues234;
+var arrayValues234 = JSON.parse(localStorage.getItem("valores234")) || [];
+var suma234 = JSON.parse(localStorage.getItem("TOTAL234"));
+var TOTAL_INCOME234 = document.getElementById('234').innerText = `${suma234}`;
+var elem = document.getElementById('valor-entrada234');
+var alert234 = JSON.parse(localStorage.getItem("TOTAL234"));
+if (alert234 < 1){
+    alert(` ! ALERTA !     ART. 1506      ${alert234} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor234();}}
+function agregarValor234 () {
+    if(arrayValues234 != ' ' && arrayValues234 > 0){
+        INPUT_TOTAL_INCOME234 = document.getElementById('valor-entrada234').value;
+        var arrayUnico = INPUT_TOTAL_INCOME234;  //  llamar del localStorage
+        _arrayValues234 = JSON.parse(localStorage.getItem("TOTAL234"));  //  modificar
+        let suma1 = parseInt(_arrayValues234) + parseInt(arrayUnico) ;
+        TOTAL_INCOME234 = document.getElementById('234').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL234", JSON.stringify(suma1));
+        localStorage.setItem("valores234", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME234 = document.getElementById('valor-entrada234').value;
+        arrayValues234 = INPUT_TOTAL_INCOME234;  // mandar al localStorage
+        localStorage.setItem("valores234", JSON.stringify(arrayValues234));  // modificar total productos
+        _arrayValues234 = JSON.parse(localStorage.getItem("valores234"));
+        TOTAL_INCOME234 = document.getElementById('234').innerText = `${arrayValues234}` // mandar al localStorage
+         localStorage.setItem("TOTAL234", JSON.stringify(INPUT_TOTAL_INCOME234));  }   }
+function disminuirValor234 () {
+    _arrayValues234 = JSON.parse(localStorage.getItem("TOTAL234"));
+    suma234 = _arrayValues234;
+    if(arrayValues234 != ' ' && arrayValues234 > 0){
+        INPUT_TOTAL_INCOME234 = document.getElementById('valor-entrada234').value;
+        var arrayUnico = INPUT_TOTAL_INCOME234;  //  llamar del localStorage
+        _arrayValues234 = JSON.parse(localStorage.getItem("TOTAL234"));  //  modificar
+        let suma1 = parseInt(_arrayValues234) - parseInt(arrayUnico) ;
+        TOTAL_INCOME234 = document.getElementById('234').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL234", JSON.stringify(suma1));
+        localStorage.setItem("valores234", JSON.stringify(suma1)); } }
+// 236
+var INPUT_TOTAL_INCOME235;
+var _arrayValues235;
+var arrayValues235 = JSON.parse(localStorage.getItem("valores235")) || [];
+var suma235 = JSON.parse(localStorage.getItem("TOTAL235"));
+var TOTAL_INCOME235 = document.getElementById('235').innerText = `${suma235}`;
+var elem = document.getElementById('valor-entrada235');
+var alert235 = JSON.parse(localStorage.getItem("TOTAL235"));
+if (alert235 < 1){
+    alert(` ! ALERTA !     ART. 1220      ${alert235} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor235();}}
+function agregarValor235 () {
+    if(arrayValues235 != ' ' && arrayValues235 > 0){
+        INPUT_TOTAL_INCOME235 = document.getElementById('valor-entrada235').value;
+        var arrayUnico = INPUT_TOTAL_INCOME235;  //  llamar del localStorage
+        _arrayValues235 = JSON.parse(localStorage.getItem("TOTAL235"));  //  modificar
+        let suma1 = parseInt(_arrayValues235) + parseInt(arrayUnico) ;
+        TOTAL_INCOME235 = document.getElementById('235').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL235", JSON.stringify(suma1));
+        localStorage.setItem("valores235", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME235 = document.getElementById('valor-entrada235').value;
+        arrayValues235 = INPUT_TOTAL_INCOME235;  // mandar al localStorage
+        localStorage.setItem("valores235", JSON.stringify(arrayValues235));  // modificar total productos
+        _arrayValues235 = JSON.parse(localStorage.getItem("valores235"));
+        TOTAL_INCOME235 = document.getElementById('235').innerText = `${arrayValues235}` // mandar al localStorage
+         localStorage.setItem("TOTAL235", JSON.stringify(INPUT_TOTAL_INCOME235));  }   }
+function disminuirValor235 () {
+    _arrayValues235 = JSON.parse(localStorage.getItem("TOTAL235"));
+    suma235 = _arrayValues235;
+    if(arrayValues235 != ' ' && arrayValues235 > 0){
+        INPUT_TOTAL_INCOME235 = document.getElementById('valor-entrada235').value;
+        var arrayUnico = INPUT_TOTAL_INCOME235;  //  llamar del localStorage
+        _arrayValues235 = JSON.parse(localStorage.getItem("TOTAL235"));  //  modificar
+        let suma1 = parseInt(_arrayValues235) - parseInt(arrayUnico) ;
+        TOTAL_INCOME235 = document.getElementById('235').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL235", JSON.stringify(suma1));
+        localStorage.setItem("valores235", JSON.stringify(suma1)); } }
+// 237
+var INPUT_TOTAL_INCOME236;
+var _arrayValues236;
+var arrayValues236 = JSON.parse(localStorage.getItem("valores236")) || [];
+var suma236 = JSON.parse(localStorage.getItem("TOTAL236"));
+var TOTAL_INCOME236 = document.getElementById('236').innerText = `${suma236}`;
+var elem = document.getElementById('valor-entrada236');
+var alert236 = JSON.parse(localStorage.getItem("TOTAL236"));
+if (alert236 < 1){
+    alert(` ! ALERTA !     ART. 2003      ${alert236} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor236();}}
+function agregarValor236 () {
+    if(arrayValues236 != ' ' && arrayValues236 > 0){
+        INPUT_TOTAL_INCOME236 = document.getElementById('valor-entrada236').value;
+        var arrayUnico = INPUT_TOTAL_INCOME236;  //  llamar del localStorage
+        _arrayValues236 = JSON.parse(localStorage.getItem("TOTAL236"));  //  modificar
+        let suma1 = parseInt(_arrayValues236) + parseInt(arrayUnico) ;
+        TOTAL_INCOME236 = document.getElementById('236').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL236", JSON.stringify(suma1));
+        localStorage.setItem("valores236", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME236 = document.getElementById('valor-entrada236').value;
+        arrayValues236 = INPUT_TOTAL_INCOME236;  // mandar al localStorage
+        localStorage.setItem("valores236", JSON.stringify(arrayValues236));  // modificar total productos
+        _arrayValues236 = JSON.parse(localStorage.getItem("valores236"));
+        TOTAL_INCOME236 = document.getElementById('236').innerText = `${arrayValues236}` // mandar al localStorage
+         localStorage.setItem("TOTAL236", JSON.stringify(INPUT_TOTAL_INCOME236));  }   }
+function disminuirValor236 () {
+    _arrayValues236 = JSON.parse(localStorage.getItem("TOTAL236"));
+    suma236 = _arrayValues236;
+    if(arrayValues236 != ' ' && arrayValues236 > 0){
+        INPUT_TOTAL_INCOME236 = document.getElementById('valor-entrada236').value;
+        var arrayUnico = INPUT_TOTAL_INCOME236;  //  llamar del localStorage
+        _arrayValues236 = JSON.parse(localStorage.getItem("TOTAL236"));  //  modificar
+        let suma1 = parseInt(_arrayValues236) - parseInt(arrayUnico) ;
+        TOTAL_INCOME236 = document.getElementById('236').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL236", JSON.stringify(suma1));
+        localStorage.setItem("valores236", JSON.stringify(suma1)); } }
+// 238
+var INPUT_TOTAL_INCOME237;
+var _arrayValues237;
+var arrayValues237 = JSON.parse(localStorage.getItem("valores237")) || [];
+var suma237 = JSON.parse(localStorage.getItem("TOTAL237"));
+var TOTAL_INCOME237 = document.getElementById('237').innerText = `${suma237}`;
+var elem = document.getElementById('valor-entrada237');
+var alert237 = JSON.parse(localStorage.getItem("TOTAL237"));
+if (alert237 < 1){
+    alert(` ! ALERTA !     ART. 1511      ${alert237} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor237();}}
+function agregarValor237 () {
+    if(arrayValues237 != ' ' && arrayValues237 > 0){
+        INPUT_TOTAL_INCOME237 = document.getElementById('valor-entrada237').value;
+        var arrayUnico = INPUT_TOTAL_INCOME237;  //  llamar del localStorage
+        _arrayValues237 = JSON.parse(localStorage.getItem("TOTAL237"));  //  modificar
+        let suma1 = parseInt(_arrayValues237) + parseInt(arrayUnico) ;
+        TOTAL_INCOME237 = document.getElementById('237').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL237", JSON.stringify(suma1));
+        localStorage.setItem("valores237", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME237 = document.getElementById('valor-entrada237').value;
+        arrayValues237 = INPUT_TOTAL_INCOME237;  // mandar al localStorage
+        localStorage.setItem("valores237", JSON.stringify(arrayValues237));  // modificar total productos
+        _arrayValues237 = JSON.parse(localStorage.getItem("valores237"));
+        TOTAL_INCOME237 = document.getElementById('237').innerText = `${arrayValues237}` // mandar al localStorage
+         localStorage.setItem("TOTAL237", JSON.stringify(INPUT_TOTAL_INCOME237));  }   }
+function disminuirValor237 () {
+    _arrayValues237 = JSON.parse(localStorage.getItem("TOTAL237"));
+    suma237 = _arrayValues237;
+    if(arrayValues237 != ' ' && arrayValues237 > 0){
+        INPUT_TOTAL_INCOME237 = document.getElementById('valor-entrada237').value;
+        var arrayUnico = INPUT_TOTAL_INCOME237;  //  llamar del localStorage
+        _arrayValues237 = JSON.parse(localStorage.getItem("TOTAL237"));  //  modificar
+        let suma1 = parseInt(_arrayValues237) - parseInt(arrayUnico) ;
+        TOTAL_INCOME237 = document.getElementById('237').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL237", JSON.stringify(suma1));
+        localStorage.setItem("valores237", JSON.stringify(suma1)); } }
+// 239
+var INPUT_TOTAL_INCOME238;
+var _arrayValues238;
+var arrayValues238 = JSON.parse(localStorage.getItem("valores238")) || [];
+var suma238 = JSON.parse(localStorage.getItem("TOTAL238"));
+var TOTAL_INCOME238 = document.getElementById('238').innerText = `${suma238}`;
+var elem = document.getElementById('valor-entrada238');
+var alert238 = JSON.parse(localStorage.getItem("TOTAL238"));
+if (alert238 < 1){
+    alert(` ! ALERTA !     ART. 1602      ${alert238} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor238();}}
+function agregarValor238 () {
+    if(arrayValues238 != ' ' && arrayValues238 > 0){
+        INPUT_TOTAL_INCOME238 = document.getElementById('valor-entrada238').value;
+        var arrayUnico = INPUT_TOTAL_INCOME238;  //  llamar del localStorage
+        _arrayValues238 = JSON.parse(localStorage.getItem("TOTAL238"));  //  modificar
+        let suma1 = parseInt(_arrayValues238) + parseInt(arrayUnico) ;
+        TOTAL_INCOME238 = document.getElementById('238').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL238", JSON.stringify(suma1));
+        localStorage.setItem("valores238", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME238 = document.getElementById('valor-entrada238').value;
+        arrayValues238 = INPUT_TOTAL_INCOME238;  // mandar al localStorage
+        localStorage.setItem("valores238", JSON.stringify(arrayValues238));  // modificar total productos
+        _arrayValues238 = JSON.parse(localStorage.getItem("valores238"));
+        TOTAL_INCOME238 = document.getElementById('238').innerText = `${arrayValues238}` // mandar al localStorage
+         localStorage.setItem("TOTAL238", JSON.stringify(INPUT_TOTAL_INCOME238));  }   }
+function disminuirValor238 () {
+    _arrayValues238 = JSON.parse(localStorage.getItem("TOTAL238"));
+    suma238 = _arrayValues238;
+    if(arrayValues238 != ' ' && arrayValues238 > 0){
+        INPUT_TOTAL_INCOME238 = document.getElementById('valor-entrada238').value;
+        var arrayUnico = INPUT_TOTAL_INCOME238;  //  llamar del localStorage
+        _arrayValues238 = JSON.parse(localStorage.getItem("TOTAL238"));  //  modificar
+        let suma1 = parseInt(_arrayValues238) - parseInt(arrayUnico) ;
+        TOTAL_INCOME238 = document.getElementById('238').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL238", JSON.stringify(suma1));
+        localStorage.setItem("valores238", JSON.stringify(suma1)); } }
+// 240
+var INPUT_TOTAL_INCOME239;
+var _arrayValues239;
+var arrayValues239 = JSON.parse(localStorage.getItem("valores239")) || [];
+var suma239 = JSON.parse(localStorage.getItem("TOTAL239"));
+var TOTAL_INCOME239 = document.getElementById('239').innerText = `${suma239}`;
+var elem = document.getElementById('valor-entrada239');
+var alert239 = JSON.parse(localStorage.getItem("TOTAL239"));
+if (alert239 < 1){
+    alert(` ! ALERTA !     ART. 1525      ${alert239} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor239();}}
+function agregarValor239 () {
+    if(arrayValues239 != ' ' && arrayValues239 > 0){
+        INPUT_TOTAL_INCOME239 = document.getElementById('valor-entrada239').value;
+        var arrayUnico = INPUT_TOTAL_INCOME239;  //  llamar del localStorage
+        _arrayValues239 = JSON.parse(localStorage.getItem("TOTAL239"));  //  modificar
+        let suma1 = parseInt(_arrayValues239) + parseInt(arrayUnico) ;
+        TOTAL_INCOME239 = document.getElementById('239').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL239", JSON.stringify(suma1));
+        localStorage.setItem("valores239", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME239 = document.getElementById('valor-entrada239').value;
+        arrayValues239 = INPUT_TOTAL_INCOME239;  // mandar al localStorage
+        localStorage.setItem("valores239", JSON.stringify(arrayValues239));  // modificar total productos
+        _arrayValues239 = JSON.parse(localStorage.getItem("valores239"));
+        TOTAL_INCOME239 = document.getElementById('239').innerText = `${arrayValues239}` // mandar al localStorage
+         localStorage.setItem("TOTAL239", JSON.stringify(INPUT_TOTAL_INCOME239));  }   }
+function disminuirValor239 () {
+    _arrayValues239 = JSON.parse(localStorage.getItem("TOTAL239"));
+    suma239 = _arrayValues239;
+    if(arrayValues239 != ' ' && arrayValues239 > 0){
+        INPUT_TOTAL_INCOME239 = document.getElementById('valor-entrada239').value;
+        var arrayUnico = INPUT_TOTAL_INCOME239;  //  llamar del localStorage
+        _arrayValues239 = JSON.parse(localStorage.getItem("TOTAL239"));  //  modificar
+        let suma1 = parseInt(_arrayValues239) - parseInt(arrayUnico) ;
+        TOTAL_INCOME239 = document.getElementById('239').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL239", JSON.stringify(suma1));
+        localStorage.setItem("valores239", JSON.stringify(suma1)); } }
+// 241
+var INPUT_TOTAL_INCOME240;
+var _arrayValues240;
+var arrayValues240 = JSON.parse(localStorage.getItem("valores240")) || [];
+var suma240 = JSON.parse(localStorage.getItem("TOTAL240"));
+var TOTAL_INCOME240 = document.getElementById('240').innerText = `${suma240}`;
+var elem = document.getElementById('valor-entrada240');
+var alert240 = JSON.parse(localStorage.getItem("TOTAL240"));
+if (alert240 < 1){
+    alert(` ! ALERTA !     ART. 7015      ${alert240} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor240();}}
+function agregarValor240 () {
+    if(arrayValues240 != ' ' && arrayValues240 > 0){
+        INPUT_TOTAL_INCOME240 = document.getElementById('valor-entrada240').value;
+        var arrayUnico = INPUT_TOTAL_INCOME240;  //  llamar del localStorage
+        _arrayValues240 = JSON.parse(localStorage.getItem("TOTAL240"));  //  modificar
+        let suma1 = parseInt(_arrayValues240) + parseInt(arrayUnico) ;
+        TOTAL_INCOME240 = document.getElementById('240').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL240", JSON.stringify(suma1));
+        localStorage.setItem("valores240", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME240 = document.getElementById('valor-entrada240').value;
+        arrayValues240 = INPUT_TOTAL_INCOME240;  // mandar al localStorage
+        localStorage.setItem("valores240", JSON.stringify(arrayValues240));  // modificar total productos
+        _arrayValues240 = JSON.parse(localStorage.getItem("valores240"));
+        TOTAL_INCOME240 = document.getElementById('240').innerText = `${arrayValues240}` // mandar al localStorage
+         localStorage.setItem("TOTAL240", JSON.stringify(INPUT_TOTAL_INCOME240));  }   }
+function disminuirValor240 () {
+    _arrayValues240 = JSON.parse(localStorage.getItem("TOTAL240"));
+    suma240 = _arrayValues240;
+    if(arrayValues240 != ' ' && arrayValues240 > 0){
+        INPUT_TOTAL_INCOME240 = document.getElementById('valor-entrada240').value;
+        var arrayUnico = INPUT_TOTAL_INCOME240;  //  llamar del localStorage
+        _arrayValues240 = JSON.parse(localStorage.getItem("TOTAL240"));  //  modificar
+        let suma1 = parseInt(_arrayValues240) - parseInt(arrayUnico) ;
+        TOTAL_INCOME240 = document.getElementById('240').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL240", JSON.stringify(suma1));
+        localStorage.setItem("valores240", JSON.stringify(suma1)); } }
+// 242
+var INPUT_TOTAL_INCOME241;
+var _arrayValues241;
+var arrayValues241 = JSON.parse(localStorage.getItem("valores241")) || [];
+var suma241 = JSON.parse(localStorage.getItem("TOTAL241"));
+var TOTAL_INCOME241 = document.getElementById('241').innerText = `${suma241}`;
+var elem = document.getElementById('valor-entrada241');
+var alert241 = JSON.parse(localStorage.getItem("TOTAL241"));
+if (alert241 < 1){
+    alert(` ! ALERTA !     ART. 1603     ${alert241} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor241();}}
+function agregarValor241 () {
+    if(arrayValues241 != ' ' && arrayValues241 > 0){
+        INPUT_TOTAL_INCOME241 = document.getElementById('valor-entrada241').value;
+        var arrayUnico = INPUT_TOTAL_INCOME241;  //  llamar del localStorage
+        _arrayValues241 = JSON.parse(localStorage.getItem("TOTAL241"));  //  modificar
+        let suma1 = parseInt(_arrayValues241) + parseInt(arrayUnico) ;
+        TOTAL_INCOME241 = document.getElementById('241').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL241", JSON.stringify(suma1));
+        localStorage.setItem("valores241", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME241 = document.getElementById('valor-entrada241').value;
+        arrayValues241 = INPUT_TOTAL_INCOME241;  // mandar al localStorage
+        localStorage.setItem("valores241", JSON.stringify(arrayValues241));  // modificar total productos
+        _arrayValues241 = JSON.parse(localStorage.getItem("valores241"));
+        TOTAL_INCOME241 = document.getElementById('241').innerText = `${arrayValues241}` // mandar al localStorage
+         localStorage.setItem("TOTAL241", JSON.stringify(INPUT_TOTAL_INCOME241));  }   }
+function disminuirValor241 () {
+    _arrayValues241 = JSON.parse(localStorage.getItem("TOTAL241"));
+    suma241 = _arrayValues241;
+    if(arrayValues241 != ' ' && arrayValues241 > 0){
+        INPUT_TOTAL_INCOME241 = document.getElementById('valor-entrada241').value;
+        var arrayUnico = INPUT_TOTAL_INCOME241;  //  llamar del localStorage
+        _arrayValues241 = JSON.parse(localStorage.getItem("TOTAL241"));  //  modificar
+        let suma1 = parseInt(_arrayValues241) - parseInt(arrayUnico) ;
+        TOTAL_INCOME241 = document.getElementById('241').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL241", JSON.stringify(suma1));
+        localStorage.setItem("valores241", JSON.stringify(suma1)); } }
+// 243
+var INPUT_TOTAL_INCOME242;
+var _arrayValues242;
+var arrayValues242 = JSON.parse(localStorage.getItem("valores242")) || [];
+var suma242 = JSON.parse(localStorage.getItem("TOTAL242"));
+var TOTAL_INCOME242 = document.getElementById('242').innerText = `${suma242}`;
+var elem = document.getElementById('valor-entrada242');
+var alert242 = JSON.parse(localStorage.getItem("TOTAL242"));
+if (alert242 < 1){
+    alert(` ! ALERTA !     ART. 1510      ${alert242} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor242();}}
+function agregarValor242 () {
+    if(arrayValues242 != ' ' && arrayValues242 > 0){
+        INPUT_TOTAL_INCOME242 = document.getElementById('valor-entrada242').value;
+        var arrayUnico = INPUT_TOTAL_INCOME242;  //  llamar del localStorage
+        _arrayValues242 = JSON.parse(localStorage.getItem("TOTAL242"));  //  modificar
+        let suma1 = parseInt(_arrayValues242) + parseInt(arrayUnico) ;
+        TOTAL_INCOME242 = document.getElementById('242').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL242", JSON.stringify(suma1));
+        localStorage.setItem("valores242", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME242 = document.getElementById('valor-entrada242').value;
+        arrayValues242 = INPUT_TOTAL_INCOME242;  // mandar al localStorage
+        localStorage.setItem("valores242", JSON.stringify(arrayValues242));  // modificar total productos
+        _arrayValues242 = JSON.parse(localStorage.getItem("valores242"));
+        TOTAL_INCOME242 = document.getElementById('242').innerText = `${arrayValues242}` // mandar al localStorage
+         localStorage.setItem("TOTAL242", JSON.stringify(INPUT_TOTAL_INCOME242));  }   }
+function disminuirValor242 () {
+    _arrayValues242 = JSON.parse(localStorage.getItem("TOTAL242"));
+    suma242 = _arrayValues242;
+    if(arrayValues242 != ' ' && arrayValues242 > 0){
+        INPUT_TOTAL_INCOME242 = document.getElementById('valor-entrada242').value;
+        var arrayUnico = INPUT_TOTAL_INCOME242;  //  llamar del localStorage
+        _arrayValues242 = JSON.parse(localStorage.getItem("TOTAL242"));  //  modificar
+        let suma1 = parseInt(_arrayValues242) - parseInt(arrayUnico) ;
+        TOTAL_INCOME242 = document.getElementById('242').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL242", JSON.stringify(suma1));
+        localStorage.setItem("valores242", JSON.stringify(suma1)); } }
+// 244
+var INPUT_TOTAL_INCOME243;
+var _arrayValues243;
+var arrayValues243 = JSON.parse(localStorage.getItem("valores243")) || [];
+var suma243 = JSON.parse(localStorage.getItem("TOTAL243"));
+var TOTAL_INCOME243 = document.getElementById('243').innerText = `${suma243}`;
+var elem = document.getElementById('valor-entrada243');
+var alert243 = JSON.parse(localStorage.getItem("TOTAL243"));
+if (alert243 < 1){
+    alert(` ! ALERTA !     ART. 1508      ${alert243} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor243();}}
+function agregarValor243 () {
+    if(arrayValues243 != ' ' && arrayValues243 > 0){
+        INPUT_TOTAL_INCOME243 = document.getElementById('valor-entrada243').value;
+        var arrayUnico = INPUT_TOTAL_INCOME243;  //  llamar del localStorage
+        _arrayValues243 = JSON.parse(localStorage.getItem("TOTAL243"));  //  modificar
+        let suma1 = parseInt(_arrayValues243) + parseInt(arrayUnico) ;
+        TOTAL_INCOME243 = document.getElementById('243').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL243", JSON.stringify(suma1));
+        localStorage.setItem("valores243", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME243 = document.getElementById('valor-entrada243').value;
+        arrayValues243 = INPUT_TOTAL_INCOME243;  // mandar al localStorage
+        localStorage.setItem("valores243", JSON.stringify(arrayValues243));  // modificar total productos
+        _arrayValues243 = JSON.parse(localStorage.getItem("valores243"));
+        TOTAL_INCOME243 = document.getElementById('243').innerText = `${arrayValues243}` // mandar al localStorage
+         localStorage.setItem("TOTAL243", JSON.stringify(INPUT_TOTAL_INCOME243));  }   }
+function disminuirValor243 () {
+    _arrayValues243 = JSON.parse(localStorage.getItem("TOTAL243"));
+    suma243 = _arrayValues243;
+    if(arrayValues243 != ' ' && arrayValues243 > 0){
+        INPUT_TOTAL_INCOME243 = document.getElementById('valor-entrada243').value;
+        var arrayUnico = INPUT_TOTAL_INCOME243;  //  llamar del localStorage
+        _arrayValues243 = JSON.parse(localStorage.getItem("TOTAL243"));  //  modificar
+        let suma1 = parseInt(_arrayValues243) - parseInt(arrayUnico) ;
+        TOTAL_INCOME243 = document.getElementById('243').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL243", JSON.stringify(suma1));
+        localStorage.setItem("valores243", JSON.stringify(suma1)); } }
+// 245
+var INPUT_TOTAL_INCOME244;
+var _arrayValues244;
+var arrayValues244 = JSON.parse(localStorage.getItem("valores244")) || [];
+var suma244 = JSON.parse(localStorage.getItem("TOTAL244"));
+var TOTAL_INCOME244 = document.getElementById('244').innerText = `${suma244}`;
+var elem = document.getElementById('valor-entrada244');
+var alert244 = JSON.parse(localStorage.getItem("TOTAL244"));
+if (alert244 < 1){
+    alert(` ! ALERTA !     ART. 1608      ${alert244} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor244();}}
+function agregarValor244 () {
+    if(arrayValues244 != ' ' && arrayValues244 > 0){
+        INPUT_TOTAL_INCOME244 = document.getElementById('valor-entrada244').value;
+        var arrayUnico = INPUT_TOTAL_INCOME244;  //  llamar del localStorage
+        _arrayValues244 = JSON.parse(localStorage.getItem("TOTAL244"));  //  modificar
+        let suma1 = parseInt(_arrayValues244) + parseInt(arrayUnico) ;
+        TOTAL_INCOME244 = document.getElementById('244').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL244", JSON.stringify(suma1));
+        localStorage.setItem("valores244", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME244 = document.getElementById('valor-entrada244').value;
+        arrayValues244 = INPUT_TOTAL_INCOME244;  // mandar al localStorage
+        localStorage.setItem("valores244", JSON.stringify(arrayValues244));  // modificar total productos
+        _arrayValues244 = JSON.parse(localStorage.getItem("valores244"));
+        TOTAL_INCOME244 = document.getElementById('244').innerText = `${arrayValues244}` // mandar al localStorage
+         localStorage.setItem("TOTAL244", JSON.stringify(INPUT_TOTAL_INCOME244));  }   }
+function disminuirValor244 () {
+    _arrayValues244 = JSON.parse(localStorage.getItem("TOTAL244"));
+    suma244 = _arrayValues244;
+    if(arrayValues244 != ' ' && arrayValues244 > 0){
+        INPUT_TOTAL_INCOME244 = document.getElementById('valor-entrada244').value;
+        var arrayUnico = INPUT_TOTAL_INCOME244;  //  llamar del localStorage
+        _arrayValues244 = JSON.parse(localStorage.getItem("TOTAL244"));  //  modificar
+        let suma1 = parseInt(_arrayValues244) - parseInt(arrayUnico) ;
+        TOTAL_INCOME244 = document.getElementById('244').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL244", JSON.stringify(suma1));
+        localStorage.setItem("valores244", JSON.stringify(suma1)); } }
 
 
 const productos = [
@@ -3865,8 +4305,19 @@ const productos = [
     { nombre: 'ART 614', valor: suma229, idValor: '229', function: 'agregarValor229()', function1: 'disminuirValor229()', entrada: "valor-entrada229" },
     { nombre: 'ART TUBO GEL N1', valor: suma230, idValor: '230', function: 'agregarValor230()', function1: 'disminuirValor230()', entrada: "valor-entrada230" },
     { nombre: 'ART TUBO GEL N2', valor: suma231, idValor: '231', function: 'agregarValor231()', function1: 'disminuirValor231()', entrada: "valor-entrada231" },
-    { nombre: 'ACOLCHADO SEPARADOR', valor: suma232, idValor: '232', function: 'agregarValor232()', function1: 'disminuirValor232()', entrada: "valor-entrada232" },
-    { nombre: 'ART TUBO FLEXOR', valor: suma232, idValor: '232', function: 'agregarValor232()', function1: 'disminuirValor232()', entrada: "valor-entrada232" }
+    { nombre: 'ACOLCHADO SEPARADOR', valor: suma232, idValor: '233', function: 'agregarValor233()', function1: 'disminuirValor233()', entrada: "valor-entrada233" },
+    { nombre: 'ART TUBO FLEXOR', valor: suma232, idValor: '232', function: 'agregarValor232()', function1: 'disminuirValor232()', entrada: "valor-entrada232" },
+    {nombre:'ART 1506',valor:suma234,idValor:'234',function:'agregarValor234()',function1:'disminuirValor234()',entrada: "valor-entrada234"},
+    {nombre:'ART 1220',valor:suma235,idValor:'235',function:'agregarValor235()',function1:'disminuirValor235()',entrada: "valor-entrada235"},
+    {nombre:'ART 2003',valor:suma236,idValor:'236',function:'agregarValor236()',function1:'disminuirValor236()',entrada: "valor-entrada236"},
+    {nombre:'ART 1511',valor:suma237,idValor:'237',function:'agregarValor237()',function1:'disminuirValor237()',entrada: "valor-entrada237"},
+    {nombre:'ART 1602',valor:suma238,idValor:'238',function:'agregarValor238()',function1:'disminuirValor238()',entrada: "valor-entrada238"},
+    {nombre:'ART 1525',valor:suma239,idValor:'239',function:'agregarValor239()',function1:'disminuirValor239()',entrada: "valor-entrada239"},
+    {nombre:'ART 7015',valor:suma240,idValor:'240',function:'agregarValor240()',function1:'disminuirValor240()',entrada: "valor-entrada240"},
+    {nombre:'ART 1603',valor:suma241,idValor:'241',function:'agregarValor241()',function1:'disminuirValor241()',entrada: "valor-entrada241"},
+    {nombre:'ART 1510',valor:suma242,idValor:'242',function:'agregarValor242()',function1:'disminuirValor242()',entrada: "valor-entrada242"},
+    {nombre:'ART 1508',valor:suma243,idValor:'243',function:'agregarValor243()',function1:'disminuirValor243()',entrada: "valor-entrada243"},
+    {nombre:'ART 1608',valor:suma244,idValor:'244',function:'agregarValor244()',function1:'disminuirValor244()',entrada: "valor-entrada244"},
 
 ]
 
