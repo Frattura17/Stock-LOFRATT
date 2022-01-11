@@ -575,7 +575,7 @@ var suma142 = JSON.parse(localStorage.getItem("TOTAL142"));
 var TOTAL_INCOME142 = document.getElementById('142').innerText = `${suma142}`;
 var elem = document.getElementById('valor-entrada142');
 var alert142 = JSON.parse(localStorage.getItem("TOTAL142"));
-if (alert142 < 4){
+if (alert142 < 3){
     alert(` ! ALERTA !     GUANTES M CAJA      ${alert142} UNIDADES`);
 }
 elem.onkeyup = function(e){
@@ -607,6 +607,46 @@ function disminuirValor142 () {
         TOTAL_INCOME142 = document.getElementById('142').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL142", JSON.stringify(suma1));
         localStorage.setItem("valores142", JSON.stringify(suma1)); } }
+// 246
+var INPUT_TOTAL_INCOME245;
+var _arrayValues245;
+var arrayValues245 = JSON.parse(localStorage.getItem("valores245")) || [];
+var suma245 = JSON.parse(localStorage.getItem("TOTAL245"));
+var TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma245}`;
+var elem = document.getElementById('valor-entrada245');
+var alert245 = JSON.parse(localStorage.getItem("TOTAL245"));
+if (alert245 < 2){
+    alert(` ! ALERTA !    GUANTES L LATEX     ${alert245} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor245();}}
+function agregarValor245 () {
+    if(arrayValues245 != ' ' && arrayValues245 > 0){
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        var arrayUnico = INPUT_TOTAL_INCOME245;  //  llamar del localStorage
+        _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));  //  modificar
+        let suma1 = parseInt(_arrayValues245) + parseInt(arrayUnico) ;
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL245", JSON.stringify(suma1));
+        localStorage.setItem("valores245", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        arrayValues245 = INPUT_TOTAL_INCOME245;  // mandar al localStorage
+        localStorage.setItem("valores245", JSON.stringify(arrayValues245));  // modificar total productos
+        _arrayValues245 = JSON.parse(localStorage.getItem("valores245"));
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${arrayValues245}` // mandar al localStorage
+         localStorage.setItem("TOTAL245", JSON.stringify(INPUT_TOTAL_INCOME245));  }   }
+function disminuirValor245 () {
+    _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));
+    suma245 = _arrayValues245;
+    if(arrayValues245 != ' ' && arrayValues245 > 0){
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        var arrayUnico = INPUT_TOTAL_INCOME245;  //  llamar del localStorage
+        _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));  //  modificar
+        let suma1 = parseInt(_arrayValues245) - parseInt(arrayUnico) ;
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL245", JSON.stringify(suma1));
+        localStorage.setItem("valores245", JSON.stringify(suma1)); } }
 // 144
 var INPUT_TOTAL_INCOME143;
 var _arrayValues143;
@@ -912,7 +952,8 @@ const productos = [
 {nombre:'Pulverizadores Chicos',valor:suma146,idValor:'146',function:'agregarValor146()',function1:'disminuirValor146()',entrada: "valor-entrada146"},
 {nombre:'Pulverizadores Grandes',valor:suma147,idValor:'147',function:'agregarValor147()',function1:'disminuirValor147()',entrada: "valor-entrada147"},
 {nombre:'Toallas de Papel Caja x 10',valor:suma148,idValor:'148',function:'agregarValor148()',function1:'disminuirValor148()',entrada: "valor-entrada148"},
-{nombre:'Toallas de Papel x Unidad',valor:suma149,idValor:'149',function:'agregarValor149()',function1:'disminuirValor149()',entrada: "valor-entrada149"}
+{nombre:'Toallas de Papel x Unidad',valor:suma149,idValor:'149',function:'agregarValor149()',function1:'disminuirValor149()',entrada: "valor-entrada149"},
+{nombre:'Guantes L Latex',valor:suma245,idValor:'245',function:'agregarValor245()',function1:'disminuirValor245()',entrada: "valor-entrada245"}
  ]
  var input = document.querySelector('#inputSearch');
  var boton = document.querySelector('#boton');
