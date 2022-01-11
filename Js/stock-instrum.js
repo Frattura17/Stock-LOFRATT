@@ -1892,7 +1892,7 @@ var TOTAL_INCOME089 = document.getElementById('089').innerText = `${suma089}`;
 var elem = document.getElementById('valor-entrada089');
 var alert089 = JSON.parse(localStorage.getItem("TOTAL089"));
 if (alert089 < 1){
-    alert(` ! ALERTA !    FORMON MEIER    ${alert089} UNIDADES`);
+    alert(` ! ALERTA !    APLICADOR DE CLIP    ${alert089} UNIDADES`);
 }
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor089();}}
@@ -1932,7 +1932,7 @@ var TOTAL_INCOME090 = document.getElementById('090').innerText = `${suma090}`;
 var elem = document.getElementById('valor-entrada090');
 var alert090 = JSON.parse(localStorage.getItem("TOTAL090"));
 if (alert090 < 2){
-    alert(` ! ALERTA !    APLICADOR DE CLIP    ${alert090} UNIDADES`);
+    alert(` ! ALERTA !    PIE DIDACTICO    ${alert090} UNIDADES`);
 }
 elem.onkeyup = function(e){
 if(e.keyCode == 13){agregarValor090();}}
