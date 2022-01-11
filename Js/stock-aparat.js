@@ -318,6 +318,48 @@ function disminuirValor098 () {
         TOTAL_INCOME098 = document.getElementById('098').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL098", JSON.stringify(suma1));
         localStorage.setItem("valores098", JSON.stringify(suma1)); } }
+// 247
+var INPUT_TOTAL_INCOME246;
+var _arrayValues246;
+var arrayValues246 = JSON.parse(localStorage.getItem("valores246")) || [];
+var suma246 = JSON.parse(localStorage.getItem("TOTAL246"));
+var TOTAL_INCOME246 = document.getElementById('246').innerText = `${suma246}`;
+var elem = document.getElementById('valor-entrada246');
+var alert246 = JSON.parse(localStorage.getItem("TOTAL246"));
+if (alert246 < 1){
+    alert(` ! ALERTA !   MICROMOTOR MARATHON    ${alert246} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor246();}}
+function agregarValor246 () {
+    if(arrayValues246 != ' ' && arrayValues246 > 0){
+        INPUT_TOTAL_INCOME246 = document.getElementById('valor-entrada246').value;
+        var arrayUnico = INPUT_TOTAL_INCOME246;  //  llamar del localStorage
+        _arrayValues246 = JSON.parse(localStorage.getItem("TOTAL246"));  //  modificar
+        let suma1 = parseInt(_arrayValues246) + parseInt(arrayUnico) ;
+        TOTAL_INCOME246 = document.getElementById('246').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL246", JSON.stringify(suma1));
+        localStorage.setItem("valores246", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME246 = document.getElementById('valor-entrada246').value;
+        arrayValues246 = INPUT_TOTAL_INCOME246;  // mandar al localStorage
+        localStorage.setItem("valores246", JSON.stringify(arrayValues246));  // modificar total productos
+        _arrayValues246 = JSON.parse(localStorage.getItem("valores246"));
+        TOTAL_INCOME246 = document.getElementById('246').innerText = `${arrayValues246}` // mandar al localStorage
+         localStorage.setItem("TOTAL246", JSON.stringify(INPUT_TOTAL_INCOME246));  }   }
+function disminuirValor246 () {
+    _arrayValues246 = JSON.parse(localStorage.getItem("TOTAL246"));
+    suma246 = _arrayValues246;
+    if(arrayValues246 != ' ' && arrayValues246 > 0){
+        INPUT_TOTAL_INCOME246 = document.getElementById('valor-entrada246').value;
+        var arrayUnico = INPUT_TOTAL_INCOME246;  //  llamar del localStorage
+        _arrayValues246 = JSON.parse(localStorage.getItem("TOTAL246"));  //  modificar
+        let suma1 = parseInt(_arrayValues246) - parseInt(arrayUnico) ;
+        TOTAL_INCOME246 = document.getElementById('246').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL246", JSON.stringify(suma1));
+        localStorage.setItem("valores246", JSON.stringify(suma1)); } }
+
+
 const productos = [
 {nombre:'Alta Frecuencia + Campana',valor:suma091,idValor:'091',function:'agregarValor091()',function1:'disminuirValor091()',entrada: "valor-entrada091"},
 {nombre:'Pipeta Campana',valor:suma092,idValor:'092',function:'agregarValor092()',function1:'disminuirValor092()',entrada: "valor-entrada092"},
@@ -326,8 +368,8 @@ const productos = [
 {nombre:'Torno Driller Egeo Gris',valor:suma095,idValor:'095',function:'agregarValor095()',function1:'disminuirValor095()',entrada: "valor-entrada095"},
 {nombre:'Soporte Para Torno Colgante',valor:suma096,idValor:'096',function:'agregarValor096()',function1:'disminuirValor096()',entrada: "valor-entrada096"},
 {nombre:'Sillon + Silla Profesional',valor:suma097,idValor:'097',function:'agregarValor097()',function1:'disminuirValor097()',entrada: "valor-entrada097"},
-{nombre:'Esterilizador',valor:suma098,idValor:'098',function:'agregarValor098()',function1:'disminuirValor098()',entrada: "valor-entrada098"}
-     
+{nombre:'Esterilizador',valor:suma098,idValor:'098',function:'agregarValor098()',function1:'disminuirValor098()',entrada: "valor-entrada098"},
+{nombre:'Micromotor Marathon',valor:suma246,idValor:'246',function:'agregarValor246()',function1:'disminuirValor246()',entrada: "valor-entrada246"}
  ]
  var input = document.querySelector('#inputSearch');
  var boton = document.querySelector('#boton');

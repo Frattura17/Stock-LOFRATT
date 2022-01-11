@@ -2003,6 +2003,86 @@ function disminuirValor150 () {
         TOTAL_INCOME150 = document.getElementById('150').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL150", JSON.stringify(suma1));
         localStorage.setItem("valores150", JSON.stringify(suma1)); } }
+// 248
+var INPUT_TOTAL_INCOME247;
+var _arrayValues247;
+var arrayValues247 = JSON.parse(localStorage.getItem("valores247")) || [];
+var suma247 = JSON.parse(localStorage.getItem("TOTAL247"));
+var TOTAL_INCOME247 = document.getElementById('247').innerText = `${suma247}`;
+var elem = document.getElementById('valor-entrada247');
+var alert247 = JSON.parse(localStorage.getItem("TOTAL247"));
+if (alert247 < 1){
+    alert(` ! ALERTA !   ESPATULA DOBLE/SIMPLE    ${alert247} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor247();}}
+function agregarValor247 () {
+    if(arrayValues247 != ' ' && arrayValues247 > 0){
+        INPUT_TOTAL_INCOME247 = document.getElementById('valor-entrada247').value;
+        var arrayUnico = INPUT_TOTAL_INCOME247;  //  llamar del localStorage
+        _arrayValues247 = JSON.parse(localStorage.getItem("TOTAL247"));  //  modificar
+        let suma1 = parseInt(_arrayValues247) + parseInt(arrayUnico) ;
+        TOTAL_INCOME247 = document.getElementById('247').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL247", JSON.stringify(suma1));
+        localStorage.setItem("valores247", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME247 = document.getElementById('valor-entrada247').value;
+        arrayValues247 = INPUT_TOTAL_INCOME247;  // mandar al localStorage
+        localStorage.setItem("valores247", JSON.stringify(arrayValues247));  // modificar total productos
+        _arrayValues247 = JSON.parse(localStorage.getItem("valores247"));
+        TOTAL_INCOME247 = document.getElementById('247').innerText = `${arrayValues247}` // mandar al localStorage
+         localStorage.setItem("TOTAL247", JSON.stringify(INPUT_TOTAL_INCOME247));  }   }
+function disminuirValor247 () {
+    _arrayValues247 = JSON.parse(localStorage.getItem("TOTAL247"));
+    suma247 = _arrayValues247;
+    if(arrayValues247 != ' ' && arrayValues247 > 0){
+        INPUT_TOTAL_INCOME247 = document.getElementById('valor-entrada247').value;
+        var arrayUnico = INPUT_TOTAL_INCOME247;  //  llamar del localStorage
+        _arrayValues247 = JSON.parse(localStorage.getItem("TOTAL247"));  //  modificar
+        let suma1 = parseInt(_arrayValues247) - parseInt(arrayUnico) ;
+        TOTAL_INCOME247 = document.getElementById('247').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL247", JSON.stringify(suma1));
+        localStorage.setItem("valores247", JSON.stringify(suma1)); } }
+// 249
+var INPUT_TOTAL_INCOME248;
+var _arrayValues248;
+var arrayValues248 = JSON.parse(localStorage.getItem("valores248")) || [];
+var suma248 = JSON.parse(localStorage.getItem("TOTAL248"));
+var TOTAL_INCOME248 = document.getElementById('248').innerText = `${suma248}`;
+var elem = document.getElementById('valor-entrada248');
+var alert248 = JSON.parse(localStorage.getItem("TOTAL248"));
+if (alert248 < 1){
+    alert(` ! ALERTA !   PINZA ADSON C/DIENTE    ${alert248} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor248();}}
+function agregarValor248 () {
+    if(arrayValues248 != ' ' && arrayValues248 > 0){
+        INPUT_TOTAL_INCOME248 = document.getElementById('valor-entrada248').value;
+        var arrayUnico = INPUT_TOTAL_INCOME248;  //  llamar del localStorage
+        _arrayValues248 = JSON.parse(localStorage.getItem("TOTAL248"));  //  modificar
+        let suma1 = parseInt(_arrayValues248) + parseInt(arrayUnico) ;
+        TOTAL_INCOME248 = document.getElementById('248').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL248", JSON.stringify(suma1));
+        localStorage.setItem("valores248", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME248 = document.getElementById('valor-entrada248').value;
+        arrayValues248 = INPUT_TOTAL_INCOME248;  // mandar al localStorage
+        localStorage.setItem("valores248", JSON.stringify(arrayValues248));  // modificar total productos
+        _arrayValues248 = JSON.parse(localStorage.getItem("valores248"));
+        TOTAL_INCOME248 = document.getElementById('248').innerText = `${arrayValues248}` // mandar al localStorage
+         localStorage.setItem("TOTAL248", JSON.stringify(INPUT_TOTAL_INCOME248));  }   }
+function disminuirValor248 () {
+    _arrayValues248 = JSON.parse(localStorage.getItem("TOTAL248"));
+    suma248 = _arrayValues248;
+    if(arrayValues248 != ' ' && arrayValues248 > 0){
+        INPUT_TOTAL_INCOME248 = document.getElementById('valor-entrada248').value;
+        var arrayUnico = INPUT_TOTAL_INCOME248;  //  llamar del localStorage
+        _arrayValues248 = JSON.parse(localStorage.getItem("TOTAL248"));  //  modificar
+        let suma1 = parseInt(_arrayValues248) - parseInt(arrayUnico) ;
+        TOTAL_INCOME248 = document.getElementById('248').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL248", JSON.stringify(suma1));
+        localStorage.setItem("valores248", JSON.stringify(suma1)); } }
 
 
 
@@ -2053,8 +2133,9 @@ const productos = [
 {nombre:'Venda Tubular Elastisada x4 MT',valor:suma084,idValor:'084',function:'agregarValor084()',function1:'disminuirValor084()',entrada: "valor-entrada084"},
 {nombre:'Formon Meier',valor:suma085,idValor:'085',function:'agregarValor085()',function1:'disminuirValor085()',entrada: "valor-entrada085"},
 {nombre:'Aplicador de Clip',valor:suma086,idValor:'086',function:'agregarValor086()',function1:'disminuirValor086()',entrada: "valor-entrada086"},
-{nombre:'Pie Didactico',valor:suma087,idValor:'087',function:'agregarValor087()',function1:'disminuirValor087()',entrada: "valor-entrada087"}
-     
+{nombre:'Pie Didactico',valor:suma087,idValor:'087',function:'agregarValor087()',function1:'disminuirValor087()',entrada: "valor-entrada087"},
+{nombre:'ESPATULA DOBLE/SIMPLE',valor:suma247,idValor:'247',function:'agregarValor247()',function1:'disminuirValor247()',entrada: "valor-entrada247"},
+{nombre:'PINZA ADSON C/DIENTE',valor:suma248,idValor:'248',function:'agregarValor248()',function1:'disminuirValor248()',entrada: "valor-entrada248"}
  ] 
 
  var input = document.querySelector('#inputSearch');
