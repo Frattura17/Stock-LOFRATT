@@ -1641,6 +1641,46 @@ function disminuirValor041 () {
         TOTAL_INCOME041 = document.getElementById('041').innerText = `${suma1}`  // mandar al localStorage
         localStorage.setItem("TOTAL041", JSON.stringify(suma1));
         localStorage.setItem("valores041", JSON.stringify(suma1)); } }
+// 245
+var INPUT_TOTAL_INCOME245;
+var _arrayValues245;
+var arrayValues245 = JSON.parse(localStorage.getItem("valores245")) || [];
+var suma245 = JSON.parse(localStorage.getItem("TOTAL245"));
+var TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma245}`;
+var elem = document.getElementById('valor-entrada245');
+var alert245 = JSON.parse(localStorage.getItem("TOTAL245"));
+if (alert245 < 2){
+    alert(` ! ALERTA !     EMI BLATT F-10 CHICO      ${alert245} UNIDADES`);
+}
+elem.onkeyup = function(e){
+if(e.keyCode == 13){agregarValor245();}}
+function agregarValor245 () {
+    if(arrayValues245 != ' ' && arrayValues245 > 0){
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        var arrayUnico = INPUT_TOTAL_INCOME245;  //  llamar del localStorage
+        _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));  //  modificar
+        let suma1 = parseInt(_arrayValues245) + parseInt(arrayUnico) ;
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma1}`;  // mandar al localStorage
+        localStorage.setItem("TOTAL245", JSON.stringify(suma1));
+        localStorage.setItem("valores245", JSON.stringify(suma1));
+    } else {
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        arrayValues245 = INPUT_TOTAL_INCOME245;  // mandar al localStorage
+        localStorage.setItem("valores245", JSON.stringify(arrayValues245));  // modificar total productos
+        _arrayValues245 = JSON.parse(localStorage.getItem("valores245"));
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${arrayValues245}` // mandar al localStorage
+         localStorage.setItem("TOTAL245", JSON.stringify(INPUT_TOTAL_INCOME245));  }   }
+function disminuirValor245 () {
+    _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));
+    suma245 = _arrayValues245;
+    if(arrayValues245 != ' ' && arrayValues245 > 0){
+        INPUT_TOTAL_INCOME245 = document.getElementById('valor-entrada245').value;
+        var arrayUnico = INPUT_TOTAL_INCOME245;  //  llamar del localStorage
+        _arrayValues245 = JSON.parse(localStorage.getItem("TOTAL245"));  //  modificar
+        let suma1 = parseInt(_arrayValues245) - parseInt(arrayUnico) ;
+        TOTAL_INCOME245 = document.getElementById('245').innerText = `${suma1}`  // mandar al localStorage
+        localStorage.setItem("TOTAL245", JSON.stringify(suma1));
+        localStorage.setItem("valores245", JSON.stringify(suma1)); } }
 const productos = [
 {nombre:'Cero Grams 1000ml.',valor:suma,idValor:'000',function:'agregarValor()',function1: 'disminuirValor()',entrada:"valor-entrada"},
 {nombre:'Cero Grams 500ml.',valor:suma001,idValor:'001',function:'agregarValor001()',function1:'disminuirValor001()',entrada: "valor-entrada001"},
@@ -1654,6 +1694,7 @@ const productos = [
 {nombre:'Desbrik 14ml.',valor:suma009,idValor:'009',function:'agregarValor009()',function1:'disminuirValor009()',entrada: "valor-entrada009"},
 {nombre:'Deport Plus',valor:suma010,idValor:'010',function:'agregarValor010()',function1:'disminuirValor010()',entrada: "valor-entrada010"},
 {nombre:'Emi Blatt F-10',valor:suma011,idValor:'011',function:'agregarValor011()',function1:'disminuirValor011()',entrada: "valor-entrada011"},
+{nombre:'Emi Blatt F-10 Chico',valor:suma245,idValor:'245',function:'agregarValor245()',function1:'disminuirValor245()',entrada: "valor-entrada245"},
 {nombre:'Epidermax 100gr.',valor:suma012,idValor:'012',function:'agregarValor012()',function1:'disminuirValor012()',entrada: "valor-entrada012"},
 {nombre:'Epiderblan 1000ml.',valor:suma013,idValor:'013',function:'agregarValor013()',function1:'disminuirValor013()',entrada: "valor-entrada013"},
 {nombre:'Epiderblan 500ml.',valor:suma014,idValor:'014',function:'agregarValor014()',function1:'disminuirValor014()',entrada: "valor-entrada014"},
